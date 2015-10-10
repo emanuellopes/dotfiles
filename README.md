@@ -13,7 +13,7 @@ for everything work fine
     yaourt playerctl &&
     yaourt pulseaudio-ctl
 	
-	for enable i3lock when lid is closed you need copy suspend@.service file to /etc/systemd/system/
+	to enable i3lock when lid is closed you need to copy suspend@.service file to /etc/systemd/system/
 	
-	for enable systemctl enable suspend@username.service
+	systemctl enable suspend@username.service
 ![desktop](http://i.imgur.com/fOWoVzT.png)
