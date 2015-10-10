@@ -1,0 +1,11 @@
+[Unit]
+Description=Starts i3lock at suspend time
+Before=sleep.target
+[Service]
+User=%I
+Type=forking
+Environment=DISPLAY=:0
+ExecStartPre=
+ExecStart=/usr/bin/i3lock -i /home/emanuelx/Imagens/Wallpapers/1941277.png
+[Install]
+WantedBy=sleep.target
