@@ -5,7 +5,7 @@ dotfiles arch linux+i3 configuration
 
 battery script - hibernate system when battery is low
 
-for everything works fine 
+for everything work fine 
 ----------
 
 
