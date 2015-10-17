@@ -10,7 +10,7 @@ if [ "$STATUS" == "Discharging" ]; then
 		echo $AVG ""
 	elif (($AVG <= 50))&& (($AVG > 21)); then
 		echo $AVG ""
-	elif (($AVG <= 20)); then
+	elif (($AVG <= 20))&& (($AVG >5)); then
 		echo $AVG ""
 	elif (($AVG <= 5)); then
 		i3-nagbar -t warning -m 'the battery is low do you like hibernate system?' -b 'Yes, hibernate' 'systemctl hibernate'
