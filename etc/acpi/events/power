@@ -1,0 +1,6 @@
+# This is called when the user presses the power button
+event=button/power (PWR.||PBTN)
+# To Hibernate uncomment the following line
+#action=hibernate 
+# To Suspend uncomment the following line
+action=suspend
