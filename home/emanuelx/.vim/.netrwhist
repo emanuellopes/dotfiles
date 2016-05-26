@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/emanuelx'
+let g:netrw_dirhist_2='/home/emanuelx/.local'
+let g:netrw_dirhist_3='/home/emanuelx/.local/share'
+let g:netrw_dirhist_4='/home/emanuelx/.local'
+let g:netrw_dirhist_5='/home/emanuelx'

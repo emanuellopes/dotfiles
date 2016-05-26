@@ -1,0 +1,2 @@
+syndaemon: no process found
+mdm-binary[473]: GLib-CRITICAL: g_key_file_free: assertion 'key_file != NULL' failed

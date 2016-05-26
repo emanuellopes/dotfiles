@@ -1,0 +1,35 @@
+use_xft yes
+# xft font when Xft is enabled
+xftfont Courier:7
+override_utf8_locale yes
+background no
+out_to_console yes
+out_to_x no
+own_window no
+update_interval 1
+total_run_times 0
+short_units yes
+pad_percents 3
+cpu_avg_samples 2
+TEXT
+[
+{"full_text":"${exec .scripts/spotify-nowplaying.sh }","color":"\#89b859"},
+
+
+
+{"full_text": " ${execi 1200 echo $(cat /proc/acpi/bbswitch | cut -d' ' -f2)}", "color":"\#BABA00"},
+
+
+
+
+{"full_text":" ${uptime_short}","color":"\#BABA00"},
+{"full_text": " ${cpu}% ${if_existing /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp2_input} (${execi 1200 echo $(($(cat /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp2_input) / 1000))} C)${else}(${execi 1200 echo $(($(cat /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp2_input) / 1000))} C)${endif}", "color":"\#BABA00"},
+
+{"full_text": " $mem","color":"\#E8E8E8"},
+{"full_text": "${if_existing /proc/net/route wlan0}  ${addr wlan0}${endif}","color":"\#DE8F28"},
+{"full_text": "${if_existing /proc/net/route wlan0}${wireless_essid wlan0} ${wireless_link_qual_perc wlan0}%     ${downspeed wlan0}  ${upspeed wlan0}${endif}", "color":"\#BABA00"},
+{"full_text": "${exec .scripts/bat_icon.sh}", "color":"\#43BF2A"},
+{"full_text": "${exec .scripts/vol.sh }", "color":"\#0A7FA6" },
+{"full_text": "${time %a, %d.%m.%Y}", "color":"\#E8E8E8"}, 
+{"full_text": " ${time %H:%M}", "color":"\#BABA00"}
+],
