@@ -1,14 +1,3 @@
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
 gcc -o prog teste.c
 ./prog 
 gcc -o prog teste.c
@@ -1998,3 +1987,14 @@ ls -l /etc/X11/xinit/
 ./update.pl 
 apm install script
 journalctl -f
+cd dotfiles/
+./update.pl 
+exit
+.scripts/rmod_nvidia.sh 
+npm install node-sass
+sudo ln -s ./node_modules/node-sass/bin/node-sass /usr/bin/node-sass
+ls /usr/bin/node-sass 
+/usr/bin/node-sass 
+rm /usr/bin/node-sass 
+sudo rm /usr/bin/node-sass 
+yaourt -Syua
