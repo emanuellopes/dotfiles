@@ -1,47 +1,3 @@
-make clean all
-./servidor -p 1234
-make clean all
-./servidor -p 1234
-make clean all
-./servidor -p 1234
-make clean all
-./servidor -p 1234
-cd Dropbox/Engenharia\ Informatica/Programação\ avançada_dropbox/
-ls
-cd sockets/labs_sockets_udp/labs/lab1/
-./cliente 
-./cliente --ip localhost --porto 1234
-./cliente --ip 127.0.0.1 --porto 1234
-make
-./cliente --ip 127.0.0.1 --porto 1234
-make
-./cliente --ip 127.0.0.1 --porto 1234
-make
-./cliente --ip 127.0.0.1 --porto 1234
-make
-./cliente --ip 127.0.0.1 --porto 1234
-startweb 
-tail -f /var/log/httpd/error_log
-sshuttle -r emanuelx@emanuelx.dynip.sapo.pt 0.0.0.0/0 -vv
-journalctl -f
-sshuttle -r emanuelx@emanuelx.dynip.sapo.pt 0.0.0.0/0 -vv
-journalctl -f
-ifconfig 
-cd Transferências/
-gcc -o prog.c prog
-gcc -o prog prog.c
-gcc -c prog prog.c
-man gcc
-gcc prog.c -o prog
-exit
-yaourt -Syu 
-cd Transferências/
-gcc -o prog prog.c 
-ls 
-gcc -o prog prog.c 
-sudo pacman -S codeblocks
-cd
-gcc -o prog teste.c
 ./prog 
 gcc -o prog teste.c
 ./prog 
@@ -1998,3 +1954,47 @@ sudo pamcan -Ss gstreamer
 sudo pacman -Ss gstreamer
 sudo pacman -S gstreamer-vaapi
 sudo pacman -Si clementine
+perl
+atom
+startweb 
+sh -c /usr/share/atom/resources/app/apm/bin/node 
+/bin/sh -c "/usr/share/atom/resources/app/apm/bin/node" "/home/emanuelx/.atom/packages/sass-watch/node_modules/node-sass/bin/node-sass" "/home/emanuelx/IOT/website2/wp-content/themes/iot/css/main.min.sass" "/home/emanuelx/IOT/website2/wp-content/themes/iot/css/main.min.atom.css"
+/usr/bin/php
+.scripts/rmod_nvidia.sh 
+apm install linter-php
+csslint-0.6 
+cd ./.atom/
+ls
+wget https://raw.githubusercontent.com/sasstools/sass-lint/master/docs/sass-lint.yml
+apm list --installed --bare
+ls /etc/acpi/
+ls /etc/acpi/events/
+cd
+ls
+cd dotfiles/
+chmod +x update.pl 
+./update.pl 
+./update.pl .i3/ ola/
+./update.pl 
+sudo ./update.pl 
+./update.pl 
+ls /etc/acpi/
+ls /etc/acpi/events/
+./update.pl 
+cd
+./update.pl 
+cd dotfiles/
+./update.pl 
+ls /etc/systemd
+cat /etc/systemd/user
+cat /etc/systemd/user.conf 
+cat /etc/systemd/system
+ls /etc/udev/
+ls /etc/udev/rules.d/
+ls /etc/X11/
+ls -l
+ls -l /etc/X11/
+ls -l /etc/X11/xinit/
+./update.pl 
+apm install script
+journalctl -f

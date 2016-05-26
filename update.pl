@@ -22,7 +22,8 @@ $ENV{"HOME"}."/.config/dunst", 0,
 "/etc/acpi", 0,
 "/etc/modprobe.d", 0,
 "/etc/udev/rules.d/", 0,
-"/etc/X11", 0
+"/etc/X11", 0,
+"/etc/bumblebee", 0
 );
 
 sub copyFolder($;$;$);
