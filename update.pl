@@ -15,7 +15,6 @@ my $backupFolder = $ENV{"HOME"}."/dotfiles";
 my %dirs = (
 $ENV{"HOME"}, 1,
 $ENV{"HOME"}."/.i3", 0,
-$ENV{"HOME"}."/.atom", 1,
 $ENV{"HOME"}."/.scripts", 0,
 $ENV{"HOME"}."/.vim", 0,
 $ENV{"HOME"}."/.fonts", 0,

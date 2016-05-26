@@ -1,5 +1,0 @@
-'.pane .editor:not(.mini)':
-  'ctrl-e': 'emmet:expand-abbreviation'
-
-'.platform-linux atom-text-editor:not(.mini)':
-  'ctrl-space': 'goto-definition:go'
