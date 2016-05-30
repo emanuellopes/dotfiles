@@ -1,137 +1,3 @@
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-alleyoop ./prog 
-gcc -o prog teste.c
-alleyoop ./prog 
-./prog 
-alleyoop ./prog 
-gcc -o prog teste.c
-alleyoop ./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-alleyoop ./prog 
-./prog 
-gcc -o prog teste.c
-./prog 
-gcc -o prog teste.c
-./prog 
-nao /etc/dhcpcd.conf 
-nano /etc/dhcpcd.conf 
-sudo ifconfig wlan0 down
-sudo ifconfig wlan0 up
-journalctl -f
-yaourt -Syu
-yaourt crazytalk
-exit
-ssh 192.168.1.50
-nano blink.c
-gcc -o blink blink.c -l wiringPi
-sudo pacman -S WiringPi
-sudo pacman -Ss WiringPi
-sudo pacman -Ss wiring
-sudo pacman -Ss wiringpi
-sudo pacman -Ss wiring-pi
-sudo pacman -S wiringpi
-gcc -o blink blink.c -l wiringPi
-find / --name wiring*
-find / -name wiring*
-sudo find / -name wiring* 2>>/dev/null
-ssh 192.168.1.50
-sudo pacman -Rs spotify
-man pacman
-sudo pacman -c
-sudo pacman -C
-sudo pacman -Sci
-sudo pacman --clean
-sudo pacman -Sc
-sudo pacman -S spotify
-sudo pacman -Ss spotify
-yaourt spotify
-cp /etc/yaourtrc ~/.yaourtrc
-nano ~/.yaourtrc 
-sudo pacman -Rs spotify
-sudo pacman -Rs blockify
-sudo pacman -Rs ad
-sudo pacman -Qs spotify
-sudo pacman -Rs spotify-adkiller 
-yaourt spotify
-exit
-ls /etc/X11/
-poweroff
-sudo poweroff
-cd Transferências/
-fastboot flash recovery twrp-2.8.6.0-xt1032.img 
-sudo -s
-sudo pacman -Syu
-sudo pacman -Ss skype
-sudo pacman -S skype
-journalctl -f
-yaourt rescue-time
-yaourt rescuetime
-rescuetime 
-journalctl -f
-sudo pacman -Ss gscan2pdf
-sudo pacman -Ss pdf
-yaourt pdf
-sudo pacman -Rs pdfstudio
-yaourt gscan2pdf
-gcc -o teste teste.c 
-./teste
-rescuetime 
-i3lock 
-gnome-screenshot 
-gnome-screenshot --help
-man gnome-screenshot 
-sudo pacman -S feh
-feh
-sudo pacman -Rs feh
-sudo pacman -S ranger
-ranger 
-sudo pacman -Rs ranger
-yaourt i3lock
-yaourt i3lock-blur
-sudo pacman -Rs i3lock
-yaourt i3lock-blur
-i3lock -g
-i3lock -t
-i3lock --help
-i3lock -c red
-i3lock -c 22
-i3lock -c #00000
-i3lock -c #000000
-i3lock -c 000000
-sudo pacman -Rs i3lock-blur 
-yaourt i3lock
-i3lock
-i3lock --help
 i3lock -t
 sudo -s
 journalctl -f
@@ -1998,3 +1864,137 @@ ls /usr/bin/node-sass
 rm /usr/bin/node-sass 
 sudo rm /usr/bin/node-sass 
 yaourt -Syua
+whereis composer
+yaourt ctags
+ctags 
+ctags -R --languages=php
+cd blog/
+ctags -R --languages=php
+pkill atom
+startwe
+startweb 
+cd
+cd dotfiles/
+./update.pl 
+yaourt -Syua
+yaourt nucleuio
+yaourt nucleui
+yaourt atom
+yaourt nuclide
+apm install nuclide
+yaourt node-webkit
+2
+yaourt node-webkit
+whereis nw
+nw
+nw --version
+nw /home/emanuelx/Documents/nodejsWebkit
+nw /home/emanuelx/Documents/nodejs
+nw --help
+nw help
+nw /home/emanuelx/Documents/nodejs
+nw Documents/your-first-node-webkit-app/
+flickmagnet 
+popcorn-time-ce
+yaourt popcorn
+sudo pacman -Rs popcorn-time-ce-git 
+sudo pacman -Rs flickmagnet 
+yaourt popcorn
+popcorntime-ce 
+ls /dev/net/
+ls /dev/net/tun 
+telnet 192.168.1.64:8082
+/proc/sys/net/ipv4/nc
+nc
+cat > /dev/tcp/192.168.1.64/8081
+cat > /dev/tcp/192.168.1.64/8082
+cat > /dev/tcp/192.168.1.65/8082
+cat > /dev/tcp/192.168.1.65/8080
+cat > /dev/tcp/192.168.1.64/8082
+/dev/tcp/192.168.1.64/8082
+cat < /dev/tcp/192.168.1.64/8082
+cat <key=233\n /dev/tcp/192.168.1.64/8082
+cat <key=233\n> /dev/tcp/192.168.1.64/8082
+cat <key=233> /dev/tcp/192.168.1.64/8082
+key=233> /dev/tcp/192.168.1.64/8082
+key=233\n> /dev/tcp/192.168.1.64/8082
+key=233 \n> /dev/tcp/192.168.1.64/8082
+key=233\n > /dev/tcp/192.168.1.64/8082
+cat < key=233 \n> /dev/tcp/192.168.1.64/8082
+cat < echo key=233 \n> /dev/tcp/192.168.1.64/8082
+cat < echo key=233\n> /dev/tcp/192.168.1.64/8082
+echo key=233\n> /dev/tcp/192.168.1.64/8082
+echo key=233\n> /dev/tcp/192.168.1.64/8082 | cat
+echo key=233\n> /dev/tcp/192.168.1.64/8082 < cat
+cat < echo key=233\n> /dev/tcp/192.168.1.64/8082
+cat < echo "key=233\n" > /dev/tcp/192.168.1.64/8082
+echo key=233\n> /dev/tcp/192.168.1.64/8082
+cat < /dev/tcp/192.168.1.64/8082
+echo key=233\n> /dev/tcp/192.168.1.64/8082
+cat < /dev/tcp/192.168.1.64/8082
+echo key=900\n> /dev/tcp/192.168.1.64/8082
+echo key=150\n> /dev/tcp/192.168.1.64/8082
+echo key=8964\n> /dev/tcp/192.168.1.64/8082
+echo key=989\n> /dev/tcp/192.168.1.64/8082
+echo key=700\n> /dev/tcp/192.168.1.64/8082
+echo key=abc\n> /dev/tcp/192.168.1.64/8082
+echo key=admin\n> /dev/tcp/192.168.1.64/8082
+echo key=root\n> /dev/tcp/192.168.1.64/8082
+echo key=root:root2root\n> /dev/tcp/192.168.1.64/8082
+echo key=keyn> /dev/tcp/192.168.1.64/8082
+echo key=key\n> /dev/tcp/192.168.1.64/8082
+echo key=1234567890\n> /dev/tcp/192.168.1.64/8082
+exit
+yaourt -Syua
+sudo pacman -Rs sublime-text-dev 
+sudo pacman -Rs popcorntime-ce 
+yaourt -Syua
+sudo zenmap 
+sudo nmap -sP 192.168.2.1/24
+sudo nmap -sP 192.168.1.1/24
+sudo zenmap 
+sudo pacman -S nc
+sudo pacman -S netcat
+nc 192.168.1.64 8082
+printf "key=233\n" | nc 192.168.1.64 8082
+printf "key=230000\n" | nc 192.168.1.64 8082
+printf "key='\n" | nc 192.168.1.64 8082
+printf "key=0\n" | nc 192.168.1.64 8082
+printf "key=<script>alert('asbhsa');</script>\n" | nc 192.168.1.64 8082
+printf "<script>alert('asbhsa');</script>\n" | nc 192.168.1.64 8082
+printf "help\n" | nc 192.168.1.64 8082
+ssh 192.168.1.64
+ssh 192.168.1.65
+ssh 192.168.1.243
+ssh 192.168.1.253
+ssh root@192.168.1.253
+cd tmp/
+ls
+cd /tmp/
+ls
+wget http://192.168.1.64
+wget http://192.168.1.64/motorola.sh
+wget http://192.168.1.65/motorola.sh
+wget http://192.168.1.253/motorola.sh
+wget http://192.168.1.253/index.html
+wget http://thinksilicon.de/data/linux/vip1710/motorola.sh
+cat motorola.sh 
+cd
+sudo mount -r /dev/sda6
+sudo mount -r /dev/sda6 /media/disk/
+cd Downloads/
+java -jar apktool_2.1.1.jar 
+cd ~/Documents/
+ls
+cd snapchat/
+cd AdvancedApkTool/
+java -jar apktool_2.1.1.jar 
+java -jar apktool_2.1.1.jar -d ./2-In/snapchat2.apk -f -o ./4-Done/
+java -jar apktool_2.1.1.jar d ./2-In/snapchat2.apk -f -o ./4-Done/
+yaourt  sublime-text
+nvidia-smi 
+nvidia-smi --help
+nvidia-smi stats
+journalctl -f
+cd
+yaourt popcorn
