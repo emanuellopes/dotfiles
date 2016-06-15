@@ -1,218 +1,3 @@
-i3lock -t
-sudo -s
-journalctl -f
-exit
-journalctl -f
-sudo nano /etc/acpi/
-sudo -s
-exit
-journalctl -f
-sudo -s
-ps -aux 
-ps -aux | grep spotify
-pkill spotify
-exit
-dmenu_run --help
-man dmenu
-fc-list
-dmenu -fn Tangerine
-dmenu -fn "Tangerine"
-dmenu_run -fn "Tangerine"
-dmenu_run -fn "Tangerine2"
-dmenu_run -fn "Tangerine 8"
-dmenu_run -fn "Tangerine"
-sudo pacman -Ss gnome-font
-sudo pacman -Ss gnome-font-viewer
-sudo pacman -S gnome-font-viewer
-gnome-font-viewer 
-pkill subl3 
-sudo pacman -S compton
-sudo pacman -Ss compton
-yaourt -Ss compton
-yaourt compton
-compton --help
-cd
-echo $HOME
-echo $HOME/.config/
-sudo pacman -S feh
-yaourt i3-gaps
-yaourt archie
-exit
-pkill compton 
-compton 
-compton --config /home/emanuelx/.config/compton.conf 
-man compton
-compton --config /home/emanuelx/.config/compton.conf 
-xwininfo -stats -wm
-compton --config /home/emanuelx/.config/compton.conf 
-xwininfo -stats -wm
-compton --config /home/emanuelx/.config/compton.conf 
-xwininfo -stats -wm
-compton --config /home/emanuelx/.config/compton.conf 
-yaourt i3gaps
-yaourt i3-gaps
-git clone git://github.com/Airblader/i3#branch=gaps-next
-git clone https://github.com/Airblader/i3.git
-ls
-cd i3/
-ls
-git checkout i3-gaps
-ls -l
-git clone git@github.com:Airblader/i3.git
-git clone https://github.com/Airblader/i3.git
-cd
-cd i3-gaps/
-git checkout gaps && git pull
-make
-sudo make install
-git clone https://www.github.com/Airblader/i3 i3-gaps
-cd Documentos/Escola/Programação\ avançada/projeto/PA_parte2/Projeto_final_parte2/
-ls
-make clean all
-./pacodec 
-sudo pacman -Syu
-cd Documentos/Escola/Programação\ avançada/projeto/PA_parte2/Projeto_final_parte2/
-ls
-make
-sudo -s
-exit
-sudo pacman -S tlp
-sudo rm /etc/acpi/events/thinkpad-radiosw 
-sudo pacman -S tlp
-sudo pacman -S acpi_call lsb-release smartmontools
-systemctl enable tlp
-sudo systemctl enable tlp
-sudo systemctl start tlp
-tlp start
-sudo tlp start
-sudo subl3 /etc/default/tlp 
-sudo pacman -S powerstat
-sudo pacman -Ss powerstat
-yaourt powerstat-git
-yaourt --version
-yaourt --help
-yaourt --stats
-yaourt packer
-packer --help
-packer-color 
-packer-color -Ss powerstat
-packer-color -S powerstat-git
-sudo pacman -S powertop
-powertop 
-sudo pacman -Rs packer-color 
-sudo powertop 
-exit
-sudo powertop 
-systemctl status tlp
-exit
-ssh emanuelx.dynip.sapo.pt
-sudo pacman -Ss conky
-sudo pacman -Rs conky
-yaourt conky
-then
-echo `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 2 "artist"|egrep -v "artist"|egrep -v "array"|cut -b 27-|cut -d '"' -f 1|egrep -v ^$` "-" `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 1 "title"|egrep -v "title"|cut -b 44-|cut -d '"' -f 1|egrep -v ^$`
-echo `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 2 "artist"|egrep -v "artist"|egrep -v "array"|cut -b 27-|cut -d '"' -f 1|egrep -v ^$` "-"
-echo `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 2 "artist"|egrep -v "artist"|egrep -v "array"|cut -b 27-|cut -d '"' -f 1|egrep -v ^$` "-"
-echo `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 2 "artist"|egrep -v "artist"|egrep -v "array"|cut -b 27-|cut -d '"' -f 1|egrep -v ^$`
-echo "a" `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 2 "artist"|egrep -v "artist"|egrep -v "array"|cut -b 27-|cut -d '"' -f 1|egrep -v ^$`
-yaourt i3gaps
-yaourt i3-gaps
-exit
-uptime
-uptime | grep up
-uptime | df 
-uptime |  d
-d
-dt
-dr
-uptime | tr "[:space:]""$"
-uptime | tr "[:space:]" "$"
-cut 
-uptime | cut -d' '
-uptime | cut -d' ' -f1
-uptime | cut -d' ' -f5
-uptime | cut -d' ' -f4
-cat uptime | cut -d' ' -f4
-uptime | cut -d' ' -f4
-exi
-exit
-g++ -o prog getProc.cc 
-man pid_t
-man pid
-g++ -o prog getProc.cc 
-./prog 
-g++ -o prog getProc.cc 
-./prog 
-g++ -o prog getProc.cc 
-./prog 
-g++ -o prog getProc.cc 
-./prog 
-g++ -o prog getProc.cc 
-./prog 
-g++ -o prog top.cc
-cd Transferências/conky-master/
-ls
-make
-cd src/
-ls
-make
-cd ..
-cat CMakeLists.txt 
-ls
-cmake
-cmake src/
-ls
-CMakeFiles/
-cd CMakeFiles/
-ls
-cmake Makefile
-cmake Makefile.cmake 
-cd ..
-cd src/
-ls
-cd ..
-ls
-cat README.
-cat README.md 
-ls
-cd src/
-ls
-cd
-cd ~/.scripts/
-chmod +x volume_control.sh 
-./volume_control.sh up
-./volume_control.sh down
-./volume_control.sh mute
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0""}else if($2 <=50){print $2""}else{print $2""}}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0""}else {print $2}}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0""}else {print $2%}}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0""}else {print $2"%"}}' | tail -n 1
-./volume_control.sh 
-./volume_control.sh s
-./volume_control.sh mute
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0""}
-amixer get Master | awk -F'[]%[]' '/%/
-amixer get Master | awk -F'[]%[]'
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0"%"}else {print $2"%"}}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print $5"%"}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print $5"%"}'
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print $5"%"}}'
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print $2"%"}}'
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print $1"%"}}'
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print $5"%"}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print $5"%"}}' | tail -n 1
-amixer get Master | awk -F'[]%[]'
-amixer get Master
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0"%"}else {print $2"%"}}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {if ($5 == "off"){print 0"%"}else {print $5"%"}}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {{print $5"%"}}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {print $5}' | tail -n 1
-amixer get Master | awk -F'[]%[]' '/%/ {print $5}' 
-amixer get Master | awk -F'[]%[]' '/%/ {print $5}'
-./volume_control.sh mute
-cd
-yaourt bitlmee
-yaourt bitmee
 yaourt bitbee
 yaourt bitlbee
 cd .scripts/
@@ -1440,11 +1225,7 @@ history
 sudo nano /usr/bin/spotify 
 cat /proc/acpi/bbswitch 
 subl3 ~/.i3/config 
-postman
-sudo pacman -S postman
-sudo pacman -Ss postman
-yaourt postman
-subl3 ~/.i3/conkyrc 
+post/.i3/conkyrc 
 cat /proc/acpi/bbswitch 
 cat /proc/acpi/bbswitch
 cat /proc/acpi/bbswitch | cut -d' ' -f4
@@ -1998,3 +1779,222 @@ nvidia-smi stats
 journalctl -f
 cd
 yaourt popcorn
+.scripts/rmod_nvidia.sh 
+dotfiles/update.pl 
+sudo pacman -S eclipse
+scilab 
+cd
+wget http://ead.ipleiria.pt/ucs201516/pluginfile.php/432741/mod_resource/content/1/tree_plot.sce
+R
+.scripts/rmod_nvidia.sh 
+yaourt -Syua
+sudo reboot 
+sudo mount -r /dev/sda6 /media/disk/
+unetbootin
+lsblk
+unetbootin
+smartctl 
+smartctl --help
+smartctl --all /dev/sda
+smartctl --all /dev/sda -d sat
+sudo smartctl --all /dev/sda -d sat
+unetbootin
+lsblk
+sudo unetbootin
+lsblk
+sudo unetbootin
+sudo eboot
+sudo reboot
+.scripts/rmod_nvidia.sh 
+yaourt lives
+yaourt mainactor
+sudo pacman -Ss openshot
+sudo pacman -S openshot
+youtube-dl https://www.youtube.com/watch?v=_Ttl9PF0CO4
+youtube-dl https://www.youtube.com/watch?v=acsRScFNqGk
+youtube-dl https://www.youtube.com/watch?v=BmmVl9tTQm8
+openshot
+yaourt blockify
+sudo nano /usr/bin/spotify 
+sudo nano /usr/local/bin/spotify
+sudo nano /usr/bin/spotify 
+cat /usr/bin/spotify > ~/spotifyFix.sh
+od -tx4 ~/headb.o 
+gcc -o bina binario.c
+nano ficheiro.txt
+gcc -o bina binario.c
+.scripts/rmod_nvidia.sh 
+scilab 
+R
+file headb
+file headb.c 
+file headb.o
+ls
+file margarida.mp4 
+file mundo.RData 
+file tags 
+.scripts/rmod_nvidia.sh 
+sudo pacman -Syu
+.scripts/rmod_nvidia.sh 
+yaourt visualparadigm
+yaourt visual-paradigm
+sudo sh ~/Downloads/Visual_Paradigm_CE_13_1_20160602_Linux64.sh 
+sudo -s
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+g
+./lercenas 
+g
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+gcc -o lercenas lerCenas.c 
+./lercenas 
+sudo nmap -sP 192.168.1./24
+sudo nmap -sP 192.168.1.1/24
+ifconfig wpan0
+ifconfig wlan0
+cd Desktop/
+ls
+cd Desktop/Programa\ -\ Mutation/
+java -jar PursuitDomain.jar 
+ls
+pwd
+wine
+winetricks 
+composer create-project --prefer-dist laravel/laravel blog
+cd ~/Documents/Escola/2\ ano/2º\ semestre/inteligencia\ artificial/Inteligencia\ artificial/PursuitDomain/build/
+ls
+cd ..
+ls
+cd dist/
+ls
+java -jar PursuitDomain.jar 
+cd ~/PursuitDomain/dist/
+java -jar PursuitDomain.jar 
+cd
+cd ~/Documents/Escola/2\ ano/2º\ semestre/inteligencia\ artificial/Inteligencia\ artificial/PursuitDomain/build/
+cd ..
+cd dist/
+java -jar PursuitDomain.jar 
+yaourt teamviwer
+yaourt teamviewer
+teamviewer --daemon start
+java -jar PursuitDomain.jar 
+ls
+pwd
+ls
+ls -l
+ls
+cd ..
+ls
+cd dist/
+ls
+java -jar PursuitDomain.jar 
+cd ~/Desktop/
+cd Programa\ -\ uniform/
+ls
+java -jar PursuitDomain.jar 
+cd
+youtube-dl https://www.youtube.com/watch?v=kkx-7fsiWgg
