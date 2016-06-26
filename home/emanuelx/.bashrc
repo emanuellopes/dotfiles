@@ -115,3 +115,9 @@ if [ -f /usr/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh ];
     source /usr/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh
 fi
 PATH="$(ruby -e 'print Gem.user_dir')/bin:/home/emanuelx/.config/composer/vendor/bin:/usr/local/netbeans-8.1/bin/:$PATH"
+
+PATH="/home/emanuelx/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/emanuelx/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/emanuelx/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/emanuelx/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/emanuelx/perl5"; export PERL_MM_OPT;

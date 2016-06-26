@@ -3,3 +3,4 @@
 # <hostname>[:<port>]	<incl. subdomains>	<created>	<max-age>
 raw.githubusercontent.com	0	0	1464216456	31536000
 open.spotify.com	0	0	1462494238	31536000
+bitbucket.org	0	0	1466612431	31536000

