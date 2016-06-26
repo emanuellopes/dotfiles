@@ -39,7 +39,7 @@ sub copyFolder($;$;$) {
   while( (my $entry = readdir($DIR))){
     next if $entry eq ".";
     next if $entry eq "..";
-    next if $entry =~ /\w*.(log|lock|~|gitconfig)/; #remove log files
+    next if $entry =~ /\w*.(log|lock|~)/; #remove log files
     next if($old_dir eq $ENV{"HOME"}) & ($entry =~ /^[^.]\w*/); #if home folder only add .files
     my $source = "$old_dir/$entry";
     if (-d $source) {
