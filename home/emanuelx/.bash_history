@@ -1,203 +1,3 @@
-fuseiso -h
-fuseiso -h /home/emanuelx/windows10/
-fuseiso -u /home/
-fusermount -u /home/emanuelx/windows10/
-sudo gparted
-nautilus -q
-nautilus
-yaourt winusb
-pacman -Ss winusb
-yaourt -vv
-yaourt -v
-yaourt -version
-yaourt --version
-yaourt 
-yaourt winusb
-sudo pacman -Syu
-makepkg -Csi Transferências/winusb.tar.gz 
-makepkg  Transferências/winusb.tar.gz 
-sudo nano /etc/pacman.conf
-sudo pacman -Syy
-sudo pacman -Syu
-sudo pacman -Ss yaourt rt
-sudo pacman -Ss yaourt
-yaourt winusb
-whereis libalpm
-ln -s /usr/lib/libalpm.so /usr/lib/libalpm.so.9
-sudo ln -s /usr/lib/libalpm.so /usr/lib/libalpm.so.9
-yaourt winusb
-winusbgui 
-sudo gparted
-sudo unetbootin
-sudo 
-sudo -i
-mount -o loop Transferências/Win10_1511_N_Portuguese_x64.iso /mnt/disk/
-mount Transferências/Win10_1511_N_Portuguese_x64.iso /mnt/disk/
-sudo mount Transferências/Win10_1511_N_Portuguese_x64.iso /mnt/disk/
-gparted
-sudo gparted
-7z x Transferências/Win10_1511_N_Portuguese_x64.iso -o /run/media/emanuelx/5628-9BDA/
-7z x Transferências/Win10_1511_N_Portuguese_x64.iso -o/run/media/emanuelx/5628-9BDA/
-sudo pacman -Syu
-sudo pacman -S kodi
-pkill google-chrome
-ps -aux | grep google
-kill -9 
-pkill chrome
-ps -aux | grep chrome
-kill -9 15701
-kill -9 1049
-ps -aux | grep chrome
-pkill chrome 20/13
-ps -aux | grep chrome
-kill -9 19078
-pkill chrome
-ps -aux | grep chrome
-kill -9 16989
-pkill chrome
-ps -aux | grep chrome
-kill -9 2076
-kill -9 2613
-ps -aux | grep chrome
-kill -9 26123
-yaourt -Syua
-sudo nano /etc/pacman.conf
-yaourt -Syua
-ssh 192.168.1.50
-iwlist 
-iwlist wlan0
-iwlist -i wlan0
-sudo pacman -Syu
-pacman -Ss converter
-sudo pacman -S soundconverter
-wget http://193.137.239.14/svn/EngenhariaSoftware_Alunos_1516/PL4_D/esDemo2016/
-pkill java 
-sudo pacman -Qs java
-sudo pacman -Qs | grep java
-sudo pacman -Qs | grep jdk
-sudo pacman -Ss | grep jdk
-sudo pacman -S jdk
-sudo pacman -S jdk8
-sudo pacman -S jdk8-openjdk
-archlinux-java 
-archlinux-java set java-8-opendjk
-sudo archlinux-java set java-8-opendjk
-sudo archlinux-java set java-8-openjdk
-sudo pacman -Syu
-yaourt -Syua
-sudo mount /dev/sda5 /media/disk/
-lsblk
-sudo pacman -Qs frizing
-sudo pacman -Qs fritzing
-sudo pacman -Rs fritzing
-sudo pacman -Qs arduino
-sudo pacman -Rs arduino
-sudo pacman -Qs
-sudo pacman -Q
-sudo pacman -Rs weechat steam
-sudo pacman -Rs weeplugins-git steam weechat
-sudo pacman -Rs codeblocks
-sudo pacman -Rs cool-retro-term
-sudo pacman -Rs mintube
-sudo pacman -Rs minitube
-sudo pacman -Rs musicbrainz
-sudo pacman -Rs packettracer
-sudo pacman -Rs rescuetime stremio-bin steam teamviewer thunderbird wireshark
-sudo pacman -Rs rescuetime stremio-bin steam teamviewer thunderbird wireshark-gtk
-sudo pacman -Rs rescuetime stremio-bin teamviewer thunderbird wireshark-gtk
-sudo winusb
-sudo winusbgui 
-unetbootin
-sudo unetbootin
-sudo gparted
-sudo unetbootin
-sudo reboot
-sudo mount /dev/sda6 /media/disk/
-startx
-sudo pacman -Syu
-sudo systemctl restart NetworkManager
-sudo systemctl stop  NetworkManager
-sudo systemctl start  NetworkManager
-startweb 
-systemctl status httpd
-sudo pacman -S php5
-sudo pacman -Ss php5
-sudo nano /etc/httpd/conf/httpd.conf
-sudo systemctl restart httpd
-systemctl status httpd
-sudo ln -s Documentos/Escola/ainet/ /srv/http/ainet
-sudo rm /srv/http/ainet 
-ls -l /srv/http/wordpress
-ls -l /home/emanuelx/Documentos/wordpress/
-sudo ln -s Documentos/Escola/ainet/ /srv/http/
-sudo ln -s Documentos/Escola/ainet/ /srv/http/ainet/
-sudo rm /srv/http/ainet 
-sudo ln -s Documentos/Escola/ainet/ /srv/http/ainet/
-sudo ln -s Documentos/Escola/ainet/ /srv/http/ainet
-sudo chown -R http /srv/http/ainet 
-ls -l /srv/http/
-sudo chown -R root /srv/http/ainet 
-sudo nano 
-sudo chown -R http:http /srv/http/ainet 
-ls -l /srv/http/
-sudo rm /srv/http/ainet 
-sudo ln -s /home/emanuelx/Documentos/Escola/ainet/ /srv/http/ainet
-sudo nano /etc/httpd/conf/httpd.conf
-sudo subl3 /etc/httpd/conf/httpd.conf
-sudo systemctl restart httpd
-sudo subl3 /etc/httpd/conf/httpd.conf
-tail -f /var/log/httpd/error_log
-cd /etc/X11/
-ls
-cd xorg.conf.d/
-ls
-cat 00-synaptics.conf 
-sudo nano 00-synaptics.conf 
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-exit
-pkill spotify
-pkill google-chrome
-pkill chrome
-pkill spotify
-spotify 
-sudo yaourt -Syua
-sudo pacman -Syu
-sudo rm /var/lib/pacman/db.lck 
-yaourt -Syua
-sudo pacman -Syu
-yaourt -Syua
-pacman -Ss rofi
-yaourt -Ss rofi
-yaourt rofi
-yaourt -Ss rofi
-yaourt -S rofi
-rofi -show run -font "snap 10" -fg "#505050" -bg "#000000" -hlfg "#ffb964" -hlbg "#000000" -o 85
-rofi --help
-rofi -modi "run,ssh" -show run
-help
-guake
-rofi -show run -font "snap 10" -fg "#3366FF" -bg "#000000" -hlfg "$white" -hlbg "#000000" -o 85 -terminal terminator
-rofi -show run -font "snap 10" -fg "#3366FF" -bg "#000000" -hlfg "$white" -hlbg "#000000" -o 85 -terminal guake
-terminator --help
-rofi -show run -font "snap 10" -fg "#3366FF" -bg "#000000" -hlfg "$white" -hlbg "#000000" -o 85 -terminal terminator -e
-rofi -show run -font "snap 10" -fg "#3366FF" -bg "#000000" -hlfg "$white" -hlbg "#000000" -o 85 -terminal terminator -e -ssh-client ssh
-rofi -show run -font "snap 10" -fg "#3366FF" -bg "#000000" -hlfg "$white" -hlbg "#000000" -o 85
-terminator emanue
-terminator ssh 192.168.1.50
-terminator -e ssh 192.168.1.50
-terminator -e 'ssh 192.168.1.50'
-rofi -show run -font "snap 10" -fg "#3366FF" -bg "#000000" -hlfg "$white" -hlbg "#000000" -o 85 -terminal terminator -
-xrdb ~/.Xresources
-rofi -fake-transparency
-rofi -show run -fake-transparency
-rofi -show run -fake-transparency -fullscreen
-chmod +x i3_window.sh 
-rofi -show run & ./i3_window.sh 
-subl3 & ./i3_window.sh 
-rofi -show run & ./i3_window.sh 
-./i3_window.sh 
-sudo pacman -Q
-sudo pacman -Rs messengerfordesktop
 nano ~/.xinitrc 
 nemo --no-desktop
 exit
@@ -406,41 +206,7 @@ sha512sum /bin/ls | tr '\n\t[:space:]' '.' | cut -d'.' -f1
 sha512sum /bin/ls | tr '\n\t[:space:]' '.' | cut -d'.' -f1 | wc -c
 sha512sum /bin/ls | tr '\n\t[:space:]' '.' | cut -d'.' -f1
 sha512sum /bin/ls | tr '\n\t[:space:][:newline]' '.' | cut -d'.' -f1
-sha512sum /bin/ls | tr '\n\t[:space:][:newline]' '.'
-sha512sum /bin/ls | tr '\n\t[:space:][:newline]' '#'
-sha512sum /bin/ls | tr '\n\t[:space:][:newline:]' '#'
-sha512sum /bin/ls | sed
-sha512sum /bin/ls | sed -l
-sha512sum /bin/ls | sed -e
-sha512sum /bin/ls | sed -s ' '
-sha512sum /bin/ls | tr '\n\t[:space:][:newline:]' '#' 
-sha512sum /bin/ls | tr '\n\t[:space:]' '#' 
-sha512sum /bin/ls | tr '\n\t[:space:]' '#' | cut -d'#' -f1
-sha512sum /bin/ls | tr -s '\n\t[:space:]' '#' | cut -d'#' -f1
-sha512sum /bin/ls | tr -s '\n\t[:space:]' '#' | cut -d'#' -f1 | wc -c
-sha512sum /bin/ls | tr -s '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -sd '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -d '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -sd '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -sd '\n\t[:space:]' '#' | cut -d'/' -f1
-sha512sum /bin/ls | tr -sd '\n\t[:space:]' '#' | cut -d'/' -f1 | wc -c
-sha512sum /bin/ls | tr -sdc '\n\t[:space:]' '#' | cut -d'/' -f1 | wc -c
-sha512sum /bin/ls | tr -sdc '\n\t[:space:]' '#' | cut -d'/' -f1
-sha512sum /bin/ls | tr -sdc '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -sd '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -sd '\n\t[:space:]' '#' | wc -c
-sha512sum /bin/ls | tr -sdt '\n\t[:space:]' '#' | wc -c
-sha512sum /bin/ls | tr -sdt '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -sdct '\n\t[:space:]' '#' | cut -d'/' -f1
-sha512sum /bin/ls | tr -sdct '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -t '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr  '\n\t[:space:]' '#'
-sha512sum /bin/ls | tr -t '\n\t[:space:]' '#'
-sha512sum /bin/ls | cut -d' ' -f1
-sha512sum /bin/ls | cut -d' ' -f1| tr -t 
-sha512sum /bin/ls | cut -d' ' -f1| tr -t '\n' '.'
-sha512sum /bin/ls | cut -d' ' -f1| tr -t '\n' '.' | wc -c
-sha512sum /bin/ls | cut -d' ' -f1| tr -t '\n' '[:blank:]' | wc -c
+sha512sum /bin/ls 12sum /bin/ls | cut -d' ' -f1| tr -t '\n' '[:blank:]' | wc -c
 sha512sum /bin/ls | cut -d' ' -f1| tr -t '\n[:blank:]' '' | wc -c
 sha512sum /bin/ls | cut -d' ' -f1| tr -t '\n[:blank:]' ''
 sha512sum /bin/ls | cut -d' ' -f1| tr -t '\n[:blank:]' '' | wc -c
@@ -1998,3 +1764,237 @@ nano /etc/X11/xorg.conf
 sudo nano /etc/X11/xorg.conf
 .scripts/rmod_nvidia.sh 
 exit
+.scripts/rmod_nvidia.sh start
+cat /proc/acpi/bbswitch 
+alsamixer 
+gem update
+gem install jekyll
+gem install rdiscount -s http://gemcutter.org
+git clone https://github.com/danielmcgraw/Jekyll-Base.git
+ls
+cd Jekyll-Base/
+tree
+ls -l
+cd ~/dotfiles/
+./update.pl 
+cd ~/Jekyll-Base/
+tree
+jekyll serve
+jekyll serve --watch
+git clone https://github.com/emanuellopes/BioFarm.git
+lpci
+lspci
+lspci | grep VGA|3D
+lspci | grep VGA
+xrandr 
+modprobe uucvideo
+ls /etc/modprobe.d/webcamera.conf 
+cat /etc/modprobe.d/webcamera.conf 
+modprobe uvcvideo
+lsusb
+cat ~/.bashrc 
+cat .scripts/rmod_nvidia.sh 
+cat /etc/X11/xorg.conf
+sudo pacman -S uvcvideo
+sudo modprobe uvcvideo
+sudo pacman -Ss uvcvideo
+sudo pacman -Qs uvcvideo
+sudo pacman -S v4l-utils
+sudo pacman -S guvcview
+guvcview 
+dmesg | tail
+exit
+yaourt firefox
+firefox --version
+sudo pacman -Rs firefox
+sudo pacman -R firefox
+yaourt firefox-ni
+gpg --recv-keys 1C69C4E55E9905DB
+sudo pacman-key -r 1C69C4E55E9905DB
+sudo pacman-key --lsign-key 1C69C4E55E9905DB
+gpg --recv-keys 1C69C4E55E9905DB
+yaourt firefox-ni
+sudo nano /etc/pacman.d/gnupg/gpg.conf 
+sudo pacman-key --lsign-key 1C69C4E55E9905DB
+sudo pacman-key -r 1C69C4E55E9905DB
+sudo nano /etc/pacman.d/gnupg/gpg.conf 
+sudo pacman-key -r 1C69C4E55E9905DB
+yaourt firefox-ni
+nano ~/.gnupg/gpg.conf 
+subl3 ~/.gnupg/gpg.conf 
+gpg --recv-keys 1C69C4E55E9905DB
+yaourt firefox-ni
+pkill firefox
+sha512sum ola
+ls
+touch cenas.txt
+sha512sum cenas.txt 
+sha512sum cenas.txt | cut -f1 -d''
+sha512sum cenas.txt | cut -d' ' -f1
+sha512sum cenas.txt | cut -d' ' -f1 | tr '\n' ''
+sha512sum cenas.txt | cut -d' ' -f1 | tr '\n' "[:space:]"
+sha512sum cenas.txt | tr '\n' '#'
+sha512sum cenas.txt | tr '\n' '#' | cut -d' ' -f1
+sha512sum cenas.txt | tr '\t' '#' | cut -d' ' -f1
+sha512sum cenas.txt | tr '\t' '#' | cut -d' ' -f1 | wc -c
+sha512sum cenas.txt | tr '\t\n' '#' | cut -d' ' -f1 | wc -c
+sha512sum cenas.txt | tr '\t\n' '' | cut -d' ' -f1 | wc -c
+sha512sum cenas.txt | tr '\t\n' ' ' | cut -d' ' -f1 | wc -c
+sha512sum cenas.txt | cut -d' ' -f1| tr -sd '\n' '' | wc -c
+yaourt -Syua
+pkill firefox
+scilab 
+sudo pacman -Syu
+yaourt -Syua
+startx
+reboot
+startweb 
+wget http://pipplware.pplware.pt/pipplware/dists/jessie/isos/pipplware_v5.1.rar
+csslint-0.6 
+ls -lh /etc
+find /etc
+find /etc -type f
+find /etc -type f -print %s
+find /etc -type f -printf %
+find /etc -type f -printf %f
+find /etc -type f -printf %f\n
+find /etc -type f -printf "%f\n"
+find /etc -type f -fprintf "%f\n"
+find /etc -type f -fprint "%f\n"
+find /etc -type f -printf "%f\n"
+find /etc -type f -printf "%f%p\n"
+find /etc -type f -printf "%f%d\n"
+find /etc -type f -printf "%f%m\n"
+find /etc -type f -printf "%f%k\n"
+sudo dd if=pipplware_v5.1.img of=/dev/mmcblk0 bs=4M
+sass
+sass --help
+sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
+sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --scss
+sass --scss --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --scss
+sass --scss --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
+scss 
+scss --help
+scss--update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
+scss --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
+sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --compass
+compass
+sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --compass
+node_modules/node-sass/bin
+node_modules/node-sass/bin/node-sass 
+node_modules/node-sass/bin/node-sass --help
+node_modules/node-sass/bin/node-sass 
+node_modules/node-sass/bin/node-sass --watch /home/emanuelx/blog/css/main.scss --output /home/emanuelx/main.css
+cat /home/emanuelx/blog/css/main.scss | node_modules/node-sass/bin/node-sass --watch --output /home/emanuelx/main.css
+cat /home/emanuelx/blog/css/main.scss | node_modules/node-sass/bin/node-sass --watch --output > /home/emanuelx/main.css
+cat /home/emanuelx/blog/css/main.scss | node_modules/node-sass/bin/node-sass --output > /home/emanuelx/main.css
+cd /home/emanuelx/blog/css
+cat main.scss | node_modules/node-sass/bin/node-sass --output > /home/emanuelx/main.css
+cat main.scss | ~/node_modules/node-sass/bin/node-sass --output > /home/emanuelx/main.css
+cd
+gem install scss_lint
+sass -v
+scss
+scss -v
+sass -v
+cd blog/
+ls
+ls -l
+d _site/
+cd _site/
+ls -l
+gcc -o teste teste.c 
+./teste 1 caminho file file2
+gcc -o teste teste.c 
+./teste 1 caminho file file2
+lsblk
+sudo nano /boot/grub/grub.cfg
+swapon --show
+cat /proc/acpi/bbswitch 
+cd Jekyll-Base/
+jekyll serve --incremental
+jekyll build
+cd
+jekyll build
+jekyll build -destination /home/emanuelx/site_jekyll
+jekyll build --destination /home/emanuelx/site_jekyll
+df -h
+jekyll build --destination /home/emanuelx/site_jekyll
+ls
+jekyll --help
+jekyll new blog
+cd blog/
+jekyll serve
+sudo nano /etc/hosts
+cd blog/
+jekyll serve
+.scripts/rmod_nvidia.sh 
+cd blog/
+jekyll server
+sudo pacman -Syu
+startvbox 
+sudo pacman -Rs r
+rm -rf /var/lib/pacman/db.lck 
+sudo rm -rf /var/lib/pacman/db.lck 
+sudo pacman -Rs r
+sudo pacman -Rs android-studio
+sudo pacman -Rs steam
+sudo pacman -Rs visual-studio-code 
+sudo pacman -Rs genymotion open365
+cd /opt/
+cd Visual_Paradigm_CE_13.1/
+cd uninstaller/
+sudo ./uninstall
+cd ..
+sudo rm Visual_Paradigm_CE_13.1/
+sudo rm -rf Visual_Paradigm_CE_13.1/
+rm -rf scilab/
+sudo rm -rf scilab/
+df -h
+sudo mount -r /dev/sda6 /media/disk/
+cd
+pacman -Q > pacman.txt
+pacman -Qe > pacman.txt
+pacman -Qe
+sudo pacman -Rs skype privoxy processing pidgin 
+sudo pacman -Rs bitlbee 
+pacman -Qe | awk '{print $1}' > package_list.txt
+df -h
+pacman -Qqe
+yaourt vmware
+cd Downloads/
+l
+chmod +x VMware-Player-12.1.1-3770994.x86_64.bundle 
+./VMware-Player-12.1.1-3770994.x86_64.bundle 
+sudo ./VMware-Player-12.1.1-3770994.x86_64.bundle 
+sudo vmware-modconfig --console --install-all
+yaourt vmware-patch
+sudo nano /etc/systemd/system/vmware.service
+sudo nano /etc/systemd/system/vmware-usbarbitrator.service
+vmplayer 
+systemctl start vmware
+sudo systemctl start vmware-usbarbitrator.service
+sudo systemctl status vmware-usbarbitrator.service
+sudo systemctl status vmware
+/etc/init.d/vmware start
+sudo /etc/init.d/vmware start
+vmplayer 
+yaourt vmware
+vmplayer 
+vmplayer
+sudo systemctl restart vmware
+vmplayer 
+vmware-modconfig 
+vmplayer 
+mkdir /usr/src/vmware-modules-12/
+sudo mkdir /usr/src/vmware-modules-12/
+cd /tmp/
+git clone git://github.com/bawaaaaah/dkms-workstation.git
+sed -i 's/9/12/' dkms-workstation/dkms.conf
+sudo cp dkms-workstation/Makefile dkms-workstation/dkms.conf /usr/src/vmware-modules-12/
+sudo nano /usr/src/vmware-modules-12/Makefile
+dkms install vmware-modules/12 -k $(uname -r)
+sudo dkms install vmware-modules/12 -k $(uname -r)
+cat /var/lib/dkms/vmware-modules/12/build/make.log 
+ntfsfix /dev/sda6
+sudo pacman -Syu

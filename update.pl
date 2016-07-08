@@ -48,7 +48,7 @@ sub copyFolder($;$;$) {
       mkdir $destination or die "mkdir '$destination' failed: $!" if not -e $destination;
       copyFolder($source, $new_dir,$onlyFiles);
     } else {
-      copy($source, $root_folder) or die "copy failed: $!";
+      copy($source, $root_folder) or die "copy failed: $! $source, $root_folder";
     }
   }
   closedir($DIR);
