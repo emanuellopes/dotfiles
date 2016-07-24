@@ -10,37 +10,28 @@ Section "ServerLayout"
     InputDevice    "Mouse0" "CorePointer"
 EndSection
 
-Section "Files"
-	ModulePath   "/usr/lib/xorg/modules"
-	FontPath     "/usr/share/fonts/misc/"
-	FontPath     "/usr/share/fonts/TTF/"
-	FontPath     "/usr/share/fonts/OTF/"
-	FontPath     "/usr/share/fonts/Type1/"
-	FontPath     "/usr/share/fonts/100dpi/"
-	FontPath     "/usr/share/fonts/75dpi/"
-EndSection
-
-Section "Module"
-	Load  "glx"
-EndSection
-
 Section "InputDevice"
+
+    # generated from default
     Identifier     "Keyboard0"
-    Driver         "kbd"
+    Driver         "keyboard"
 EndSection
 
 Section "InputDevice"
-	Identifier  "Mouse0"
-	Driver      "mouse"
-	Option	    "Protocol" "auto"
-	Option	    "Device" "/dev/input/mice"
-	Option	    "ZAxisMapping" "4 5 6 7"
+
+#    # generated from default
+    Identifier     "Mouse0"
+    Driver         "mouse"
+    Option         "Protocol" "auto"
+    Option         "Device" "/dev/psaux"
+    Option         "Emulate3Buttons" "no"
+    Option         "ZAxisMapping" "4 5"
 EndSection
 
 Section "Monitor"
     Identifier     "Monitor0"
-    VendorName   "Monitor Vendor"
-	ModelName    "Monitor Model"
+    VendorName     "Unknown"
+    ModelName      "Unknown"
     #HorizSync       28.0 - 33.0 that options give bad resolution to gnome-shell
     #VertRefresh     43.0 - 72.0 don't use fuck the resolution
     Option         "DPMS"
@@ -58,6 +49,7 @@ EndSection
 
 #intel
 Section "Device"
+    
     Option         "AccelMethod" "sna"
     Option         "TearFree" "True"
     #Option         "Tiling" "True"
@@ -75,30 +67,9 @@ Section "Screen"
     DefaultDepth    24
     #Option         "AccelMethod" "sna"
     #Option         "NoAccel" "True"
-    SubSection "Display"
-		Viewport   0 0
-		Depth     1
-	EndSubSection
-	SubSection "Display"
-		Viewport   0 0
-		Depth     4
-	EndSubSection
-	SubSection "Display"
-		Viewport   0 0
-		Depth     8
-	EndSubSection
-	SubSection "Display"
-		Viewport   0 0
-		Depth     15
-	EndSubSection
-	SubSection "Display"
-		Viewport   0 0
-		Depth     16
-	EndSubSection
-	SubSection "Display"
-		Viewport   0 0
-		Depth     24
-		Modes      "1366x768"
-	EndSubSection
+    SubSection     "Display"
+        Depth       24
+        Modes      "1366x768"
+    EndSubSection
 EndSection
 

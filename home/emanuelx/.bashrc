@@ -102,7 +102,7 @@ if ! shopt -oq posix; then
 fi
 
 export EDITOR=subl3
-export Terminal=terminator
+export Terminal=guake
 
     #function _update_ps1() {
     #   PS1="$(~/.powerline-shell/powerline-shell.py $? 2> /dev/null)"
