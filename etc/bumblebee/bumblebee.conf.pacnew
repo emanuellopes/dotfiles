@@ -22,8 +22,6 @@ NoEcoModeOverride=false
 Driver=
 # Directory with a dummy config file to pass as a -configdir to secondary X
 XorgConfDir=/etc/bumblebee/xorg.conf.d
-# Xorg binary to run
-XorgBinary=Xorg
 
 ## Client options. Will take effect on the next optirun executed.
 [optirun]

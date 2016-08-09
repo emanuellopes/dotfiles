@@ -1,4 +1,4 @@
-2#!/bin/sh
+#!/bin/sh
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -57,7 +57,7 @@ xrandr --auto
 #echo "$1"
 
 case $1 in
-	i3)	
+	i3)
 		setxkbmap &
 		exec dbus-launch i3
 		#exec dbus-launch cinnamon-session
