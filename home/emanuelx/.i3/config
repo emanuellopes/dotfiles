@@ -1,8 +1,8 @@
-exec --no-startup-id compton --config $HOME/.config/compton.conf &
-exec --no-startup-id feh --bg-scale $(xdg-user-dir PICTURES)/Wallpapers/tron.jpg &
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-exec --no-startup-id nm-applet &
-exec --no-startup-id dunst &
+#exec --no-startup-id compton --config $HOME/.config/compton.conf &
+#exec --no-startup-id feh --bg-scale $(xdg-user-dir PICTURES)/Wallpapers/tron.jpg &
+#exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#exec --no-startup-id nm-applet &
+#exec --no-startup-id dunst &
 exec --no-startup-id guake &
 #exec --no-startup-id syndaemon -i 0.5 -m 50 -d
 #exec --no-startup-id unclutter -idle 1 -root -grab &
@@ -80,7 +80,7 @@ floating_modifier $mod
 bindsym $mod+Return exec terminator
 # start filemanager
 bindsym $mod+n exec nemo --no-desktop
-# start browser 
+# start browser
 bindsym $mod+g exec google-chrome-stable
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -225,7 +225,7 @@ bindsym $mod+r mode "resize"
 bar {
 
 	font  pango:FontAwesome 9
-    colors {       
+    colors {
         background #101010
         statusline #605c5a
         separator  #605c5a
@@ -252,8 +252,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/volume_control.sh u
 bindsym XF86AudioLowerVolume exec --no-startup-id ~/.scripts/volume_control.sh down
 bindsym XF86AudioMute exec --no-startup-id ~/.scripts/volume_control.sh mute
 bindsym XF86AudioNext exec --no-startup-id ~/.scripts/playercontrol.sh next
-bindsym XF86AudioPrev exec --no-startup-id ~/.scripts/playercontrol.sh previous 
-bindsym XF86AudioPlay exec --no-startup-id ~/.scripts/playercontrol.sh toggle 
+bindsym XF86AudioPrev exec --no-startup-id ~/.scripts/playercontrol.sh previous
+bindsym XF86AudioPlay exec --no-startup-id ~/.scripts/playercontrol.sh toggle
 
 #call .scripts/screenshot.sh for taking a screenshot (scrot)
 bindsym Print exec .scripts/screenshot.sh

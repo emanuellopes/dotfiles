@@ -1,2 +1,148 @@
-syndaemon: no process found
-mdm-binary[473]: GLib-CRITICAL: g_key_file_free: assertion 'key_file != NULL' failed
+initctl: Não foi possível conectar ao Upstart: Failed to connect to socket /com/ubuntu/upstart: Ligação recusada
+/etc/mdm/Xsession: Beginning session setup...
+localuser:emanuelx being added to access control list
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+cinnamon-session[2255]: WARNING: t+0,85008s: Failed to start app: Unable to start application: Falha ao executar o processo filho "/usr/local/bin/prime-indicator" (No such file or directory)
+cinnamon-session[2255]: WARNING: t+0,86988s: Failed to start app: Unable to start application: Falha ao executar o processo filho "blueberry-tray" (No such file or directory)
+Starting Dropbox...[WARN] Unable to load the library libutempter !
+[WARN] The <wall> command will not work in guake !
+[WARN] libutempter.so.0: não é possível abrir objecto partilhado: Ficheiro ou directoria inexistente
+Cjs-Message: JS LOG: About to start Cinnamon
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:2482): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+INFO:guake.guake_app:Logging configuration complete
+/opt/meocloud/libs/keyring/backends/Gnome.py:6: PyGIWarning: GnomeKeyring was imported without specifying a version first. Use gi.require_version('GnomeKeyring', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import GnomeKeyring
+/usr/bin/meocloud-gui:48: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, GLib, Gdk
+/usr/bin/meocloud-gui:54: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+/opt/meocloud/gui/meocloud_gui/gui/indicator.py:3: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as appindicator
+St-Message: cogl npot texture sizes SUPPORTED
+Cjs-Message: JS LOG: Cinnamon started at Thu Nov 24 2016 14:34:49 GMT+0000 (WET)
+Dropbox isn't running!
+Done!
+openGL version 3.3 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+failed to create drawable
+Cjs-Message: JS LOG: Invalid network device type, is 14
+
+(cinnamon:2475): Clutter-CRITICAL **: clutter_actor_remove_child: assertion 'child->priv->parent != NULL' failed
+
+(cinnamon:2475): Clutter-CRITICAL **: clutter_actor_remove_child: assertion 'child->priv->parent != NULL' failed
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(nm-applet:2492): libnm-WARNING **: (nm-access-point.c:285):nm_access_point_connection_valid: runtime check failed: (ap_ssid != NULL)
+
+(meocloud-gui:2494): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(cinnamon:2475): St-WARNING **: Failed to load /home/emanuelx/.themes/OSX-Arc-Shadow/cinnamon/common-assets/menu-separator.svg: Erro ao abrir o ficheiro: Ficheiro ou directoria inexistente
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-start'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-end'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-start'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-end'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-start'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-end'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-start'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-end'
+
+(cinnamon:2475): St-WARNING **: Failed to load /home/emanuelx/.themes/OSX-Arc-Shadow/cinnamon/common-assets/menu-separator.svg: Erro ao abrir o ficheiro: Ficheiro ou directoria inexistente
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-start'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-end'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-start'
+
+(cinnamon:2475): St-WARNING **: Did not find color property '-gradient-end'
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:883: GtkWarning: IA__gtk_window_set_type_hint: assertion '!gtk_widget_get_mapped (GTK_WIDGET (window))' failed
+  self.window.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_DOCK)
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:884: GtkWarning: IA__gtk_window_set_type_hint: assertion '!gtk_widget_get_mapped (GTK_WIDGET (window))' failed
+  self.window.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_NORMAL)
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2600026 (Guake!)
+Cjs-Message: JS LOG: Removing an access point that was never added
+Cjs-Message: JS LOG: Removing an access point that was never added
